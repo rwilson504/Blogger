@@ -5,6 +5,7 @@ Azure DevOps now has an option to link your [Wiki to a repo]([https://docs.micro
 ## Create Documents Folder/Package
 
 I started by creating a new folder for my documents and running the **npm init** command.
+![Create Folder and Run init](https://github.com/rwilson504/Blogger/blob/master/Convert%20Markdown%20to%20PDF/images/create-folder-npm-init.gif?raw=true)
 
 ## Install md-to-pdf from NPM
 
@@ -43,5 +44,5 @@ Update the docs array to include the file names of the markdown files you want t
 To generate the pdf documents open a console window and run **npm run build**. The output for the PDFs will have the same file name as the Markdown files and will be in the same directory.
 ![PDF Has Been Generated](https://lh3.googleusercontent.com/vq60TBoHhaEKM-8foRnT6l2NytV2mUmOojQcnSYkSc7FrM2_1uw3twBC9hxl_MECS0J8Ed5tCoGAWMJbcGNbAHWeiCIPdTMqQGntNrLtRYKmm7WPn-MWycFGsNYm9EqPMxnP1s1QLjYnuFFZ1QAlJhfhXBD0XmGc3m6MGfkKvnUIOql3aWzTH_85tKQYoF0-qCiey5Pc-R1pxaY0wsSHv4wNwzXPPFtaRLZSNVCTu9W8FGQzSbJ-0bzVHbTpw2n4EKx5CtwYsRmAhFg5zLmqRDwdR6L6X7oqtv3bHuRgMaIKXmcYVLSLhBaSBfrsopzVvkoV-C1Yg5xQW3nh5K1V6KZd-hurLu7Fzn2qhCaq5KHYP-k6CIuNuYkHWYjyHUlLd4qPh7hwg9DjBO_OR3Qg3S6J-S2tHq2TvJLdIKpj8Dqs7xDcQIfoEDov9rHbS2K3X5zus9ro5b5pY-tdWcOpxACOK52TChg6C3DMd8wgTs3S-cbNjUuZnOt28z-qXRAfI7gtJJ5pPUcGAwccTx0yAxf2sfXovdw0iP4xW9iM-R6TkComc57gTBarCF-7l0ieXIEiHHoL7hXDzIcwGvve59CY0LbRLIK-nuMzKrXvcdqW1uK1hiBHfN-tTBnAbLEsp5_FWX7wwciz8M1WbV2QfcrLaSYgpS6HPq964SPorTjsju16mKBrixw=w547-h144-no)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NjExNDU4M119
+eyJoaXN0b3J5IjpbLTEwMjk5Njk4NzVdfQ==
 -->
