@@ -12,6 +12,7 @@ I started by creating a new folder for my documents and running the **npm init**
 Install the [md-to-pdf](https://www.npmjs.com/package/md-to-pdf) npm package by running **npm i --save-dev md-to-pdf**
 
 ![Install md-to-pdf](https://github.com/rwilson504/Blogger/blob/master/Convert-Markdown-to-PDF/images/install-md-to-pdf.gif?raw=true)
+
 ## Create Index.js file
 Create a index.js file in the root directory of your folder and copy the following code.
 
@@ -45,6 +46,7 @@ Update the docs array to include the file names of the markdown files you want t
 ## Generate Documents
 To generate the pdf documents open a console window and run **npm run test**. The output for the PDFs will have the same file name as the Markdown files and will be in the same directory.
 
+![Generate Files](https://github.com/rwilson504/Blogger/blob/master/Convert-Markdown-to-PDF/images/generate-pdf.gif?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDk3MjY3MywyMDA2NTQ2Nzc4XX0=
+eyJoaXN0b3J5IjpbMjI4MzIzOTIzLDIwMDY1NDY3NzhdfQ==
 -->
