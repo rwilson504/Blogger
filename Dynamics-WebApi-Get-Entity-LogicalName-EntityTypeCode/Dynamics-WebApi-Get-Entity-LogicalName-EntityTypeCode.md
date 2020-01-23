@@ -4,7 +4,7 @@ If you need to get the LogicalName or ObjectTypeCode of an entity in your Dynami
 
 If you have the LogicalName of the entity you can use this url.
 Format:  
-`<Dynamics Url>/api/data/v<Version>/EntityDefinitions?$filter=ObjectTypeCode eq <ObjectTypeCode>&$select=LogicalName`
+`<Dynamics Url>/api/data/v<Version>/EntityDefinitions(LogicalName='<LogicalName>')?$select=ObjectTypeCode`
 
 Example:  
 `https://org12345.crm.dynamics.com//api/data/v9.0/EntityDefinitions?$filter=ObjectTypeCode eq 1&$select=LogicalName`
@@ -15,7 +15,8 @@ Format:
 ```<Dynamics Url>/api/data/v<Version>/EntityDefinitions?$filter=ObjectTypeCode eq <ObjectTypeCode>&$select=LogicalName```
 
 Example:
-```https://org12345.crm.dynamics.com//api/data/v9.0/EntityDefinitions?$filter=ObjectTypeCode eq 1&$select=LogicalName```
+```https://org12345.crm.dynamics.com/api/data/v9.0/EntityDefinitions?$filter=ObjectTypeCode eq 1&$select=LogicalName```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ3NTAyNDEsNDQ5OTU0MTMzXX0=
+eyJoaXN0b3J5IjpbLTE5MzU4MDc3ODMsLTE2NzQ3NTAyNDEsND
+Q5OTU0MTMzXX0=
 -->
