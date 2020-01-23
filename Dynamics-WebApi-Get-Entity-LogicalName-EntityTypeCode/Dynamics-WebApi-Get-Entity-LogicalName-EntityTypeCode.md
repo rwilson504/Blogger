@@ -6,7 +6,11 @@ If you have the LogicalName of the entity you can use this url.
 
 If you have the ObjectTypeCode of the entity you can use this url.
 
-```<dyn/api/data/v<version>/EntityDefinitions?$filter=ObjectTypeCode eq <objecttypecode>&$select=LogicalName```
+Format:
+```<Dynamics Url>/api/data/v<Version>/EntityDefinitions?$filter=ObjectTypeCode eq <ObjectTypeCode>&$select=LogicalName```
+
+Example:
+```https://org12345.crm.dynamics.com//api/data/v9.0/EntityDefinitions?$filter=ObjectTypeCode eq 1&$select=LogicalName```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDU0NzE1MCw0NDk5NTQxMzNdfQ==
+eyJoaXN0b3J5IjpbMTA2MzQwNDcyMSw0NDk5NTQxMzNdfQ==
 -->
