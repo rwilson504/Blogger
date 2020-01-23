@@ -23,6 +23,10 @@ Example:
 Data Returned:
 ```{"@odata.context":"https://org6744e6cd.crm.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions(LogicalName)","value":[{"LogicalName":"account","MetadataId":"70816501-edb9-4740-a16c-6a5efbc05d84"}]}```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY3ODU3NzEsLTE2NzQ3NTAyNDEsNDQ5OT
-U0MTMzXX0=
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzZSBEeW5hbWljcyBXZW
+JBUEkgdG8gZ2V0IExvZ2ljYWxOYW1lIG9yIE9iamVjdFR5cGVD
+b2RlIGZvciBFbnRpdHlcbmF1dGhvcjogUmljaGFyZCBXaWxzb2
+5cbnRhZ3M6ICdkeW5hbWljcyx3ZWJhcGksbWV0YWRhdGEnXG4i
+LCJoaXN0b3J5IjpbLTg0MjkyMDI0MCwtMTY3NDc1MDI0MSw0ND
+k5NTQxMzNdfQ==
 -->
