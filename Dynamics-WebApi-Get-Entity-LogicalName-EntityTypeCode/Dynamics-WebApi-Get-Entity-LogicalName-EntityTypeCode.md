@@ -5,6 +5,8 @@ If you need to get the LogicalName or ObjectTypeCode of an entity in your Dynami
 If you have the LogicalName of the entity you can use this url.
 
 If you have the ObjectTypeCode of the entity you can use this url.
+
+```<dyn/api/data/v<version>/EntityDefinitions?$filter=ObjectTypeCode eq <objecttypecode>&$select=LogicalName```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5OTU0MTMzXX0=
+eyJoaXN0b3J5IjpbLTgxMDU0NzE1MCw0NDk5NTQxMzNdfQ==
 -->
