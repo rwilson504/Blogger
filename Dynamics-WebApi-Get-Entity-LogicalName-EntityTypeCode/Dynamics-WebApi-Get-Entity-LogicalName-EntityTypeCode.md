@@ -1,4 +1,4 @@
-# Dynamics WebAPI get Entity LogicalName or ObjectTypeCode
+# Use Dynamics WebAPI to get LogicalName or ObjectTypeCode for Entity
 
 If you need to get the LogicalName or ObjectTypeCode of an entity in your Dynamics environment you can utilize the WebAPI to get the metadata.
 
@@ -23,6 +23,6 @@ Example:
 Data Returned:
 ```{"@odata.context":"https://org6744e6cd.crm.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions(LogicalName)","value":[{"LogicalName":"account","MetadataId":"70816501-edb9-4740-a16c-6a5efbc05d84"}]}```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA1MjE0NiwtMTY3NDc1MDI0MSw0ND
-k5NTQxMzNdfQ==
+eyJoaXN0b3J5IjpbNjY3ODU3NzEsLTE2NzQ3NTAyNDEsNDQ5OT
+U0MTMzXX0=
 -->
