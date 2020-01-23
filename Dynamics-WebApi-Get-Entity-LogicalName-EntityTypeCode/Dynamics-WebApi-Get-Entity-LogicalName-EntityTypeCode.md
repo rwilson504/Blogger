@@ -7,7 +7,10 @@ Format:
 `<Dynamics Url>/api/data/v<Version>/EntityDefinitions(LogicalName='<LogicalName>')?$select=ObjectTypeCode`
 
 Example:  
-`https://org12345.crm.dynamics.com//api/data/v9.0/EntityDefinitions?$filter=ObjectTypeCode eq 1&$select=LogicalName`
+`https://org12345.crm.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='account')?$select=ObjectTypeCode`
+
+Data Returned:
+```{"@odata.context":"https://org6744e6cd.crm.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions(ObjectTypeCode)/$entity","ObjectTypeCode":1,"MetadataId":"70816501-edb9-4740-a16c-6a5efbc05d84"}```
 
 If you have the ObjectTypeCode of the entity you can use this url.
 
@@ -17,6 +20,6 @@ Format:
 Example:
 ```https://org12345.crm.dynamics.com/api/data/v9.0/EntityDefinitions?$filter=ObjectTypeCode eq 1&$select=LogicalName```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzU4MDc3ODMsLTE2NzQ3NTAyNDEsND
-Q5OTU0MTMzXX0=
+eyJoaXN0b3J5IjpbNDc1MTE3MTU0LC0xNjc0NzUwMjQxLDQ0OT
+k1NDEzM119
 -->
