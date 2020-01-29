@@ -12,17 +12,18 @@ Format
 
 Example
 ``````
-/api/data/v9.0/accounts/?$count=true
+/api/data/v9.0/contacts/?$count=true
 ``````
 
 Data Returned
+
 
 ## Large Data Set ( > 5k < 50k)
 If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query, this does have a limitation of 50k records. 
 
 Query Format
 ``````
-/api/data/v9.0/contacts?fetchXml=<FetchXml query that has been URI encoded>
+/api/data/v9.0/<Entity Set Name>?fetchXml=<FetchXml query that has been URI encoded>
 ``````
 
 FetchXml Format
@@ -39,14 +40,12 @@ To encode the FetchXml you can open the Console window in your browser and utili
 
 ```encodeURI('<fetch version="1.0" mapping="logical" aggregate="true"><entity name="contact"><attribute name="contactid" aggregate="count" alias="count" /></entity></fetch>')```
 
-
-
-
 Example
 ``````
 /api/data/v9.0/accounts?fetchXml=%3Cfetch%20version=%221.0%22%20mapping=%22logical%22%20aggregate=%22true%22%3E%3Centity%20name=%22contact%22%3E%3Cattribute%20name=%22contactid%22%20aggregate=%22count%22%20alias=%22count%22%20/%3E%3C/entity%3E%3C/fetch%3E
 ``````
+
 Data Returned
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Nzg2ODE2NV19
+eyJoaXN0b3J5IjpbMTg4MTYxNzQ5M119
 -->
