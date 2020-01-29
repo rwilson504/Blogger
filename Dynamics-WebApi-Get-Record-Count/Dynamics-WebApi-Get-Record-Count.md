@@ -10,23 +10,23 @@ If you are trying to get the count for 5,000 or less records. you can do a simpl
 /api/data/v9.0/<Entity Set Name>/?$count=true
 ``
 
-##Example
+### Example
 ``
 /api/data/v9.0/contacts/?$count=true
 ``
 
-Data Returned
+### Data Returned
 ``{"@odata.context":"https://org.crm.dynamics.com/api/data/v9.0/$metadata#contacts",``**``"@odata.count":3``**``,"value":``
 
-## Large Data Set ( > 5k < 50k)
+## Large Data Set ( > 5k & < 50k)
 If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query, this does have a limitation of 50k records. 
 
-Query Format
+### Query Format
 ``
 /api/data/v9.0/<Entity Set Name>?fetchXml=<FetchXml query that has been URI encoded>
 ``
 
-FetchXml Format
+### FetchXml Format
 ``
 <fetch version="1.0" mapping="logical" aggregate="true">
   <entity name="contact">
@@ -35,18 +35,18 @@ FetchXml Format
 </fetch>
 ``
 
-Encoding FetchXml
-To encode the FetchXml you can open the Console window in your browser and utilize the encodeURI javascript function.
+### Encoding FetchXml
+To encode the FetchXml you can open the Console window in your browser and utilize the encodeURI JavaScript function.
 
 ``encodeURI('<fetch version="1.0" mapping="logical" aggregate="true"><entity name="contact"><attribute name="contactid" aggregate="count" alias="count" /></entity></fetch>')``
 
-Example
+### Example
 ``
 /api/data/v9.0/contacts?fetchXml=%3Cfetch%20version=%221.0%22%20mapping=%22logical%22%20aggregate=%22true%22%3E%3Centity%20name=%22contact%22%3E%3Cattribute%20name=%22contactid%22%20aggregate=%22count%22%20alias=%22count%22%20/%3E%3C/entity%3E%3C/fetch%3E
 ``
 
-Data Returned
+### Data Returned
 ``{"@odata.context":"https://org6744e6cd.crm.dynamics.com/api/data/v9.0/$metadata#contacts","value":``**``[{"count":3}]}``**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzMDg1NDAwLDE4ODE2MTc0OTNdfQ==
+eyJoaXN0b3J5IjpbLTUxNDkwMzQzNSwxODgxNjE3NDkzXX0=
 -->
