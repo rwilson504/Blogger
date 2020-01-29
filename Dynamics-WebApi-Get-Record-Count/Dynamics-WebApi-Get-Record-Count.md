@@ -18,9 +18,18 @@ Data Returned
 
 If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query.
 
-Format
+Query Format
 ``````
-/api/data/v9.0/accounts?fetchXml=<FetchXml query that has been URI encoded>
+/api/data/v9.0/contacts?fetchXml=<FetchXml query that has been URI encoded>
+``````
+
+FetchXml Format
+``````
+<fetch version="1.0" mapping="logical" aggregate="true">
+  <entity name="contact">
+    <attribute name="contactid" aggregate="count" alias="count" />
+  </entity>
+</fetch>
 ``````
 
 Example
@@ -29,5 +38,5 @@ Example
 ``````
 Data Returned
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTgwMTI5Ml19
+eyJoaXN0b3J5IjpbLTY1NjE4MDc2Nl19
 -->
