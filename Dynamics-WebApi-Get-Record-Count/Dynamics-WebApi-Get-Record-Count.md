@@ -16,7 +16,7 @@ Example
 
 Data Returned
 
-If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query.
+If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query.  To encode the FetchXml you can open the Console window in your browser and utilize the encode
 
 Query Format
 ``````
@@ -34,9 +34,9 @@ FetchXml Format
 
 Example
 ``````
-/api/data/v9.0/accounts?fetchXml=<FetchXml query that has been URI encoded>
+/api/data/v9.0/accounts?fetchXml=%3Cfetch%20version=%221.0%22%20mapping=%22logical%22%20aggregate=%22true%22%3E%3Centity%20name=%22contact%22%3E%3Cattribute%20name=%22contactid%22%20aggregate=%22count%22%20alias=%22count%22%20/%3E%3C/entity%3E%3C/fetch%3E
 ``````
 Data Returned
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjE4MDc2Nl19
+eyJoaXN0b3J5IjpbMTQ0MzI3MTQyMV19
 -->
