@@ -17,8 +17,8 @@ Example
 
 Data Returned
 
-## Large Data Set ( > 5k)
-If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query.  To encode the FetchXml you can open the Console window in your browser and utilize the encodeURI javascript function.
+## Large Data Set ( > 5k < 50k)
+If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query.  To encode the FetchXml you can open the Console window in your browser and utilize the encodeURI javascript function. 
 
 Query Format
 ``````
@@ -40,5 +40,5 @@ Example
 ``````
 Data Returned
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTc0NjM5OF19
+eyJoaXN0b3J5IjpbLTIwMzc0NzEzNDhdfQ==
 -->
