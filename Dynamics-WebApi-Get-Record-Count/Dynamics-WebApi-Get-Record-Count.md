@@ -7,6 +7,12 @@ If you are trying to get the count for 5,000 or less records. you can do a simpl
 ``````
 /api/data/v9.0/accounts/?$count=true
 ``````
+
+If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query.
+
+``````
+/api/data/v9.0/accounts?fetchXml=<FetchXml >
+``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDYwMjkyM119
+eyJoaXN0b3J5IjpbLTE5NDk1Nzg4MDRdfQ==
 -->
