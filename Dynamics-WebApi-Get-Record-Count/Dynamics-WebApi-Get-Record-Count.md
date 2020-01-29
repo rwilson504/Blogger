@@ -2,7 +2,11 @@
 
 When working in an environment where tools like XrmToolbox are not available or allowed getting a total record count can be a real pain sometimes.  One way of doing it just using the browser involves using the Dynamics WebAPI.  This came in handy last time we were doing a data load on our production system and wanted to see the status of how many records had been imported.
 
-If you are trying to get the count for 5,000 or less records. you can do a simple call 
+If you are trying to get the count for 5,000 or less records. you can do a simple count on the data.
+
+``````
+/api/data/v9.0/accounts/?$count=true
+``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjUwMDM4MTVdfQ==
+eyJoaXN0b3J5IjpbMTUyMDYwMjkyM119
 -->
