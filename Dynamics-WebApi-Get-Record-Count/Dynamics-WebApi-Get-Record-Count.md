@@ -18,12 +18,16 @@ Example
 Data Returned
 
 ## Large Data Set ( > 5k < 50k)
-If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query.  To encode the FetchXml you can open the Console window in your browser and utilize the encodeURI javascript function. 
+If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query, this does have a limitation of 50k records. 
 
 Query Format
 ``````
 /api/data/v9.0/contacts?fetchXml=<FetchXml query that has been URI encoded>
 ``````
+
+To encode the FetchXml you can open the Console window in your browser and utilize the encodeURI javascript function
+
+
 
 FetchXml Format
 ``````
@@ -40,5 +44,5 @@ Example
 ``````
 Data Returned
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc0NzEzNDhdfQ==
+eyJoaXN0b3J5IjpbLTEwNzEzMzEzMjNdfQ==
 -->
