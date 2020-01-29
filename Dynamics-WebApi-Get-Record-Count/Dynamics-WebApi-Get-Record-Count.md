@@ -2,6 +2,7 @@
 
 When working in an environment where tools like XrmToolbox are not available or allowed getting a total record count can be a real pain sometimes.  One way of doing it just using the browser involves using the Dynamics WebAPI.  This came in handy last time we were doing a data load on our production system and wanted to see the status of how many records had been imported.
 
+## Small Data Set ( < 5k)
 If you are trying to get the count for 5,000 or less records. you can do a simple count on the data.
 
 Format
@@ -16,7 +17,8 @@ Example
 
 Data Returned
 
-If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query.  To encode the FetchXml you can open the Console window in your browser and utilize the encode
+## Large Data Set ( > 5k)
+If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query.  To encode the FetchXml you can open the Console window in your browser and utilize the encodeURI javascript function.
 
 Query Format
 ``````
@@ -38,5 +40,5 @@ Example
 ``````
 Data Returned
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzI3MTQyMV19
+eyJoaXN0b3J5IjpbMTg3NTc0NjM5OF19
 -->
