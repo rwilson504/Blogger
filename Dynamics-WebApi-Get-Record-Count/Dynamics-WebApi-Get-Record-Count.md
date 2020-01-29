@@ -4,15 +4,30 @@ When working in an environment where tools like XrmToolbox are not available or 
 
 If you are trying to get the count for 5,000 or less records. you can do a simple count on the data.
 
+Format
+``````
+/api/data/v9.0/<Entity Set Name>/?$count=true
+``````
+
+Example
 ``````
 /api/data/v9.0/accounts/?$count=true
 ``````
 
+Data Returned
+
 If your record set will have 5k or more you can utilize the webapi by creating a FetchXml aggregate query.
 
+Format
 ``````
-/api/data/v9.0/accounts?fetchXml=<FetchXml >
+/api/data/v9.0/accounts?fetchXml=<FetchXml query that has been URI encoded>
 ``````
+
+Example
+``````
+/api/data/v9.0/accounts?fetchXml=<FetchXml query that has been URI encoded>
+``````
+Data Returned
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk1Nzg4MDRdfQ==
+eyJoaXN0b3J5IjpbMTU0OTgwMTI5Ml19
 -->
