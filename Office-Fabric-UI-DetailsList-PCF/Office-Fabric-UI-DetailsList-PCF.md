@@ -1,4 +1,4 @@
-## Custom Grid/Subgrid Using Office-UI-Fabric DetailsList
+## Custom PCF Grid/Subgrid Using Office-UI-Fabric DetailsList
 
   
 
@@ -15,5 +15,9 @@ Allows you to simulate the out of the box Grid and Subgrid controls using the Of
 * Retaining the use of the standard ribbon buttons by using the setSelectedRecordIds function on the DataSet.
 * Detecting and responding to control width updates.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzM4OTM2LDczMDk5ODExNl19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEN1c3RvbSBHcmlkL1N1Ym
+dyaWQgVXNpbmcgT2ZmaWNlLVVJLUZhYnJpYyBEZXRhaWxzTGlz
+dFxuYXV0aG9yOiBSaWNoYXJkIFdpbHNvblxudGFnczogJ3BjZi
+wgZHluYW1pY3MsIGNybSwgcG93ZXJhcHBzJ1xuIiwiaGlzdG9y
+eSI6WzkzOTMwMDU3Nyw3MzA5OTgxMTZdfQ==
 -->
