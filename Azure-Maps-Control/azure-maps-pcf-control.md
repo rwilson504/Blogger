@@ -13,5 +13,7 @@ This PCF control allows you to display information for a view that contains lati
 ## Download
 The latest release is always available [here.](https://github.com/rwilson504/PCFControls/releases/latest)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzM2NTIxNl19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEF6dXJlIE1hcHMgUENGIE
+NvbnRyb2xcbmF1dGhvcjogUmljaGFyZCBXaWxzb25cbiIsImhp
+c3RvcnkiOlstMTYwMDg2MzcwMCwtODE3MzY1MjE2XX0=
 -->
