@@ -1,4 +1,4 @@
-# Bing Maps PCF Control
+# Azure Maps PCF Control
 
 ## Overview
 This PCF control allows you to display information for a view that contains latitude and longitude information within Azure Maps.  The Popup Box for each point that is created on the map also gives you the ability to open the selected record.
@@ -13,5 +13,5 @@ This PCF control allows you to display information for a view that contains lati
 ## Download
 The latest release is always available [here.](https://github.com/rwilson504/PCFControls/releases/latest)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTUzNzc5OV19
+eyJoaXN0b3J5IjpbLTgxNzM2NTIxNl19
 -->
