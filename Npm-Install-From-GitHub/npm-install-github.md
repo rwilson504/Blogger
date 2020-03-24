@@ -11,9 +11,9 @@ If the project is out there on GitHub there is a better way.
 ```npm install --save <your-github-user>/<repository-name>#<branch-name>```
 
 Example
-``````
+```npm install --save rwilson504/node-simple-odata-server#Add-Nullable```
 
 6. Make sure to create a pull request if possible from your branch to the original authors project so that they could include your fixes or functionality in the original project.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDg0MzY2XX0=
+eyJoaXN0b3J5IjpbLTE5NzU5Nzk0ODBdfQ==
 -->
