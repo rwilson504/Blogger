@@ -8,9 +8,12 @@ If the project is out there on GitHub there is a better way.
 4. Uninstall the original npm package.
 5. Install the npm package from your Forked branch using the following command.
 
-```npm install --save <your-github-user>/<project-name>#<branch-name>```
+```npm install --save <your-github-user>/<repository-name>#<branch-name>```
+
+Example
+``````
 
 6. Make sure to create a pull request if possible from your branch to the original authors project so that they could include your fixes or functionality in the original project.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1MjY0ODddfQ==
+eyJoaXN0b3J5IjpbMTg4NDg0MzY2XX0=
 -->
