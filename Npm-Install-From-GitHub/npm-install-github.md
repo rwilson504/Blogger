@@ -23,5 +23,10 @@ Example
 
 6. Make sure to create a pull request if possible from your branch to the original authors project so that they could include your fixes or functionality in the original project.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTMyMjEzMiwtMTk3NTk3OTQ4MF19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFV0aWxpemUgQ3VzdG9taX
+plZCBucG0gUGFja2FnZSBmcm9tIEdpdEh1YiBCcmFuY2hcbmF1
+dGhvcjogUmljaGFyZCBXaWxzb25cbnRhZ3M6ICducG0sIHJlYW
+N0LCBqYXZhc2NyaXB0LCBnaXRodWIsIGRldmVsb3BtZW50J1xu
+IiwiaGlzdG9yeSI6Wy0xODgyNDU0NzcsLTk3NTMyMjEzMiwtMT
+k3NTk3OTQ4MF19
 -->
