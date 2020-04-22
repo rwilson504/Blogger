@@ -1,5 +1,3 @@
-
-## Overview
 This calendar control was built off of  [React Big Calendar](https://github.com/jquense/react-big-calendar). The calendar can be used to display events with or without related resources.
 
 ![Control Overview](https://github.com/rwilson504/PCFControls/raw/master/Calendar/images/calendarcontrol.gif)
@@ -19,5 +17,5 @@ Model
 Lear More Here: [https://github.com/rwilson504/PCFControls/blob/master/Calendar/README.md](https://github.com/rwilson504/PCFControls/blob/master/Calendar/README.md)
 Download Here: https://github.com/rwilson504/PCFControls/releases/latest
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjUyMTkwOTNdfQ==
+eyJoaXN0b3J5IjpbLTQxMTUyODgxOF19
 -->
