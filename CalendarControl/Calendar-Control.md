@@ -16,8 +16,8 @@ Model
 -   Clicking on and event will open the record for editing.
 -   Clicking on an empty timespan will open a new record form, and will pass in the start, end, and resource field data.
 
-Lear More Here:
-Download Here: 
+Lear More Here: [https://github.com/rwilson504/PCFControls/blob/master/Calendar/README.md](https://github.com/rwilson504/PCFControls/blob/master/Calendar/README.md)
+Download Here: https://github.com/rwilson504/PCFControls/releases/latest
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzI3NDI5NF19
+eyJoaXN0b3J5IjpbLTE4NjUyMTkwOTNdfQ==
 -->
