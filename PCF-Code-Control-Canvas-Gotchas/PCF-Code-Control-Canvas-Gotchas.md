@@ -47,6 +47,10 @@ Using text is a bit harder and will require you to determine the correct value i
 
 ``var _myTrueFalse = context.parameters?.trueFalseField?.raw.toLowerCase() === "true" ? true : false;``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwNDY4OTY4LC02Mjg4MzUwNzcsMTU1Mj
-Y0NzUwMCwtMzA4MjA2NjcwLC03MDc3NjU4MDRdfQ==
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEdvdGNoYXMgZm9yIFBDRi
+BDb2RlIENvbXBvbmVudHMgaW4gQ2FudmFzIEFwcHNcbmF1dGhv
+cjogUmljaGFyZCBXaWxzb25cbnRhZ3M6IHBjZjtjYW52YXM7ZH
+luYW1pY3M7ZDM2NTtwb3dlcmFwcHNcbiIsImhpc3RvcnkiOlsx
+NjA5MTI1OCwtNjI4ODM1MDc3LDE1NTI2NDc1MDAsLTMwODIwNj
+Y3MCwtNzA3NzY1ODA0XX0=
 -->
