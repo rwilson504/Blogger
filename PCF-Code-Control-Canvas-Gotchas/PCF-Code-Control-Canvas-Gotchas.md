@@ -6,7 +6,7 @@ Now that these controls can be utilized within Canvas Apps there are a few thing
 The ControlManifest.Input.xml file is where you can define your controls name and all the properties associated with it.  Below are some gotcha that will cause you errors when attempting to add or deploy your components.
 
 ## Be Careful of XML Escape Characters
- When defining everything it's important to add descriptions to ensure your users know how to interact with your control.  When doing so though make sure you don't include any XML escape characters or your control will either not import correctly in Canvas or in a Model app you will not see any of the properties when you attempt to add it to a View/Form.
+When defining your component it's important to add descriptions to ensure your users know how to interact with your control.  When doing so though make sure you don't include any XML escape characters or your control will either not import correctly in Canvas or in a Model app you will not see any of the properties when you attempt to add it to a View/Form.
 
 XML Escape Characters
 | Name      | Character|
@@ -30,6 +30,6 @@ When defining your parameters Enums are a great way to let the users know which 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODgzNTA3NywxNTUyNjQ3NTAwLC0zMD
-gyMDY2NzAsLTcwNzc2NTgwNF19
+eyJoaXN0b3J5IjpbLTMyNzQxMzcxMCwtNjI4ODM1MDc3LDE1NT
+I2NDc1MDAsLTMwODIwNjY3MCwtNzA3NzY1ODA0XX0=
 -->
