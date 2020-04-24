@@ -4,13 +4,14 @@ Now that these controls can be utilized within Canvas Apps there are a few thing
 
 ## ControlManifest.Input.xml - Be Careful of XML Escape Characters
 The ControlManifest.Input.xml file is where you can define your controls name and all the properties associated with it.  When defining everything it's important to add descriptions to ensure your users know how to interact with your control.  When doing so though make sure you don't include any XML escape characters which include the following.
-|   |   |
-|---|---|
-|   |   |
-|   |   |
-|   |   |
+
+| Name      | Character|
+| :---        |    :----:   |
+| Header      | Title       |
+| Paragraph   | Text        |
+
 By doing so you can break the import of your control.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzMzM2OTk1LC03MDc3NjU4MDRdfQ==
+eyJoaXN0b3J5IjpbLTE3NDQ3NjM1NjQsLTcwNzc2NTgwNF19
 -->
