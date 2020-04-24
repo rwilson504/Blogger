@@ -12,7 +12,6 @@ When defining your component it's important to add descriptions to ensure your u
 
 This is bad...
 ![No Escape Characters](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/manifest-escap-character.png?raw=true)
-
 XML Escape Characters
 | Name      | Character|
 | :---        |    :----:   |
@@ -21,8 +20,6 @@ XML Escape Characters
 |Greater-than|>|
 |Quotes|"|
 |Apostrophe|'|
-
-
 ## Don't Include Preview Image
 The preview image is great for Model apps because it gives the user an image of what your control looks like before selecting it.  Unfortunately right now it will cause an error when you attempt to import your control into the Canvas editor.
 
@@ -50,7 +47,7 @@ Using text is a bit harder and will require you to determine the correct value i
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEdvdGNoYXMgZm9yIFBDRi
 BDb2RlIENvbXBvbmVudHMgaW4gQ2FudmFzIEFwcHNcbmF1dGhv
 cjogUmljaGFyZCBXaWxzb25cbnRhZ3M6IHBjZjtjYW52YXM7ZH
-luYW1pY3M7ZDM2NTtwb3dlcmFwcHNcbiIsImhpc3RvcnkiOlsx
-NjA5MTI1OCwtNjI4ODM1MDc3LDE1NTI2NDc1MDAsLTMwODIwNj
-Y3MCwtNzA3NzY1ODA0XX0=
+luYW1pY3M7ZDM2NTtwb3dlcmFwcHNcbiIsImhpc3RvcnkiOlst
+MTQzNzY3MjI4LC02Mjg4MzUwNzcsMTU1MjY0NzUwMCwtMzA4Mj
+A2NjcwLC03MDc3NjU4MDRdfQ==
 -->
