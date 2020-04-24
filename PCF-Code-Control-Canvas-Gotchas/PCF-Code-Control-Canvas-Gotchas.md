@@ -43,11 +43,14 @@ Instead define your parameters and an SingleLine.Text and give the user some ins
 Using text is a bit harder and will require you to determine the correct value in your code. For example with a true/false field you will need to do something like this.
 
 ``var _myTrueFalse = context.parameters?.trueFalseField?.raw.toLowerCase() === "true" ? true : false;``
+
+## Multiple Dataset
+The default comments that are included when you provision a PCF project have text that says they allow multiple dataset.  I though this would be great for a Calendar control I was building for canvas so I could define one dataset for the Events and one for the Resources unfortunately addi
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEdvdGNoYXMgZm9yIFBDRi
 BDb2RlIENvbXBvbmVudHMgaW4gQ2FudmFzIEFwcHNcbmF1dGhv
 cjogUmljaGFyZCBXaWxzb25cbnRhZ3M6IHBjZjtjYW52YXM7ZH
 luYW1pY3M7ZDM2NTtwb3dlcmFwcHNcbiIsImhpc3RvcnkiOlst
-MTQzNzY3MjI4LC02Mjg4MzUwNzcsMTU1MjY0NzUwMCwtMzA4Mj
-A2NjcwLC03MDc3NjU4MDRdfQ==
+MTkxODk3NzA4MiwtMTQzNzY3MjI4LC02Mjg4MzUwNzcsMTU1Mj
+Y0NzUwMCwtMzA4MjA2NjcwLC03MDc3NjU4MDRdfQ==
 -->
