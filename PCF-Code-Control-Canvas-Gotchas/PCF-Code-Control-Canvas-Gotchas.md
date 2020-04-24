@@ -7,11 +7,11 @@ The ControlManifest.Input.xml file is where you can define your controls name an
 
 | Name      | Character|
 | :---        |    :----:   |
-| Header      | Title       |
+| **Ampersand**      | Title       |
 | Paragraph   | Text        |
 
 By doing so you can break the import of your control.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ3NjM1NjQsLTcwNzc2NTgwNF19
+eyJoaXN0b3J5IjpbLTMwODIwNjY3MCwtNzA3NzY1ODA0XX0=
 -->
