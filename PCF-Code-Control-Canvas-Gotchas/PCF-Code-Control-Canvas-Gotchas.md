@@ -24,10 +24,12 @@ The preview image is great for Model apps because it gives the user a pic of wha
 ## Don't Use Enums as Parameters
 When defining your parameters Enums are a great way to let the users know which values are allowed.  Unfortunately using Enum will allow the control to be added in the Canvas editor but as soon as you try to run the app in the Canvas run-time you will get the horrible Canvas Screen of Death!
 
-![[Canvas Screen of Death!](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/canvas-screen-of-death.png?raw=true)
+
+
+![Canvas Screen of Death](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/canvas-screen-of-death.png?raw=true)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDc2MTc4NSwxNTUyNjQ3NTAwLC0zMD
+eyJoaXN0b3J5IjpbLTYyODgzNTA3NywxNTUyNjQ3NTAwLC0zMD
 gyMDY2NzAsLTcwNzc2NTgwNF19
 -->
