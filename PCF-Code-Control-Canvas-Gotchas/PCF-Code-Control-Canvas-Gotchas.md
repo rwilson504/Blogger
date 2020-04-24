@@ -44,14 +44,14 @@ Using text is a bit harder and will require you to determine the correct value i
 
 ``var _myTrueFalse = context.parameters?.trueFalseField?.raw.toLowerCase() === "true" ? true : false;``
 
-## Multiple Dataset
-The default comments that are included in the manfiest when you provision a PCF project incldues text that says they allow multiple data sets.  I though this would be great for a Calendar control I was building so I could define one data set for the Events and one for the Resources unfortunately adding two data sets caused the Import of the PCF component to fail in the Canvas Editor.  That b
-![Allow Multiple Dataset](![manifest-multiple-dataset.png](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/manifest-multiple-dataset.png?raw=true))
+## Multiple Datasets
+The default comments that are included in the manfiest when you provision a PCF project incldues text that says they allow multiple datasets. I though this would be great for a Calendar control I was building so I could define one dataset for the Events and one for the Resources unfortunately adding two datasets caused the Import of the PCF component to fail in the Canvas Editor.
+![Allow Multiple Dataset](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/manifest-multiple-dataset.png?raw=true)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEdvdGNoYXMgZm9yIFBDRi
 BDb2RlIENvbXBvbmVudHMgaW4gQ2FudmFzIEFwcHNcbmF1dGhv
 cjogUmljaGFyZCBXaWxzb25cbnRhZ3M6IHBjZjtjYW52YXM7ZH
 luYW1pY3M7ZDM2NTtwb3dlcmFwcHNcbiIsImhpc3RvcnkiOlst
-NTk5ODQ4NTIsLTE0Mzc2NzIyOCwtNjI4ODM1MDc3LDE1NTI2ND
-c1MDAsLTMwODIwNjY3MCwtNzA3NzY1ODA0XX0=
+MTMzODc2NzY1NCwtMTQzNzY3MjI4LC02Mjg4MzUwNzcsMTU1Mj
+Y0NzUwMCwtMzA4MjA2NjcwLC03MDc3NjU4MDRdfQ==
 -->
