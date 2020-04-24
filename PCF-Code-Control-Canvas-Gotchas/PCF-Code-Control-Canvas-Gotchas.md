@@ -42,8 +42,10 @@ Here is an example of an Enum defined in a manifest.
 Instead define your parameters and an SingleLine.Text and give the user some instruction on the Description keys as the valid options.
 ![Use SingleLine.Text Instead](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/manifest-enum-do.png?raw=true)
 
-Doing it using text is a bit harder and will require you to determine the correct value
+Doing it using text is a bit harder and will require you to determine the correct value in your code.
+
+``var _myTrueFalse = context.parameters?.trueFalseField.raw.toLowerCase() === "true" ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNzQ3MDEwLC02Mjg4MzUwNzcsMTU1Mj
-Y0NzUwMCwtMzA4MjA2NjcwLC03MDc3NjU4MDRdfQ==
+eyJoaXN0b3J5IjpbMjAyNDM5MTUyMiwtNjI4ODM1MDc3LDE1NT
+I2NDc1MDAsLTMwODIwNjY3MCwtNzA3NzY1ODA0XX0=
 -->
