@@ -8,6 +8,9 @@ The ControlManifest.Input.xml file is where you can define your controls name an
 ## Be Careful of XML Escape Characters
 When defining your component it's important to add descriptions to ensure your users know how to interact with your control.  When doing so though make sure you don't include any XML escape characters or your control will either not import correctly in Canvas or in a Model app you will not see any of the properties when you attempt to add it to a View/Form.
 
+Don't do this
+![No Escape Characters](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/manifest-escap-character.png?raw=true)
+
 XML Escape Characters
 | Name      | Character|
 | :---        |    :----:   |
@@ -21,6 +24,9 @@ XML Escape Characters
 ## Don't Include Preview Image
 The preview image is great for Model apps because it gives the user a pic of what your control looks like.  Unfortunately right now it will cause an error when you attempt to import your control into the Canvas editor.
 
+Here is what the sample image looks like in a Model App when adding it to a form or view.
+![Preview Image Sample]()
+
 ## Don't Use Enums as Parameters
 When defining your parameters Enums are a great way to let the users know which values are allowed.  Unfortunately using Enum will allow the control to be added in the Canvas editor but as soon as you try to run the app in the Canvas run-time you will get the horrible Canvas Screen of Death!
 
@@ -30,6 +36,6 @@ When defining your parameters Enums are a great way to let the users know which 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzQxMzcxMCwtNjI4ODM1MDc3LDE1NT
+eyJoaXN0b3J5IjpbMTA0NzA5MDAyNywtNjI4ODM1MDc3LDE1NT
 I2NDc1MDAsLTMwODIwNjY3MCwtNzA3NzY1ODA0XX0=
 -->
