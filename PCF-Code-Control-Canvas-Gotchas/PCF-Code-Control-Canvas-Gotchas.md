@@ -13,10 +13,14 @@ The ControlManifest.Input.xml file is where you can define your controls name an
 By doing so you can break the import of your control.
 
 ## Don't Include Preview Image
+The preview image is great for Model apps because it gives the user a pic of what your control looks like.  Unfortunately right now it will cause an error when you attempt to import you
 
 ## Don't Use Enums as Parameters
-Using enuim
+
+Using Enum will allow the control to be added in the Canvas editor but as soon as you try to run the app in the Canvas runtime you will get the horrible Canvas Screen of Death!
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTQyODE1OCwtMzA4MjA2NjcwLC03MD
+eyJoaXN0b3J5IjpbMTUxMzE1OTE0MSwtMzA4MjA2NjcwLC03MD
 c3NjU4MDRdfQ==
 -->
