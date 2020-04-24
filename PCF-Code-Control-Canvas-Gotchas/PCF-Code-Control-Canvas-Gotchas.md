@@ -31,15 +31,18 @@ Make sure not to utilize the preview-image in your manfiest if you plan on impor
 
 ![Preview Image in Manifest](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/namifest-preview-image.png?raw=true)
 
-## Don't Use Enum as Parameters
+## Don't Use Enum Type for Parameters
 When defining your parameters Enums are a great way to let the users know which values are allowed.  Unfortunately using Enum will allow the control to be added in the Canvas editor but as soon as you try to run the app in the Canvas run-time you will get the horrible Canvas Screen of Death!
-
-
 
 ![Canvas Screen of Death](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/canvas-screen-of-death.png?raw=true)
 
+Here is an example of an Enum defined in a manifest.
+![Manifest With Enum](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/manifest-enum-dont.png?raw=true)
+
+Instead define your parameters and an Simple
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzU1Mjk5MywtNjI4ODM1MDc3LDE1NT
+eyJoaXN0b3J5IjpbMTM2NjUxNTk5MywtNjI4ODM1MDc3LDE1NT
 I2NDc1MDAsLTMwODIwNjY3MCwtNzA3NzY1ODA0XX0=
 -->
