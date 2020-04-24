@@ -3,18 +3,17 @@ PCF Code Components allow developers to create their own custom interfaces utili
 Now that these controls can be utilized within Canvas Apps there are a few things to watch out for. Some of these are bugs that should be fixed when this feature come to General Availability. 
 
 ## Be Careful of XML Escape Characters in ControlManifest.Input.xml
-The ControlManifest.Input.xml file is where you can define your controls name and all the properties associated with it.  When defining everything it's important to add descriptions to ensure your users know how to interact with your control.  When doing so though make sure you don't include any XML escape characters which include the following.
+The ControlManifest.Input.xml file is where you can define your controls name and all the properties associated with it.  When defining everything it's important to add descriptions to ensure your users know how to interact with your control.  When doing so though make sure you don't include any XML escape characters or your control will either not import correctly in Canvas or in a Model app you will not see any of the properties when you attempt to add it to a View/Form.
 
+XML Escape Characters
 | Name      | Character|
 | :---        |    :----:   |
 | Ampersand      | &|
 | Less-than   | <        |
 |Greater-than|>|
-|Quotes||
-|||
+|Quotes|"|
+|Apostrophe|'|
 
-
-By doing so you can break the import of your control.
 
 ## Don't Include Preview Image
 The preview image is great for Model apps because it gives the user a pic of what your control looks like.  Unfortunately right now it will cause an error when you attempt to import your control into the Canvas editor.
@@ -25,6 +24,6 @@ Using Enum will allow the control to be added in the Canvas editor but as soon a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0OTk5MTM3LC0zMDgyMDY2NzAsLTcwNz
-c2NTgwNF19
+eyJoaXN0b3J5IjpbMTk3OTY1MDM0MSwtMzA4MjA2NjcwLC03MD
+c3NjU4MDRdfQ==
 -->
