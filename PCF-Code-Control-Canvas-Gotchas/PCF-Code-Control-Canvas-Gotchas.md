@@ -3,7 +3,7 @@ PCF Code Components allow developers to create their own custom interfaces utili
 Now that these controls can be utilized within Canvas Apps there are a few things to watch out for. Some of these are bugs that should be fixed when this feature come to General Availability. 
 
 # ControlManifest.Input.xml
-The ControlManifest.Input.xml file is where you can define your controls name and all the properties associated with it.  Below are some gotcha that will cause you errors when attempting to add or deploy your components.
+The ControlManifest.Input.xml file is where you define your component information and all the properties associated with it.  Below are some gotcha that will cause you errors when attempting to deploy your com.
 
 ## Be Careful of XML Escape Characters
 When defining your component it's important to add descriptions to ensure your users know how to interact with your control.  When doing so though make sure you don't include any XML escape characters or your control will either not import correctly in Canvas or in a Model app you will not see any of the properties when you attempt to add it to a View/Form.
@@ -42,10 +42,10 @@ Here is an example of an Enum defined in a manifest.
 Instead define your parameters and an SingleLine.Text and give the user some instruction on the Description keys as the valid options.
 ![Use SingleLine.Text Instead](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/manifest-enum-do.png?raw=true)
 
-Doing it using text is a bit harder and will require you to determine the correct value in your code.
+Using text is a bit harder and will require you to determine the correct value in your code. For example with a true/false field you will need to do something like this.
 
-``var _myTrueFalse = context.parameters?.trueFalseField.raw.toLowerCase() === "true" ``
+``var _myTrueFalse = context.parameters?.trueFalseField.raw.toLowerCase() === "true" ? true : false``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDM5MTUyMiwtNjI4ODM1MDc3LDE1NT
-I2NDc1MDAsLTMwODIwNjY3MCwtNzA3NzY1ODA0XX0=
+eyJoaXN0b3J5IjpbODExNDIzMDg1LC02Mjg4MzUwNzcsMTU1Mj
+Y0NzUwMCwtMzA4MjA2NjcwLC03MDc3NjU4MDRdfQ==
 -->
