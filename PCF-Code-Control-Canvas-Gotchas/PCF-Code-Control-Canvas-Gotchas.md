@@ -8,9 +8,9 @@ Now that these controls can be utilized within Canvas Apps there are a few thing
 The ControlManifest.Input.xml file is where you define your component information and all the properties associated with it.  Below are some gotcha that will cause you errors when attempting to deploy your component into a Canvas app.
 
 ## Be Careful of XML Escape Characters
-When defining your component it's important to add descriptions to ensure your users know how to interact with your control.  When doing so though make sure you don't include any XML escape characters or your control will either not import correctly in Canvas or in a Model app you will not see any of the properties when you attempt to add it to a View/Form.
+When defining your component it's important to add descriptions to ensure your users know how to interact with your control.  When doing so though make sure you don't include any XML escape characters or your control will not import correctly 
 
-Don't do this
+This is bad...
 ![No Escape Characters](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/manifest-escap-character.png?raw=true)
 
 XML Escape Characters
@@ -24,17 +24,16 @@ XML Escape Characters
 
 
 ## Don't Include Preview Image
-The preview image is great for Model apps because it gives the user a pic of what your control looks like.  Unfortunately right now it will cause an error when you attempt to import your control into the Canvas editor.
+The preview image is great for Model apps because it gives the user an image of what your control looks like before selecting it.  Unfortunately right now it will cause an error when you attempt to import your control into the Canvas editor.
 
 Here is what the sample image looks like in a Model App when adding it to a form or view.
 ![Preview Image Sample](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/preview-image.png?raw=true)
 
-Make sure not to utilize the preview-image in your manfiest if you plan on importing this control to Canvas.
-
+Make sure not to utilize the preview-image in your manifest if you plan on importing this control to Canvas.
 ![Preview Image in Manifest](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/namifest-preview-image.png?raw=true)
 
 ## Don't Use Enum Type for Parameters
-When defining your parameters Enums are a great way to let the users know which values are allowed.  Unfortunately using Enum will allow the control to be added in the Canvas editor but as soon as you try to run the app in the Canvas run-time you will get the horrible Canvas Screen of Death!
+When defining your parameters Enums are a great way to let the users know which values are allowed.  Unfortunately using Enums will allow the control to be added in the Canvas editor but as soon as you try to run the app in the Canvas run-time you will get the horrible Canvas Screen of Death!
 
 ![Canvas Screen of Death](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/canvas-screen-of-death.png?raw=true)
 
@@ -48,6 +47,6 @@ Using text is a bit harder and will require you to determine the correct value i
 
 ``var _myTrueFalse = context.parameters?.trueFalseField.raw.toLowerCase() === "true" ? true : false``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzAwODc1ODYsLTYyODgzNTA3NywxNT
-UyNjQ3NTAwLC0zMDgyMDY2NzAsLTcwNzc2NTgwNF19
+eyJoaXN0b3J5IjpbLTc1NDg3MjQ4MCwtNjI4ODM1MDc3LDE1NT
+I2NDc1MDAsLTMwODIwNjY3MCwtNzA3NzY1ODA0XX0=
 -->
