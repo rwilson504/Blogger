@@ -45,8 +45,11 @@ Instead define your parameters and an SingleLine.Text and give the user some ins
 
 Using text is a bit harder and will require you to determine the correct value in your code. For example with a true/false field you will need to do something like this.
 
-``var _myTrueFalse = context.parameters?.trueFalseField.raw.toLowerCase() === "true" ? true : false``
+``var _myTrueFalse = context.parameters?.trueFalseField?.raw.toLowerCase() === "true" ? true : false;``
+
+# Conclusion
+These are just some things to watch out for 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDg3MjQ4MCwtNjI4ODM1MDc3LDE1NT
+eyJoaXN0b3J5IjpbMTE5NTMzNzY0OSwtNjI4ODM1MDc3LDE1NT
 I2NDc1MDAsLTMwODIwNjY3MCwtNzA3NzY1ODA0XX0=
 -->
