@@ -1,5 +1,7 @@
 
-I have added multilingual support to the Calendar Control I recently shared.
+Multilingual support has been added to the Calendar Control I recently shared.
+
+![Control Overview](https://github.com/rwilson504/PCFControls/raw/master/Calendar/images/calendarcontrol.gif)
 
 The following languages are now supported.
 * English (default)
@@ -7,10 +9,12 @@ The following languages are now supported.
 * French
 * Spanish
 
-Check out the videos below on how to get the control working.
+Check out the videos below on how to get the control working in a multilingual setup.
 [Canvas Apps Multilingual Setup]()
 [Model Apps Multilingual Setup]()
 
+Click here to download the control.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0Njk1MDkzXX0=
+eyJoaXN0b3J5IjpbMTQxMTM2NTk4MCw1OTQ2OTUwOTNdfQ==
 -->
