@@ -13,8 +13,8 @@ Check out the videos below on how to get the control working in a multilingual s
 [Canvas Apps Multilingual Setup]()
 [Model Apps Multilingual Setup]()
 
-Click here to download the control.
+[Click here]([https://github.com/rwilson504/PCFControls/releases/latest/CalendarControl_managed.zip](https://github.com/rwilson504/PCFControls/releases/latest/CalendarControl_managed.zip)) to download the latest release of the control control.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTM2NTk4MCw1OTQ2OTUwOTNdfQ==
+eyJoaXN0b3J5IjpbLTQ3NTI4MTEzOSw1OTQ2OTUwOTNdfQ==
 -->
