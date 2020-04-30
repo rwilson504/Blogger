@@ -12,8 +12,9 @@ The following languages are now supported.
 
 Check out these videos on how to get the control working in a multilingual setup.
 [Canvas Apps Multilingual Setup](https://youtu.be/xSCHCRQFhMI)
-![Canvas App Video](https://img.youtube.com/vi/wJYN6TMnMT4/sddefault.jpg)
+
 [Model Apps Multilingual Setup](https://youtu.be/wJYN6TMnMT4)
+[![Canvas App Video](https://img.youtube.com/vi/wJYN6TMnMT4/sddefault.jpg)](https://youtu.be/xSCHCRQFhMI)
 
 
 
@@ -22,6 +23,7 @@ Check out these videos on how to get the control working in a multilingual setup
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Mzg4NTg3MCwxMzY3NDM2NTcyLDE0Mz
-U5ODIxMzIsMTEyOTg1MzI4NCwxOTcyODU0NzQ1XX0=
+eyJoaXN0b3J5IjpbNjA1NTI2NzY2LDE3NzM4ODU4NzAsMTM2Nz
+QzNjU3MiwxNDM1OTgyMTMyLDExMjk4NTMyODQsMTk3Mjg1NDc0
+NV19
 -->
