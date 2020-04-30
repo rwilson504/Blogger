@@ -22,7 +22,12 @@ Check out these videos on how to get the control working in a multilingual setup
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzM1NDQ5NCwxNzczODg1ODcwLDEzNj
-c0MzY1NzIsMTQzNTk4MjEzMiwxMTI5ODUzMjg0LDE5NzI4NTQ3
-NDVdfQ==
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpbGluZ3VhbCBTdX
+Bwb3J0IEZvciBQQ0YgQ2FsZW5kYXIgQ29udHJvbFxuYXV0aG9y
+OiBSaWNoYXJkIFdpbHNvblxudGFnczogPi1cbiAgUG93ZXJBcH
+BzLFBDRixDYWxlbmRhcixTY2hlZHVsaW5nLFJlc291cmNlcyxF
+dmVudHMsRHluYW1pY3MsUG93ZXJQbGF0Zm9ybSxDb21wb25lbn
+QsZDM2NSxjYW52YXNcbiIsImhpc3RvcnkiOlsxNjY1NzA0Njg0
+LDE3NzM4ODU4NzAsMTM2NzQzNjU3MiwxNDM1OTgyMTMyLDExMj
+k4NTMyODQsMTk3Mjg1NDc0NV19
 -->
