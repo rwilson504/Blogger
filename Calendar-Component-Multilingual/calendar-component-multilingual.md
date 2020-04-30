@@ -8,6 +8,7 @@ The following languages are now supported.
 * Spanish
 
 [Click Here](https://github.com/rwilson504/PCFControls/releases/latest/CalendarControl_managed.zip) to download the latest release of the component.
+[Click Here](https://github.com/rwilson504/PCFControls](https://github.com/rwilson504/PCFControls) to get the source code for this component.
 
 Check out these videos on how to get the control working in a multilingual setup.
 [Canvas Apps Multilingual Setup]()
@@ -20,5 +21,6 @@ Check out these videos on how to get the control working in a multilingual setup
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTg1MzI4NCwxOTcyODU0NzQ1XX0=
+eyJoaXN0b3J5IjpbMTQzNTk4MjEzMiwxMTI5ODUzMjg0LDE5Nz
+I4NTQ3NDVdfQ==
 -->
