@@ -6,6 +6,9 @@ The following languages are now supported.
 * German
 * French
 * Spanish
+* Italian
+* Dutch
+* Russian
 
 [Click Here](https://github.com/rwilson504/PCFControls/releases/latest/CalendarControl_managed.zip) to download the latest release of the component.
 [Click Here](https://github.com/rwilson504/PCFControls) to get the source code for this component.
@@ -27,7 +30,8 @@ Bwb3J0IEZvciBQQ0YgQ2FsZW5kYXIgQ29udHJvbFxuYXV0aG9y
 OiBSaWNoYXJkIFdpbHNvblxudGFnczogPi1cbiAgUG93ZXJBcH
 BzLFBDRixDYWxlbmRhcixTY2hlZHVsaW5nLFJlc291cmNlcyxF
 dmVudHMsRHluYW1pY3MsUG93ZXJQbGF0Zm9ybSxDb21wb25lbn
-QsZDM2NSxjYW52YXNcbiIsImhpc3RvcnkiOlszNDUyOTI1NjIs
-MTY2NTcwNDY4NCwxNzczODg1ODcwLDEzNjc0MzY1NzIsMTQzNT
-k4MjEzMiwxMTI5ODUzMjg0LDE5NzI4NTQ3NDVdfQ==
+QsZDM2NSxjYW52YXNcbiIsImhpc3RvcnkiOlstMjI1MTEyNTM3
+LDM0NTI5MjU2MiwxNjY1NzA0Njg0LDE3NzM4ODU4NzAsMTM2Nz
+QzNjU3MiwxNDM1OTgyMTMyLDExMjk4NTMyODQsMTk3Mjg1NDc0
+NV19
 -->
