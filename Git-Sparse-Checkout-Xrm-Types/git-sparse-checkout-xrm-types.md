@@ -1,5 +1,7 @@
 If you would like to make updates to the Xrm types or any others in the DefinitelyTyped project on github you can find that cloning all the types can be a real pain.  This is because a typical git clone will bring down everything and having over 6 thousand directories in this project can make thigns a bit slow.  Startign with Git version 2.25.0 a new feature was introduces called sparse-checkout.  This feature can be used to limit what is brough down in your git requests much like a .gitignore file, in fact it even uses the same filtering formats.  The benefit of using this new feature is that you don't need to update the .gitignore file which would be tracked in the changes. Instead these options are stored in your repo settings locally and will not show up as changes to your files.
 
+![Git Sparse Checkout Definition](https://github.com/rwilson504/Blogger/blob/master/Git-Sparse-Checkout-Xrm-Types/github.png?raw=true)
+
 Let's take a look!
 
 Here is my types directory in DefinitelyTyped clone.  You can see that there are a lot of types, over 6K in fact.  Righ now every time you do a pull it can take a little while because of all the other stuff here, let's "sparse" it down to what we need.
