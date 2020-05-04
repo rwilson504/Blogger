@@ -4,7 +4,7 @@ Let's take a look!
 
 Here is my types directory in DefinitelyTyped clone.  You can see that there are a lot of types, over 6K in fact.  Righ now every time you do a pull it can take a little while because of all the other stuff here, let's "sparse" it down to what we need.
 
-![Original types Directory](original-types.png)
+![Original types Directory](https://github.com/rwilson504/Blogger/blob/master/Git-Sparse-Checkout-Xrm-Types/original-types.png?raw=true)
 
 First make sure you have [Git 2.25.0](https://git-scm.com/downloads) or greater.
 
@@ -14,7 +14,7 @@ Next make sure you don't have any oustanding changes or commits on your repo.  T
 git sparse-checkout init --cone 
 ``
 
-![Run Initi](gitsparseinit.png)
+![Run Initi](https://github.com/rwilson504/Blogger/blob/master/Git-Sparse-Checkout-Xrm-Types/gitsparseinit.png?raw=true)
 
 
 The initial sparsing will limit the repo down to only the root level folders.  Now we need to get back what is needed in order to work.  In this case I'm goign to be bringing back two folders.
@@ -22,7 +22,7 @@ The initial sparsing will limit the repo down to only the root level folders.  N
 * Scripts - since we need this one to run npm commands and for tslint to work.
 * types/Xrm - since those are the types I want to work on.
 
-To bring these folders badk we can run the following command.
+To bring these folders back we can run the following command.
 
 ``
 git sparse-checkout set /scripts /types/xrm
@@ -30,9 +30,9 @@ git sparse-checkout set /scripts /types/xrm
 
 After this runs you directories will now look like this.  You will notice that only the Xrm types are there now, all the other type directories are gone.
 
-![Types after Set](types-after-set.png)
+![Types after Set](https://github.com/rwilson504/Blogger/blob/master/Git-Sparse-Checkout-Xrm-Types/types-after-set.png?raw=true)
 
-If you want to add additional folder you can do so by running the add command.
+If you want to add additional folder you can do so by running the **add** command.
 
 ``
 git sparse-checkout add /types/7zip-min
@@ -44,7 +44,7 @@ If you want to go back to your original repo and disable the sparsing entirely y
 git sparse-checkout disable
 ``
 
-![Disable Sparse](disable-sparsing.png)
+![Disable Sparse](https://github.com/rwilson504/Blogger/blob/master/Git-Sparse-Checkout-Xrm-Types/disable-sparsing.png?raw=true)
 
 
 Sparse checkout can be very help to limit what files you are potentially modifying on large project and can definately reduce the confusion of having so many directories.  Happy coding!
