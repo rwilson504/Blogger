@@ -4,3 +4,8 @@ Here is a quick tutorial on how to pass the formContext to a WebResource on a UC
 [formContext in WebResource](https://youtu.be/uWDiMv82iSM)
 [![Canvas App Video](https://img.youtube.com/vi/uWDiMv82iSM/sddefault.jpg)](https://youtu.be/uWDiMv82iSM)
 
+Form OnLoad Code
+<script src="http://gist-it.appspot.com/https://github.com/rwilson504/Blogger/blob/master/Get-formContext-In-UCI-WebResource/raw_formScriptOnLoad.js"></script>
+
+WebResource Code
+<script src="http://gist-it.appspot.com/https://github.com/rwilson504/Blogger/blob/master/Get-formContext-In-UCI-WebResource/raw_getCurrentFormId.html"></script>
