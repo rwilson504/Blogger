@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            // This script should be in the HTML web resource.
+            // No usage of Xrm or formContext should happen until this method is called.
+            function setClientApiContext(formContext) {
+                // Optionally set the formContext as global variables on the page.
+                window._formContext = formContext;
+                
+                // Add script logic here that uses xrm or the formContext.
+                // For this test we will just get the current form id
+                document.getElementById('formIfo').innerHTML =_formContext.ui.formSelector.getCurrentItem().getId();
+                document.body.style.display = "block";
+            }
+        </script>    
+    </head>
+    <body style="display: none;">
+        Current Form Id: <span id="formIfo"></span> 
+    </body>
+</html>
