@@ -1,4 +1,4 @@
-Getting started with Git can get confusing at times.  Recently when looking back at one of the first projects I forked from GitHub i realized i had done commits in my master branch instead of creating a branch.  I wanted to be able to merge changes back into the forks source so I figured it would be a good idea to reset my master back to it's original.  I was able to acomplish this using the commands below.
+Getting started with Git can get confusing at times.  Recently when looking back at one of the first projects I forked from GitHub i realized i had done commits in my master branch instead of creating a branch.  I wanted to be able to merge changes back into the forks source so I figured it would be a good idea to reset my master back to it's original.  I was able to accomplish this using the commands below.
 
 ```
 cd c:\code\DefinitelyTyped
@@ -11,5 +11,5 @@ git push origin master --force
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4MDYxNjgwXX0=
+eyJoaXN0b3J5IjpbLTg1MjcwNzg3OV19
 -->
