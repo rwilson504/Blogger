@@ -1,4 +1,3 @@
-
 While working on creating a page to open a Canvas app full screen inside of a Model app I wanted to create a WebResource I could use over and over again.  Most of the references I found though showed people putting the Canvas app name in the code which wouldn't allow for code re-use.  Instead I wanted to pass query string parameters to the web resource so that it could get the name from the URL.  The problem I ran into was with the new UCI interface and how it handles WebResources.  After a bit of trial and error I found the trick was not using the WebResource type in the sitemap editor but instead using a URL in the correct format passing the parameters I needed withing the Data parameters.
 
 ![Add URL to Sitemap](https://github.com/rwilson504/Blogger/blob/master/PassParametersToWebResourceFromSitemap/addurl.png?raw=true)
@@ -15,7 +14,9 @@ main.aspx/webresources/raw_CanvasAppInModel.html?Data=CanvasAppName=Test
 To encode your parameters just open the console in your browser by hitting the F12 button and run the encodeURIComponent function on your parameters.
 ![EncodeURI](https://github.com/rwilson504/Blogger/blob/master/PassParametersToWebResourceFromSitemap/encodeuri.png?raw=true)
 
-In order to get the values of the Data parameter in your webresource you can follow the 
+In order to get the values of the Data parameter in your WebResource you can follow the instruction and code from Microsoft in the link below.
+
+[Sample: Pass multiple values to a web resource through the data parameter](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/sample-pass-multiple-values-web-resource-through-data-parameter)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyNDQxOTQyLDczNzU1NDU1XX0=
+eyJoaXN0b3J5IjpbMzcxNzA1OTc3LDczNzU1NDU1XX0=
 -->
