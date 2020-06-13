@@ -12,8 +12,10 @@ main.aspx/webresources/<Your WebResource Name>?Data=<Your Parameters URI Encoded
 main.aspx/webresources/raw_CanvasAppInModel.html?Data=CanvasAppName=Test
 ``
 
-To encode your parameters just open the console in your browser by hitting the F12 button and run the encodeURIComponent function on your 
+To encode your parameters just open the console in your browser by hitting the F12 button and run the encodeURIComponent function on your parameters.
+![EncodeURI](https://github.com/rwilson504/Blogger/blob/master/PassParametersToWebResourceFromSitemap/encodeuri.png?raw=true)
 
+In order to get the values of the Data parameter in your webresource you can follow the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjAyNTQ2Miw3Mzc1NTQ1NV19
+eyJoaXN0b3J5IjpbNjYyNDQxOTQyLDczNzU1NDU1XX0=
 -->
