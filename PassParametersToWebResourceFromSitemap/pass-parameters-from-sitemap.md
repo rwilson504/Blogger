@@ -1,6 +1,6 @@
-## Pass Custom Parameters To WebResource From UCI SiteMap in Dynamics
+## Pass Custom Parameters To WebResource From UIC SiteMap in Dynamics
 
-While working on creating a page to open a Canvas app full screen inside of a Model app I wanted to create a WebResource I could use over and over again.  Most of the references I found showed the Canvas app name in the code which wouldn't allow for code re-use.  Instead I wanted to pass query string parameters to the WebResource so that it could get the name from the URL.  The problem I ran into was with the new UCI interface and how it handles WebResources.  After a bit of trial and error I found the trick was not using the WebResource type in the SiteMap editor but instead using a URL in the correct format passing the parameters I needed withing the Data parameters.
+While working on creating a page to open a Canvas app full screen inside of a Model app I wanted to create a WebResource I could use over and over again.  Most of the references I found showed the Canvas app name in the code which wouldn't allow for code re-use.  Instead I wanted to pass query string parameters to the WebResource so that it could get the name from the URL.  The problem I ran into was with the new UIC interface and how it handles WebResources.  After a bit of trial and error I found the trick was not using the WebResource type in the SiteMap editor but instead using a URL in the correct format and passing the parameters I needed within the Data parameters.
 
 ![Add URL to Sitemap](https://github.com/rwilson504/Blogger/blob/master/PassParametersToWebResourceFromSitemap/addurl.png?raw=true)
 
@@ -20,5 +20,5 @@ In order to get the values of the Data parameter in your WebResource you can fol
 
 [Sample: Pass multiple values to a web resource through the data parameter](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/sample-pass-multiple-values-web-resource-through-data-parameter)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjU0MzA2MCw3Mzc1NTQ1NV19
+eyJoaXN0b3J5IjpbLTE1MjgzOTE5NzAsNzM3NTU0NTVdfQ==
 -->
