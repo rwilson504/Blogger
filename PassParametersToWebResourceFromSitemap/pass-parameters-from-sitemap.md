@@ -20,5 +20,10 @@ In order to get the values of the Data parameter in your WebResource you can fol
 
 [Sample: Pass multiple values to a web resource through the data parameter](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/sample-pass-multiple-values-web-resource-through-data-parameter)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjgzOTE5NzAsNzM3NTU0NTVdfQ==
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhc3MgQ3VzdG9tIFBhcm
+FtZXRlcnMgVG8gV2ViUmVzb3VyY2UgRnJvbSBVSUMgU2l0ZU1h
+cCBpbiBEeW5hbWljc1xuYXV0aG9yOiBSaWNoYXJkIFdpbHNvbl
+xudGFnczogJ3NpdGVtYXAsIGR5bmFtaWNzLCB3ZWJyZXNvdXJj
+ZSdcbiIsImhpc3RvcnkiOlstMTM3NTMwMTQwOCw3Mzc1NTQ1NV
+19
 -->
