@@ -5,13 +5,13 @@ While working on creating a page to open a Canvas app full screen inside of a Mo
 ![Add URL to Sitemap](https://github.com/rwilson504/Blogger/blob/master/PassParametersToWebResourceFromSitemap/addurl.png?raw=true)
 
 Here is the correctly formatted URL to use and an example of how to use it.
-``
+```
 main.aspx/webresources/<Your WebResource Name>?Data=<Your Parameters URI Encoded>
-``
+```
 
-``
+```
 main.aspx/webresources/raw_CanvasAppInModel.html?Data=CanvasAppName=Test
-``
+```
 
 To encode your parameters just open the console in your browser by hitting the F12 button and run the encodeURIComponent function on your parameters.
 ![EncodeURI](https://github.com/rwilson504/Blogger/blob/master/PassParametersToWebResourceFromSitemap/encodeuri.png?raw=true)
@@ -24,6 +24,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhc3MgQ3VzdG9tIFBhcm
 FtZXRlcnMgVG8gV2ViUmVzb3VyY2UgRnJvbSBVSUMgU2l0ZU1h
 cCBpbiBEeW5hbWljc1xuYXV0aG9yOiBSaWNoYXJkIFdpbHNvbl
 xudGFnczogJ3NpdGVtYXAsIGR5bmFtaWNzLCB3ZWJyZXNvdXJj
-ZSdcbiIsImhpc3RvcnkiOlstMTM3NTMwMTQwOCw3Mzc1NTQ1NV
-19
+ZSdcbiIsImhpc3RvcnkiOlstNTc1MTgwMzMwLC0xMzc1MzAxND
+A4LDczNzU1NDU1XX0=
 -->
