@@ -1,5 +1,5 @@
 
-While working on creating a page to open a Canvas app full screen inside of a Model app I wanted to create one WebResource I could use over and over again.  Most of the references I found though showed people putting the Canvas app name in the code which doesn't allow for code re-use.  When the new UCI interface came out referencing URL within dynamics got a little trickier and if your URL did not 
+While working on creating a page to open a Canvas app full screen inside of a Model app I wanted to create one WebResource I could use over and over again.  Most of the references I found though showed people putting the Canvas app name in the code which wouldn't allow for code re-use.  Instead I wanted to pass query string parameters to the web resource so that it could get the name from the url.  The problem I ran into was with the new UCI interface and how it handles WebResources.  The only parameters Microsoft allows you to pass are the org
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODEzNTEwNl19
+eyJoaXN0b3J5IjpbLTkzMzA4NzhdfQ==
 -->
