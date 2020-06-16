@@ -80,7 +80,7 @@ Full Url
 main.aspx/webresources/raw_CanvasAppInModel.html?Data=canvasAppName%3Draw_canvasmenu_21eea%26source%3DmodelApp%26screenColor%3Drgba(34%2C139%2C34%2C1)
 ```
 
-## Add A SiteMap Link Using Data Parameter
+## Add A Simple SiteMap Link
 If you want to utilize the PowerApps Maker portal for you sitemap you will need to create a web resource for each Canvas App link you would like to have on your sitemap.  You can utilize the same code sample i have provided above and just comment out or remove the **SET PARAMS USING DATA PARAMETER ON SITEMAP** section code and un-comment the cod in the section called **SET PARAMS USING INDIVIDUAL WEBRESOURCES**
 
 Follow the pattern of **params.push('canvasAppName=' + 'raw_yourappname');** in the code to set any parameters you want.  The only required one is canvasAppName.  You do not need to add in the parameters for modelAppId, modelAppUrl, orgname, orglcid, or userlcid as those wills till be added by the code.
@@ -120,8 +120,7 @@ params.push('source=' + 'yoursource');
 //
 //////////////////////////////////////////////////////////////////////////////////////////
 ```
-After you have adjusted your code ad the file as a WebResource and create a SiteMap link using the PowerApps Maker portal just as you normally would.  Remember that if you want to create a link to another Canvas App you will need to copy your WebResource and change the properties to point to your othe
-
+After you have adjusted your code ad the file as a WebResource and create a SiteMap link using the PowerApps Maker portal just as you normally would.  Remember that if you want to create a link to another Canvas App you will need to copy your WebResource and change the properties to point to your other Canvas App then create a new SiteMap link to that WebResource.
 
 ## Adjusting the Canvas App To Fit Full Screen
 If you would like to make sure that your Canvas App fits completely within the content window without any space on the left or right it's important to turn off the "Lock aspect ratio" setting with your app.  This can be done within the Canvas Editor by going to **Setting -> Screen size + orientation** and un-setting the toggle for **Lock aspect ratio**.  Make sure after you complete this you hit the **Apply** button in the lower right hand screen and Save/Publish the app.
@@ -177,5 +176,5 @@ The other app will be opened.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
 BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
 OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
-pbLTE0ODk3MTgxOTUsOTgwNTEzNjg5XX0=
+pbMTc5NjY0OTQxNCw5ODA1MTM2ODldfQ==
 -->
