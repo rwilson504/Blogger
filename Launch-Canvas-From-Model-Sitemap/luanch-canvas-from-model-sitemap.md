@@ -31,15 +31,21 @@ main.aspx/webresources/raw_CanvasAppInModel.html?Data=canvasAppName%3Draw_canvas
 
 ```
 
-![Add Sitemap Link](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/SiteMapLink.png?raw=true)
-
-As you can see in the example the Data property appears to have several other parameters in it but they have all been encoded.  If you want to see what these parameters are decoded copy the contents of the data parameter use the decodeURIComponent command in a console window or use a website like this [Decode/Encode](https://meyerweb.com/eric/tools/dencoder/).
+As you can see in the example the Data property appears to have several other parameters in it but they have all been encoded.  If you want to see values decoded copy the contents of the data parameter use the decodeURIComponent command in a console window or use a website like this [Decode/Encode](https://meyerweb.com/eric/tools/dencoder/).
 
 Encoded Data Parameter
 ![Encoded Data Parameter](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/EncodedParams.png?raw=true)
 
 Decoded Data Parameter
 ![Decoded Data Parameter](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/DecodedParams.png?raw=true)
+
+
+**IMPORTANT NOTE - The SiteMap editor in the Maker portal will break your link to the WebResource, if you use it to edit the sitemap. This happens when you click on your subarea because the editor will decode all of your data parameters.  So make sure you edit your sitemap using [XrmToolbox](https://www.xrmtoolbox.com/) or an XML editor.**
+
+![Do Not Use Make Sitemap Editor](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/SiteMapLink.png?raw=true)
+
+
+![Use XrmToolbox](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/SiteMapLinkXrmToolbox.png?raw=true)
 
 Looking at the parameters we can see that I have included three in this example.  This list is just an example, as long as you include the canvasAppName you can include however many other parameters you want!
 
@@ -51,6 +57,8 @@ There are two additional parameters which the WebResource will automatically pus
 
 * modelAppId - This will be the guid of your current Model app.  This can be very useful in building links later back to records where you want the record screen to show up in the property App.
 * modelAppUrl - Is a link back to the Model App url where you launched the Canvas App from.  Again this can be useful later to build links.
+
+Additionally if you select the Pass Parameters checkbox on the sitemap link you will be able to get three additional parameters in your canvas app: orgname, orglcid, userlcid.
 
 After you have adjusted the Data parameters to be what you want make sure you go back and Encode them again before you past them into the SiteMap url.
 
