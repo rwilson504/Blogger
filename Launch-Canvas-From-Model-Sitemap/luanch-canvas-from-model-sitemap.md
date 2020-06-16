@@ -61,8 +61,7 @@ There are two additional parameters which the WebResource will automatically pus
 Additionally if you select the Pass Parameters checkbox on the sitemap link you will be able to get three additional parameters in your canvas app: orgname, orglcid, userlcid.
 
 After you have adjusted the Data parameters to be what you want make sure you go back and Encode them again before you past them into the SiteMap url.
-
-Paste in your Url into the SubArea Url field.  Make sure you leave the first half of your Url decoded. Then after the Data= paste in the additional parameters encoded.
+Paste in your Url into the SubArea Url field in XRMToolbox.  Make sure you leave the first half of your Url decoded. Then after the Data= paste in the additional parameters encoded.
 
 1st Half of the URL
 ```
@@ -133,5 +132,5 @@ The other app will be opened.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
 BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
 OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
-pbMTkyMTc3NjcwNl19
+pbOTgwNTEzNjg5XX0=
 -->
