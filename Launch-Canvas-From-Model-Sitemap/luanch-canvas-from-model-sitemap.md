@@ -78,7 +78,7 @@ Full Url
 main.aspx/webresources/raw_CanvasAppInModel.html?Data=canvasAppName%3Draw_canvasmenu_21eea%26source%3DmodelApp%26screenColor%3Drgba(34%2C139%2C34%2C1)
 ```
 
-# Adjusting the Canvas App To Fit Full Screen
+## Adjusting the Canvas App To Fit Full Screen
 If you would like to make sure that your Canvas App fits completely within the content window without any space on the left or right it's important to turn off the "Lock aspect ratio" setting with your app.  This can be done within the Canvas Editor by going to **Setting -> Screen size + orientation** and un-setting the toggle for **Lock aspect ratio**.  Make sure after you complete this you hit the **Apply** button in the lower right hand screen and Save/Publish the app.
 
 ![Turn off Lock aspect ratio](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/LockAspectRatioOff.png?raw=true)
@@ -93,7 +93,7 @@ Additionally with the Lock aspect radio turned off we can now set elements withi
 
 ![App Banner](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/LauncherBarFullScreenWidth.png?raw=true)
 
-# Getting the Parameters In Your Canvas App
+## Getting the Parameters In Your Canvas App
 Canvas App provide a function called **Param** which can be used to get the parameters from the Url that have been passed in.  As you can see in the example below I am setting a label to the modelAppId parameters which is automatically passed by the WebResource which opened the app.  
 
 **Also make sure you note that parameter names are case sensitive.**
@@ -104,7 +104,7 @@ Next we can utilize the parameters we have passed to accomplish things in our Ca
 
 ![All Params](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/AllParams.png?raw=true)
 
-# Building a Link Back to A Record In the Model App
+## Building a Link Back to A Record In the Model App
 Having the Model App Url and Id can be very helpful if we ever want to create links back to the Model App for records.  Below I have used these parameters to build out a link which will open up the first contact in the system.  This could be easily modified to open any other entity by modifying the values being used in the **id** and **etc** fields.
 
 This utilizes the Launch function and builds our the Model App url using the parameter.  As of now the Launch function will open this link in a new tab.  Opening it in a new window or the current window is in preview and available on some environments.
@@ -114,7 +114,7 @@ This utilizes the Launch function and builds our the Model App url using the par
 Now when we click on the button we will get a new tab with the Contacts entity record displayed.
 ![Contact Record](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/OpensExistingRecord.png?raw=true)
 
-# Building a Link to Another Canvas App
+## Building a Link to Another Canvas App
 In my example i am building a Menu function which will allow users to complete other actions.  Some of those action may involve opening another Canvas App.  We can do this utilize the Launch functionality we used to open an entity record above.
 
 To start we need to get the App Id of the other Canvas App.  We can do this by adding the Canvas App data source to our Canvas App and then filtering down on the Name field to get the app we want.  You can get the name of the other app by opening the Make portal and looking at the Apps name field.
@@ -132,5 +132,5 @@ The other app will be opened.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
 BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
 OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
-pbOTgwNTEzNjg5XX0=
+pbLTE4ODQ3NDQxNTcsOTgwNTEzNjg5XX0=
 -->
