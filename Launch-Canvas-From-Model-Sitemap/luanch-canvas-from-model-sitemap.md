@@ -81,11 +81,45 @@ main.aspx/webresources/raw_CanvasAppInModel.html?Data=canvasAppName%3Draw_canvas
 ```
 
 ## Add A SiteMap Link Using Data Parameter
-If you want to utilize the PowerApps Maker portal for you sitemap you will need to create a web resource for each Canvas App link you would like to have on your sitemap.  You can utilize the code sample i have provided above and just comment out or remove the **SET PARAMS USING DATA PARAMETER ON SITEMAP** section within the code and un-comment the cod in the section called **SET PARAMS USING INDIVIDUAL WEBRESOURCES**
+If you want to utilize the PowerApps Maker portal for you sitemap you will need to create a web resource for each Canvas App link you would like to have on your sitemap.  You can utilize the same code sample i have provided above and just comment out or remove the **SET PARAMS USING DATA PARAMETER ON SITEMAP** section within the code and un-comment the cod in the section called **SET PARAMS USING INDIVIDUAL WEBRESOURCES**
 
 Follow the pattern in the code to set any parameters you want.  The only required one is canvasAppName
 
+```
+//////////////////////////////////////////////////////////////////////////////////////////
+// SET PARAMS USING DATA PARAMETER ON SITEMAP
+// Additional params sent into a web resource should be URI encoded within the Data parameter.
+// For additional information about the parameters you can pass to Canvas apps see the Microsoft
+// documentation at https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/embed-apps-dev
+//
+// The only param you are required to have within the Data param is the appName param which will be the
+// name of the Canvas application you want to load.
+// let canvasAppName = getParameterByName('canvasAppName');
+// if (!canvasAppName)
+// {
+// Xrm.Navigation.openErrorDialog({
+// message: 'The parameter canvasAppName was not provided in the Url. This parameter should contain the name of the Canvas App you are attempting to load.'
+// });
+// return;
+// }
+// params.push(getParameterByName('data'));
 
+//////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////
+// SET PARAMS USING INDIVIDUAL WEBRESOURCES
+// If managing your sitemap in XRMToolbox is not something you want to do you can comment/remove
+// the SET PARAMS USING DATA PARAMETER ON SITEMAP section code and uncomment the code below
+// and set your own parameters. Then hard code your values in and create a new copy of this
+// WebResource per Canvas App you want to link to on the sitemap.
+//
+
+params.push('canvasAppName=' + 'raw_yourappname');
+params.push('source=' + 'yoursource');
+
+//
+//////////////////////////////////////////////////////////////////////////////////////////
+```
 
 ## Adjusting the Canvas App To Fit Full Screen
 If you would like to make sure that your Canvas App fits completely within the content window without any space on the left or right it's important to turn off the "Lock aspect ratio" setting with your app.  This can be done within the Canvas Editor by going to **Setting -> Screen size + orientation** and un-setting the toggle for **Lock aspect ratio**.  Make sure after you complete this you hit the **Apply** button in the lower right hand screen and Save/Publish the app.
@@ -141,5 +175,5 @@ The other app will be opened.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
 BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
 OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
-pbODUyMTI0MTYwLDk4MDUxMzY4OV19
+pbMjA2MzUzNzQ1MCw5ODA1MTM2ODldfQ==
 -->
