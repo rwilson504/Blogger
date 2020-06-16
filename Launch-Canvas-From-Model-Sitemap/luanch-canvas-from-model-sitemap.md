@@ -40,12 +40,14 @@ Decoded Data Parameter
 ![Decoded Data Parameter](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/DecodedParams.png?raw=true)
 
 
-**IMPORTANT NOTE - The SiteMap editor in the Maker portal will break your link to the WebResource, if you use it to edit the sitemap. This happens when you click on your subarea because the editor will decode all of your data parameters.  So make sure you edit your sitemap using [XrmToolbox](https://www.xrmtoolbox.com/) or an XML editor.**
+**IMPORTANT NOTE - The SiteMap editor in the Maker portal will break your link to the WebResource if you use it to edit the sitemap. This happens when you click on your subarea because the editor will decode all of your data parameters.  So make sure you edit your sitemap using [XrmToolbox](https://www.xrmtoolbox.com/) or an XML editor.**
 
 ![Do Not Use Make Sitemap Editor](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/SiteMapLink.png?raw=true)
 
 
 ![Use XrmToolbox](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/SiteMapLinkXrmToolbox.png?raw=true)
+
+Past in your Url into the SubArea Url field.  Make sure you leave the first half of you r Url enencoded and only the 
 
 Looking at the parameters we can see that I have included three in this example.  This list is just an example, as long as you include the canvasAppName you can include however many other parameters you want!
 
@@ -112,3 +114,9 @@ Then create a button to Launch the new app in another tab.
 The other app will be opened.
 ![App Launched](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/LaunchAnotherApp.png?raw=true)
 
+<!--stackedit_data:
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
+BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
+OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
+pbNTQ3NDA4ODU3XX0=
+-->
