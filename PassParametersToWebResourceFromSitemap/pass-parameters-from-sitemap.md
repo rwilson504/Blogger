@@ -1,6 +1,6 @@
 While working on creating a page to open a Canvas app full screen inside of a Model app I wanted to create a WebResource I could use over and over again.  Most of the references I found showed the Canvas app name in the code which wouldn't allow for code re-use.  Instead I wanted to pass query string parameters to the WebResource so that it could get the name from the URL.  The problem I ran into was with the new UCI interface and how it handles WebResources.  After a bit of trial and error I found the trick was not using the WebResource type in the SiteMap editor but instead using a URL in the correct format and passing the parameters I needed within the Data parameters.
 
-**Update-** After working with the Maker SiteMap editor I have realized that it will auto decode all of your Data parameters.  Instead of using the Maker portal you will need to update the SiteMap using [XrmToolbox] or another XML Editor. 
+**Update-** After working with the Maker Portal SiteMap editor I have realized that it will auto decode all of your Data parameters.  Instead of using the Maker portal you will need to update the SiteMap using [XrmToolbox] or another XML Editor. 
 
 Use XRMToolbox SiteMap editor to create your sub area.
 ![Use XRMToolbox](https://github.com/rwilson504/Blogger/blob/master/PassParametersToWebResourceFromSitemap/SiteMapLinkXrmToolbox.png?raw=true)
@@ -30,7 +30,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhc3MgQ3VzdG9tIFBhcm
 FtZXRlcnMgVG8gV2ViUmVzb3VyY2UgRnJvbSBVSUMgU2l0ZU1h
 cCBpbiBEeW5hbWljc1xuYXV0aG9yOiBSaWNoYXJkIFdpbHNvbl
 xudGFnczogJ3NpdGVtYXAsIGR5bmFtaWNzLCB3ZWJyZXNvdXJj
-ZSdcbiIsImhpc3RvcnkiOls0MjIyMjg1NTMsLTU4MzY2MjkyMy
-wxMDQ3NjkxMzQwLDM2NDkzODE4OCwtODUxOTA2Njg4LC01NzUx
-ODAzMzAsLTEzNzUzMDE0MDgsNzM3NTU0NTVdfQ==
+ZSdcbiIsImhpc3RvcnkiOlstMTQwMTg0NjYxMSwtNTgzNjYyOT
+IzLDEwNDc2OTEzNDAsMzY0OTM4MTg4LC04NTE5MDY2ODgsLTU3
+NTE4MDMzMCwtMTM3NTMwMTQwOCw3Mzc1NTQ1NV19
 -->
