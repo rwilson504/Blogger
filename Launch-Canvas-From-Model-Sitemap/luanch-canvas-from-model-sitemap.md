@@ -47,7 +47,14 @@ Decoded Data Parameter
 
 ![Use XrmToolbox](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/SiteMapLinkXrmToolbox.png?raw=true)
 
-Past in your Url into the SubArea Url field.  Make sure you leave the first half of you r Url enencoded and only the 
+Past in your Url into the SubArea Url field.  Make sure you leave the first half of your Url decoded.
+
+```
+main.aspx/webresources/raw_CanvasAppInModel.html?Data=
+```
+Then after the Data= paste in the additional parameters encoded.
+
+```
 
 Looking at the parameters we can see that I have included three in this example.  This list is just an example, as long as you include the canvasAppName you can include however many other parameters you want!
 
@@ -118,5 +125,5 @@ The other app will be opened.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
 BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
 OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
-pbNTQ3NDA4ODU3XX0=
+pbLTQyNDY0MDE1OF19
 -->
