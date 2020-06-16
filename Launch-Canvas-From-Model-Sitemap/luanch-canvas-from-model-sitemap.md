@@ -18,8 +18,10 @@ Create a new HTML WebResource.  You can download the source [here](https://gist.
 
 ![New WebResource](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/WebResourceNew.png?raw=true)
 
-## Add A SiteMap link
+## Add A SiteMap link Using Data Parameter
 The trick to not having to hard code the name of the Canvas App into the WebResource is the way in which we build the WebResource URL in the SiteMap. Typically when adding a WebResource we would choose the Type of the sub-area to be "Web Resource", unfortunately doing this will now allow us to pass any additional URL parameters other than the ones provided by Microsoft into the WebResource.  Our goal is to add a Data parameter that contains our Canvas App name and any other parameters we wish to pass to our WebResource so that it can do all the work of opening the Canvas App.  So instead of using the "Web Resource" type on the SiteMap we will utilize the URL type and add the URL in the following format.
+
+**Note: This method will require that you utilize XRMToolbox or another XML program to manage your sitemap.  If you are not comfortable with this then see the section called: Add a SiteMap 
 
 ```
 main.aspx/webresources/<Web Resource Name We Created>?Data=<Our Parameters>
@@ -132,5 +134,5 @@ The other app will be opened.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
 BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
 OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
-pbLTE4ODQ3NDQxNTcsOTgwNTEzNjg5XX0=
+pbLTEyODk2MDU5MTYsOTgwNTEzNjg5XX0=
 -->
