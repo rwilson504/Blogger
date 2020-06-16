@@ -47,15 +47,6 @@ Decoded Data Parameter
 
 ![Use XrmToolbox](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/SiteMapLinkXrmToolbox.png?raw=true)
 
-Past in your Url into the SubArea Url field.  Make sure you leave the first half of your Url decoded.
-
-```
-main.aspx/webresources/raw_CanvasAppInModel.html?Data=
-```
-Then after the Data= paste in the additional parameters encoded.
-
-```
-
 Looking at the parameters we can see that I have included three in this example.  This list is just an example, as long as you include the canvasAppName you can include however many other parameters you want!
 
 * canvasAppName - (Required) This is used by the WebResource to determine which Canvas App to open.  To get the name of your App open the maker portal and look at the Name field for your App. ![Canvas App Name](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/CanvasAppName.png?raw=true)
@@ -70,6 +61,23 @@ There are two additional parameters which the WebResource will automatically pus
 Additionally if you select the Pass Parameters checkbox on the sitemap link you will be able to get three additional parameters in your canvas app: orgname, orglcid, userlcid.
 
 After you have adjusted the Data parameters to be what you want make sure you go back and Encode them again before you past them into the SiteMap url.
+
+Paste in your Url into the SubArea Url field.  Make sure you leave the first half of your Url decoded. Then after the Data= paste in the additional parameters encoded.
+
+1st Half of the URL
+```
+main.aspx/webresources/raw_CanvasAppInModel.html?Data=
+```
+
+2nd Half of the URL
+```
+canvasAppName%3Draw_canvasmenu_21eea%26source%3DmodelApp%26screenColor%3Drgba(34%2C139%2C34%2C1)
+```
+
+Full Url
+```
+main.aspx/webresources/raw_CanvasAppInModel.html?Data=canvasAppName%3Draw_canvasmenu_21eea%26source%3DmodelApp%26screenColor%3Drgba(34%2C139%2C34%2C1)
+```
 
 # Adjusting the Canvas App To Fit Full Screen
 If you would like to make sure that your Canvas App fits completely within the content window without any space on the left or right it's important to turn off the "Lock aspect ratio" setting with your app.  This can be done within the Canvas Editor by going to **Setting -> Screen size + orientation** and un-setting the toggle for **Lock aspect ratio**.  Make sure after you complete this you hit the **Apply** button in the lower right hand screen and Save/Publish the app.
@@ -125,5 +133,5 @@ The other app will be opened.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
 BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
 OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
-pbLTQyNDY0MDE1OF19
+pbMTkyMTc3NjcwNl19
 -->
