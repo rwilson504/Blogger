@@ -52,7 +52,7 @@ Decoded Data Parameter
 Looking at the parameters we can see that I have included three in this example.  This list is just an example, as long as you include the canvasappname you can include however many other parameters you want!
 
 * canvasappname - (Required) This is used by the WebResource to determine which Canvas App to open.  To get the name of your App open the maker portal and look at the Name field for your App. ![Canvas App Name](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/CanvasAppName.png?raw=true)
-* newwindow - (Optional) This parameter will allow you to open the canvas app in a new window instead of embedding it in the Model App. Set this parameters to "true" or "1
+* newwindow - (Optional) This parameter will allow you to open the canvas app in a new window instead of embedding it in the Model App. Set this parameters to true or 1 if you want this app to open in another window.
 * source - (Optional) Can be used within your Canvas app to determine which application or SiteMap link the app is being opened by.  You could use this to determine which screen in your Canvas App should be opened when the link is clicked if you use a single Canvas App for multiple functions.
 * screencolor - (Optional) Affects the loading screen color when the Canvas App is being accessed.  This takes in an rgba value.  For more information on this parameters check out the Microsoft article on [Embedding Canvas Apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/embed-apps-dev).
 
@@ -177,6 +177,6 @@ The other app will be opened.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
 BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
 OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
-pbLTE3NTE2MjczMzgsMTY4NTMwODc3NCwxNzk2NjQ5NDE0LDk4
-MDUxMzY4OV19
+pbMTUyNDIxODY0OCwxNjg1MzA4Nzc0LDE3OTY2NDk0MTQsOTgw
+NTEzNjg5XX0=
 -->
