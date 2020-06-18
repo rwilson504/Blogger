@@ -29,7 +29,7 @@ Here is what the sample image looks like in a Model App when adding it to a form
 Make sure not to utilize the preview-image in your manifest if you plan on importing this control to Canvas.
 ![Preview Image in Manifest](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/namifest-preview-image.png?raw=true)
 
-## Don't Use Enum Type for Parameters
+## ~~Don't Use Enum Type for Parameters~~ UPDATE - THIS WORKS NOW!
 When defining your parameters Enums are a great way to let the users know which values are allowed.  Unfortunately using Enums will allow the control to be added in the Canvas editor but as soon as you try to run the app in the Canvas run-time you will get the horrible Canvas Screen of Death!
 
 ![Canvas Screen of Death](https://github.com/rwilson504/Blogger/blob/master/PCF-Code-Control-Canvas-Gotchas/canvas-screen-of-death.png?raw=true)
@@ -51,7 +51,8 @@ The default comments that are included in the manfiest when you provision a PCF 
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEdvdGNoYXMgZm9yIFBDRi
 BDb2RlIENvbXBvbmVudHMgaW4gQ2FudmFzIEFwcHNcbmF1dGhv
 cjogUmljaGFyZCBXaWxzb25cbnRhZ3M6IHBjZjtjYW52YXM7ZH
-luYW1pY3M7ZDM2NTtwb3dlcmFwcHNcbiIsImhpc3RvcnkiOlst
-MTMzODc2NzY1NCwtMTQzNzY3MjI4LC02Mjg4MzUwNzcsMTU1Mj
-Y0NzUwMCwtMzA4MjA2NjcwLC03MDc3NjU4MDRdfQ==
+luYW1pY3M7ZDM2NTtwb3dlcmFwcHNcbiIsImhpc3RvcnkiOlsx
+Mzc3MTAyNTMxLC0xMzM4NzY3NjU0LC0xNDM3NjcyMjgsLTYyOD
+gzNTA3NywxNTUyNjQ3NTAwLC0zMDgyMDY2NzAsLTcwNzc2NTgw
+NF19
 -->
