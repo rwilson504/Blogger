@@ -84,7 +84,7 @@ main.aspx/webresources/raw_CanvasAppInModel.html?Data=canvasappname%3Draw_canvas
 ## Add A Simple SiteMap Link
 If you want to utilize the PowerApps Maker portal for you sitemap you will need to create a web resource for each Canvas App link you would like to have on your sitemap.  You can utilize the same code sample i have provided above and just comment out or remove the **SET PARAMS USING DATA PARAMETER ON SITEMAP** section code and un-comment the cod in the section called **SET PARAMS USING INDIVIDUAL WEBRESOURCES**
 
-Follow the pattern of **params.push('canvasappname=' + 'raw_yourappname');** in the code to set any parameters you want.  The only required one is canvasAppName.  You do not need to add in the parameters for modelAppId, modelAppUrl, orgname, orglcid, or userlcid as those wills till be added by the code.
+Follow the pattern of **params.push('canvasappname=' + 'raw_yourappname');** in the code to set any parameters you want.  The only required one is canvasappname.  You do not need to add in the parameters for modelappid, modelappurl, orgname, orglcid, or userlcid as those wills till be added by the code.
 
 ```
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -177,6 +177,6 @@ The other app will be opened.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
 BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
 OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
-pbMTUyNDIxODY0OCwxNjg1MzA4Nzc0LDE3OTY2NDk0MTQsOTgw
-NTEzNjg5XX0=
+pbMTE0Mjg1NTQ0OCwxNTI0MjE4NjQ4LDE2ODUzMDg3NzQsMTc5
+NjY0OTQxNCw5ODA1MTM2ODldfQ==
 -->
