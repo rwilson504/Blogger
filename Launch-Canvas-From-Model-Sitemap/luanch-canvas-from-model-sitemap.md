@@ -12,7 +12,7 @@ Here is an example of a Canvas app I have created which will display a menu of i
 * The Canvas app you want to open must be in a Solution.  If it is not then it will never show up in the "canvasapp" entity which we are using to get the App id.  It does not matter what Solution it is in just that it sits in a solution within your environment.
 
 ## Create a New WebResource
-Create a new HTML WebResource.  You can download the source [here](https://gist.githubusercontent.com/rwilson504/417e334a5597ebc5a9dec8e762efe0b3/raw/b5e9e45526bfaa5a46f199ef16b408eed59cd21b/CanvasAppInModel.html) or copy and past from below.
+Create a new HTML WebResource.  You can download the source [here](https://gist.github.com/rwilson504/417e334a5597ebc5a9dec8e762efe0b3) or copy and past from below.
 
 <script src="https://gist.github.com/rwilson504/417e334a5597ebc5a9dec8e762efe0b3.js"></script>
 
@@ -177,6 +177,7 @@ The other app will be opened.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
 BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
 OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
-pbLTgzNTExMzExMiwxMTQyODU1NDQ4LDE1MjQyMTg2NDgsMTY4
-NTMwODc3NCwxNzk2NjQ5NDE0LDk4MDUxMzY4OV19
+pbMjIxMDQ2NzYsLTgzNTExMzExMiwxMTQyODU1NDQ4LDE1MjQy
+MTg2NDgsMTY4NTMwODc3NCwxNzk2NjQ5NDE0LDk4MDUxMzY4OV
+19
 -->
