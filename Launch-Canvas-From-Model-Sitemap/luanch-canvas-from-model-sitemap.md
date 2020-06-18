@@ -72,18 +72,18 @@ main.aspx/webresources/raw_CanvasAppInModel.html?Data=
 
 2nd Half of the URL
 ```
-canvasAppName%3Draw_canvasmenu_21eea%26source%3DmodelApp%26screenColor%3Drgba(34%2C139%2C34%2C1)
+canvasappname%3Draw_canvasmenu_21eea%26source%3DmodelApp%26screencolor%3Drgba(34%2C139%2C34%2C1)
 ```
 
 Full Url
 ```
-main.aspx/webresources/raw_CanvasAppInModel.html?Data=canvasAppName%3Draw_canvasmenu_21eea%26source%3DmodelApp%26screenColor%3Drgba(34%2C139%2C34%2C1)
+main.aspx/webresources/raw_CanvasAppInModel.html?Data=canvasappname%3Draw_canvasmenu_21eea%26source%3Dmodelapp%26screencolor%3Drgba(34%2C139%2C34%2C1)
 ```
 
 ## Add A Simple SiteMap Link
 If you want to utilize the PowerApps Maker portal for you sitemap you will need to create a web resource for each Canvas App link you would like to have on your sitemap.  You can utilize the same code sample i have provided above and just comment out or remove the **SET PARAMS USING DATA PARAMETER ON SITEMAP** section code and un-comment the cod in the section called **SET PARAMS USING INDIVIDUAL WEBRESOURCES**
 
-Follow the pattern of **params.push('canvasAppName=' + 'raw_yourappname');** in the code to set any parameters you want.  The only required one is canvasAppName.  You do not need to add in the parameters for modelAppId, modelAppUrl, orgname, orglcid, or userlcid as those wills till be added by the code.
+Follow the pattern of **params.push('canvasappname=' + 'raw_yourappname');** in the code to set any parameters you want.  The only required one is canvasAppName.  You do not need to add in the parameters for modelAppId, modelAppUrl, orgname, orglcid, or userlcid as those wills till be added by the code.
 
 ```
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -94,7 +94,7 @@ Follow the pattern of **params.push('canvasAppName=' + 'raw_yourappname');** in 
 //
 // The only param you are required to have within the Data param is the appName param which will be the
 // name of the Canvas application you want to load.
-// let canvasAppName = getParameterByName('canvasAppName');
+// let canvasAppName = getParameterByName('canvasappname');
 // if (!canvasAppName)
 // {
 // Xrm.Navigation.openErrorDialog({
@@ -114,7 +114,7 @@ Follow the pattern of **params.push('canvasAppName=' + 'raw_yourappname');** in 
 // WebResource per Canvas App you want to link to on the sitemap.
 //
 
-params.push('canvasAppName=' + 'raw_yourappname');
+params.push('canvasappname=' + 'raw_yourappname');
 params.push('source=' + 'yoursource');
 
 //
@@ -138,7 +138,7 @@ Additionally with the Lock aspect radio turned off we can now set elements withi
 ![App Banner](https://github.com/rwilson504/Blogger/blob/master/Launch-Canvas-From-Model-Sitemap/LauncherBarFullScreenWidth.png?raw=true)
 
 ## Getting the Parameters In Your Canvas App
-Canvas App provide a function called **Param** which can be used to get the parameters from the Url that have been passed in.  As you can see in the example below I am setting a label to the modelAppId parameters which is automatically passed by the WebResource which opened the app.  
+Canvas App provide a function called **Param** which can be used to get the parameters from the Url that have been passed in.  As you can see in the example below I am setting a label to the modelappid parameters which is automatically passed by the WebResource which opened the app.  
 
 **Also make sure you note that parameter names are case sensitive.**
 
@@ -176,5 +176,5 @@ The other app will be opened.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExhdW5jaCBBIENhbnZhcy
 BBcHAgSW4gTW9kZWwgQXBwIEZyb20gU2l0ZU1hcFxuYXV0aG9y
 OiBSaWNoYXJkIEEgV2lsc29uIChSQVcpXG4iLCJoaXN0b3J5Ij
-pbMTc5NjY0OTQxNCw5ODA1MTM2ODldfQ==
+pbMTQ5OTE5Njc3NCwxNzk2NjQ5NDE0LDk4MDUxMzY4OV19
 -->
