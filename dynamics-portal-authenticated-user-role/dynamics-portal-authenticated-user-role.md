@@ -6,11 +6,11 @@ After spending about two hours digging through the Web Roles, Website Access Per
 
 
 
-I hope this saves someone out there some time during their day trying to figure out why everyone on their portal is now an admin 😁
+I hope this saves someone out there some time during their day trying to figure out why everyone on their portal is now an admin or has mystery rights they shouldn't 😁
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2NzEyMzI3LC0xMzU5ODE5NDM0LC0xMj
-E0NDA4MzUwLDcxMjA3MDQyNV19
+eyJoaXN0b3J5IjpbLTE1MzM1NDc3MzAsLTEzNTk4MTk0MzQsLT
+EyMTQ0MDgzNTAsNzEyMDcwNDI1XX0=
 -->
