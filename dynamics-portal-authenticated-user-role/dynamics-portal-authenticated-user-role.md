@@ -2,13 +2,13 @@ Anyone who has set up the PowerApps/Adx Portal before can tell you how complicat
 
 Today we learned an important lesson regarding two fields on the Web Role entity.  During our testing one of users told us that they could see the portal editing button, OH NO!  
 
-After spending about two hours digging through the Web Roles, Website Access Permissions, and Web Page Access Controls we finally realized that someone had updated the **Authenticated Users Role** field on the Administrator Web Role to True.  This field along with the **Anonymous Users Role** gives the related portal user type that Web Role without having to directly assign the Web Role to the User/Contact/Account.  Which explained why we still had admin rights even  though the Porta
+After spending about two hours digging through the Web Roles, Website Access Permissions, and Web Page Access Controls we finally realized that someone had updated the **Authenticated Users Role** field on the Administrator Web Role to True.  This field and the **Anonymous Users Role** field gives every portal user of that type the Web Role without having to directly assign the Web Role to the User/Contact/Account.  Which explained why we still had admin rights even  though the test contact we tested with has zero Web Roles assigned to it.
 
 I hope this saves someone out there some time during their day trying to figure out why everyone on their portal is now an admin 😁
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjYzNDg3MiwtMTM1OTgxOTQzNCwtMT
-IxNDQwODM1MCw3MTIwNzA0MjVdfQ==
+eyJoaXN0b3J5IjpbMjI3NTk1NSwtMTM1OTgxOTQzNCwtMTIxND
+QwODM1MCw3MTIwNzA0MjVdfQ==
 -->
