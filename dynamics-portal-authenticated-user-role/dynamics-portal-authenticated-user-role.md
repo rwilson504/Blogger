@@ -1,6 +1,6 @@
-Anyone who has set up the PowerApps/Adx Portal before can tell you how complicated the security mechanisms can be to configure.  It's both easy to give users to much permission or not enough.  
+Anyone who has configured the PowerApps/Adx Portal before can tell you how complicated the security mechanisms can be to configure.  It's both easy to give users to much permission or not enough.  
 
-Today we learned an important lesson regarding two fields on the Web Role entity.  During our testing one of users told us that they could see the portal edit button as well as every web page in the system, OH NO!  
+Today we learned an important lesson regarding two fields on the Web Role entity.  During testing of a new app a users told us that they could see the portal edit button as well as every web page in the system, OH NO!  
 
 ![Everyone Is An Admin](https://github.com/rwilson504/Blogger/blob/master/dynamics-portal-authenticated-user-role/portal-editing.png?raw=true)
 
@@ -13,7 +13,7 @@ I hope this saves someone out there some time during their day trying to figure 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjYyNDA0MjgsMTQ4NzQ4MzUzMywtMT
-UzMzU0NzczMCwtMTM1OTgxOTQzNCwtMTIxNDQwODM1MCw3MTIw
-NzA0MjVdfQ==
+eyJoaXN0b3J5IjpbNjU3NTU3ODE4LDE0ODc0ODM1MzMsLTE1Mz
+M1NDc3MzAsLTEzNTk4MTk0MzQsLTEyMTQ0MDgzNTAsNzEyMDcw
+NDI1XX0=
 -->
