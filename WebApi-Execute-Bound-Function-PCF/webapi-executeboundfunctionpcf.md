@@ -19,7 +19,7 @@ This document contains the function name and their input properties.
 
   
 
-![CDS Metadata Doc](RetrievePrincipalAccessMetadata.png)
+![CDS Metadata Doc](https://github.com/rwilson504/Blogger/blob/master/WebApi-Execute-Bound-Function-PCF/RetrievePrincipalAccessMetadata.png?raw=true)
 
   
 
@@ -193,5 +193,5 @@ return accessRights;
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTg5ODgwM119
+eyJoaXN0b3J5IjpbMTc3MjE3MTcxOCwtODkxODk4ODAzXX0=
 -->
