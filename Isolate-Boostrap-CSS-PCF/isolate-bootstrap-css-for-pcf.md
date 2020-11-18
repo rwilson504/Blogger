@@ -40,18 +40,21 @@ lessc --math=strict "<less file location>" "<css file output>"
 After you run the Less in the command prompt navigate back to your bootstrap CSS folder and you will now see the output file you created.
 
 Unfortunately body and html cannot be prefixed so open the new CSS file and do a find and replace of the following two items.
-
+```
+find: 
+replace: 
+```
 
 Finally to utilize this new file we need to add it to our PCF component.  To do this first drop the file into the solution and open the ControlManifest.Input.xml
 
-Add the new css file to the resources node.  This will ensure that your css file gets loaded when the control is initialized.
+Add the new CSS file to the resources node.  This will ensure that your css file gets loaded when the control is initialized.
 
 Finally we need to apply our css class to the PCF components container object.  This will ensure that all of our styles are applied.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODQ1NzM2MywxNDYwMDM5NTMyLC0xND
+eyJoaXN0b3J5IjpbMTYyNjk1MjQwOCwxNDYwMDM5NTMyLC0xND
 M0MTIxNDM4LDE4ODcyODY2MTcsNDU2Mzk4ODE5LC02MjQ1NDY2
 MjQsNTA3MTg1MDIxXX0=
 -->
