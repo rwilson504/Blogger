@@ -7,11 +7,12 @@ npm install less -g
 ![install less.js](https://github.com/rwilson504/Blogger/blob/master/Isolate-Boostrap-CSS-PCF/Less-Install-NPM.png?raw=true)
 
 Now let's download the compiled version of Bootstrap we are using.  You can find the download file by going to the [All Versions](https://getbootstrap.com/docs/versions/) page on the Boostrap main page.
-![All Version Bootstrap Page]()
-![Download Version]()
-![]()
-Pick the version you are going to utilize in your PCF component and click on the link to download the compiled version of Boostrap.
+![All Version Bootstrap Page](https://github.com/rwilson504/Blogger/blob/master/Isolate-Boostrap-CSS-PCF/Bootstrap-All-Version.png?raw=true)
+
+Pick the version you are going to utilize in your PCF component and click on the link to download the compiled version of Bootstrap.
+![Download Version](https://github.com/rwilson504/Blogger/blob/master/Isolate-Boostrap-CSS-PCF/Bootstrap-Download-Distro.png?raw=true)
+![Download compiled](https://github.com/rwilson504/Blogger/blob/master/Isolate-Boostrap-CSS-PCF/Bootstrap-Download-Compiled-Version.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1NTE2MjM4LC02MjQ1NDY2MjQsNTA3MT
-g1MDIxXX0=
+eyJoaXN0b3J5IjpbLTE1NzkxMDk2NjEsLTYyNDU0NjYyNCw1MD
+cxODUwMjFdfQ==
 -->
