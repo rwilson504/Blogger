@@ -13,9 +13,14 @@ Pick the version you are going to utilize in your PCF component and click on the
 ![Download Version](https://github.com/rwilson504/Blogger/blob/master/Isolate-Boostrap-CSS-PCF/Bootstrap-Download-Distro.png?raw=true)
 ![Download compiled](https://github.com/rwilson504/Blogger/blob/master/Isolate-Boostrap-CSS-PCF/Bootstrap-Download-Compiled-Version.png?raw=true)
 
-Next extract the Bootstrap files to a folder on your computer and navigate to the css folder.
+After the file is downloaded extract the Bootstrap files to a folder on your computer and navigate to the css folder.
+
+Within the css folder create a new file called isolate.less and then open this file in the editor of your choosing.
+
+Create a nod
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2Mzk4ODE5LC02MjQ1NDY2MjQsNTA3MT
-g1MDIxXX0=
+eyJoaXN0b3J5IjpbMTY3OTA4NTQxNCw0NTYzOTg4MTksLTYyND
+U0NjYyNCw1MDcxODUwMjFdfQ==
 -->
