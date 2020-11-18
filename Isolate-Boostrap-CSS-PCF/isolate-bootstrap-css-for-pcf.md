@@ -19,11 +19,11 @@ Within the css folder create a new file called isolate.less and then open this f
 
 Create a CSS class within the isolate.less file.  This class name will be the prefix which will be applied as a prefix to all the css that we will then mark as imports to this class.  With the class you will @import the CSS files you need from the Bootstrap distro. You can include as many as you need.
 
-Finally we will run the lessc command in a Command prompt to generate our new CSS file.  I typically name the output file with the same class prefix I used. 
+Finally we will run the lessc command in a Command prompt to generate our new CSS file.  I typically name the output file the same as the class name. 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDU0MTMyMDksMTg4NzI4NjYxNyw0NT
-YzOTg4MTksLTYyNDU0NjYyNCw1MDcxODUwMjFdfQ==
+eyJoaXN0b3J5IjpbNzQwOTY5NTUxLDE4ODcyODY2MTcsNDU2Mz
+k4ODE5LC02MjQ1NDY2MjQsNTA3MTg1MDIxXX0=
 -->
