@@ -2,7 +2,7 @@ When you create Power Apps Component Framework (PCF) components that utilize the
 
 First let's download the disto for the version of Bootstrap we are using.  You can find the download file by going to the [All Versions](https://getbootstrap.com/docs/versions/) page.
 
-Pick the version you are going to utilize in your PCF component and click on the link to download the compiled source.
+Pick the version you are going to utilize in your PCF component and click on the link to download the distro.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTQxNTcwOV19
+eyJoaXN0b3J5IjpbMzUyOTM0NzYwXX0=
 -->
