@@ -12,7 +12,9 @@ Now let's download the compiled version of Bootstrap we are using.  You can find
 Pick the version you are going to utilize in your PCF component and click on the link to download the compiled version of Bootstrap.
 ![Download Version](https://github.com/rwilson504/Blogger/blob/master/Isolate-Boostrap-CSS-PCF/Bootstrap-Download-Distro.png?raw=true)
 ![Download compiled](https://github.com/rwilson504/Blogger/blob/master/Isolate-Boostrap-CSS-PCF/Bootstrap-Download-Compiled-Version.png?raw=true)
+
+Next extract the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzkxMDk2NjEsLTYyNDU0NjYyNCw1MD
-cxODUwMjFdfQ==
+eyJoaXN0b3J5IjpbMTQwOTI1NzE3OCwtNjI0NTQ2NjI0LDUwNz
+E4NTAyMV19
 -->
