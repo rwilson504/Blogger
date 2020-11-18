@@ -17,10 +17,10 @@ After the file is downloaded extract the Bootstrap files to a folder on your com
 
 Within the css folder create a new file called isolate.less and then open this file in the editor of your choosing.
 
-Create a nod
+Create a CSS class within the isolate.less file.  This class name will be the prefix which will be applied as a prefix to all the css that we will then mark as imports to this class.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTA4NTQxNCw0NTYzOTg4MTksLTYyND
+eyJoaXN0b3J5IjpbMTg4NzI4NjYxNyw0NTYzOTg4MTksLTYyND
 U0NjYyNCw1MDcxODUwMjFdfQ==
 -->
