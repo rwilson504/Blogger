@@ -23,7 +23,7 @@ Finally we will run the lessc command in a Command prompt to generate our new CS
 
 The format for the Less.js command line interface will be:
 ```
-lessc "<less file location>" "<c
+lessc "<less file location>" "<css file output>"
 ```
 
 Example command:
@@ -31,9 +31,13 @@ Example command:
 lessc "C:\Users\rwilson1\Downloads\bootstrap-3.4.1-dist\css\isolate.less" "C:\Users\rwilson1\Downloads\bootstrap-3.4.1-dist\bootstrap-raw-samplecomponent.css"
 ```
 
+If you run into any issue with this command try adding in the --math=strict command line option.  Some version of Bootstrap that use the calc method in their CSS can cause issues if this is not turned on.
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYxOTIyMDksMTg4NzI4NjYxNyw0NT
-YzOTg4MTksLTYyNDU0NjYyNCw1MDcxODUwMjFdfQ==
+eyJoaXN0b3J5IjpbNjMzODkyNDIzLDE4ODcyODY2MTcsNDU2Mz
+k4ODE5LC02MjQ1NDY2MjQsNTA3MTg1MDIxXX0=
 -->
