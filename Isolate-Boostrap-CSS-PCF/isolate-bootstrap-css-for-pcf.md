@@ -39,9 +39,13 @@ lessc --math=strict "<less file location>" "<css file output>"
 
 After you run the Less in the command prompt navigate back to your bootstrap CSS folder and you will now see the output file you created.
 
+Finally to utilize this new file we need to add it to our PCF component.  To do this first drop the file into the solution and open the ControlManifest.Input.xml
+
+Add a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQxMjE0MzgsMTg4NzI4NjYxNyw0NT
-YzOTg4MTksLTYyNDU0NjYyNCw1MDcxODUwMjFdfQ==
+eyJoaXN0b3J5IjpbLTM4NjE2NzYzMywtMTQzNDEyMTQzOCwxOD
+g3Mjg2NjE3LDQ1NjM5ODgxOSwtNjI0NTQ2NjI0LDUwNzE4NTAy
+MV19
 -->
