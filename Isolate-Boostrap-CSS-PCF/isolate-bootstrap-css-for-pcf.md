@@ -41,11 +41,14 @@ After you run the Less in the command prompt navigate back to your bootstrap CSS
 
 Finally to utilize this new file we need to add it to our PCF component.  To do this first drop the file into the solution and open the ControlManifest.Input.xml
 
-Add a
+Add the new css file to the resources node.  This will ensure that your css file gets loaded when the control is initialized.
+
+Finally we need to apply our css class to the PCF components container object.  This will ensure that all of our styles are applied.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjE2NzYzMywtMTQzNDEyMTQzOCwxOD
+eyJoaXN0b3J5IjpbMTQ2MDAzOTUzMiwtMTQzNDEyMTQzOCwxOD
 g3Mjg2NjE3LDQ1NjM5ODgxOSwtNjI0NTQ2NjI0LDUwNzE4NTAy
 MV19
 -->
