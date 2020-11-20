@@ -27,9 +27,9 @@ Next we will add the project that will hole the PCF projects to the solution.
 
 Right click on your solution and choose Add Project
 
-
+Choose a Blank Node.js Console Application and ensure it's the one with TypeScript.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDg2NzQzNCwxNjA0NjY2NTAxLDQxNj
-YxMTA5MywtMzU4OTc1NDczXX0=
+eyJoaXN0b3J5IjpbOTg3OTAxNCwxNjA0NjY2NTAxLDQxNjYxMT
+A5MywtMzU4OTc1NDczXX0=
 -->
