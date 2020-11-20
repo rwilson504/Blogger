@@ -7,7 +7,9 @@ Open **Visual Studio Installer**
 Add **Node.js development** option
 
 ## Typescript - Get Current Version SDK
-In order to get TypeScript Intellisense for your PCF component in Visual Studio you will need to install the current TypeScript SDK.  Open a PowerShell windows and run the following command to get your current TypeScript version.
+In order to get TypeScript Intellisense for your PCF component in Visual Studio you will need to install the TypeScript SDK which matches the version of TypeScript current installed on your machine.
+
+Open a PowerShell windows and run the following command to get your current TypeScript version.
 ```
 tsc --version
 ```
@@ -18,6 +20,12 @@ Search the online list of Extensions for **typescript**.  Then find the version 
 
 A new browser windows will open and the TypeScript SDK will be downloaded.  Run the downloaded installer.
 
+After you install the SDK you will need to re-start Visual Studio or possibly your computer before the Intellisense will start working.
+
+## Visual Studio - Add Node.js Console Project
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2NjExMDkzLC0zNTg5NzU0NzNdfQ==
+eyJoaXN0b3J5IjpbMTYwNDY2NjUwMSw0MTY2MTEwOTMsLTM1OD
+k3NTQ3M119
 -->
