@@ -30,7 +30,10 @@ Right click on your solution and choose Add Project
 Choose a Blank Node.js Console Application and ensure it's the one with TypeScript.
 
 Click the Next button
+
+## Initialize New PCF Component
+Now t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDEyNDM2MCwxNjA0NjY2NTAxLDQxNj
-YxMTA5MywtMzU4OTc1NDczXX0=
+eyJoaXN0b3J5IjpbNjU5NDg5NDg0LDE4NTQxMjQzNjAsMTYwND
+Y2NjUwMSw0MTY2MTEwOTMsLTM1ODk3NTQ3M119
 -->
