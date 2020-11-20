@@ -38,7 +38,9 @@ Create a new folder in your new Node.js project which will hold your PCF code.
 
 Open a Developer PowerShell in Visual Studio
 
+Run the command 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDk1MjgzMiwxODU0MTI0MzYwLDE2MD
-Q2NjY1MDEsNDE2NjExMDkzLC0zNTg5NzU0NzNdfQ==
+eyJoaXN0b3J5IjpbNTA5ODkyNjYxLC03NDA5NTI4MzIsMTg1ND
+EyNDM2MCwxNjA0NjY2NTAxLDQxNjYxMTA5MywtMzU4OTc1NDcz
+XX0=
 -->
