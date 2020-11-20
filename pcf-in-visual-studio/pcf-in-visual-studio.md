@@ -1,12 +1,18 @@
 
-## Heading Visual Studio 
+## Visual Studio - Add Node.js Development
 Open **Visual Studio Installer**
 
 **Modify** your current Visual Studio instance.
 
 Add **Node.js development** option
 
-> Written with [StackEdit](https://stackedit.io/).
+## Typescript - Get Current Version SDK
+Open a PowerShell windows and run the following command to get your current TypeScript version.
+```
+tsc --version
+```
+
+Open Visual Studio
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODA3NjcwNSwtMzU4OTc1NDczXX0=
+eyJoaXN0b3J5IjpbMTI2MzAzMDY4MCwtMzU4OTc1NDczXX0=
 -->
