@@ -12,7 +12,7 @@ Open a PowerShell windows and run the following command to get your current Type
 tsc --version
 ```
 
-Open Visual Studio
+Open Visual Studio and navigate in the toolbar to Extensions -> Manage Extensions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzAzMDY4MCwtMzU4OTc1NDczXX0=
+eyJoaXN0b3J5IjpbMTUwMjg5ODQ3NiwtMzU4OTc1NDczXX0=
 -->
