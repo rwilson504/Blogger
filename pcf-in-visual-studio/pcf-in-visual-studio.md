@@ -23,9 +23,13 @@ A new browser windows will open and the TypeScript SDK will be downloaded.  Run 
 After you install the SDK you will need to re-start Visual Studio or possibly your computer before the Intellisense will start working.
 
 ## Visual Studio - Add Node.js Console Project
+Next we will add the project that will hole the PCF projects to the solution.
+
+Right click on your solution and choose Add Project
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDY2NjUwMSw0MTY2MTEwOTMsLTM1OD
-k3NTQ3M119
+eyJoaXN0b3J5IjpbMTA5MDg2NzQzNCwxNjA0NjY2NTAxLDQxNj
+YxMTA5MywtMzU4OTc1NDczXX0=
 -->
