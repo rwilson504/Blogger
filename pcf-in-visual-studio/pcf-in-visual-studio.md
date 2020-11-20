@@ -32,8 +32,8 @@ Choose a Blank Node.js Console Application and ensure it's the one with TypeScri
 Click the Next button
 
 ## Initialize New PCF Component
-Now t
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5NDg5NDg0LDE4NTQxMjQzNjAsMTYwND
+eyJoaXN0b3J5IjpbLTQ0MzA0ODk4LDE4NTQxMjQzNjAsMTYwND
 Y2NjUwMSw0MTY2MTEwOTMsLTM1ODk3NTQ3M119
 -->
