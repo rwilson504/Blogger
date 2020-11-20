@@ -29,7 +29,8 @@ Right click on your solution and choose Add Project
 
 Choose a Blank Node.js Console Application and ensure it's the one with TypeScript.
 
+Click the Next button
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3OTAxNCwxNjA0NjY2NTAxLDQxNjYxMT
-A5MywtMzU4OTc1NDczXX0=
+eyJoaXN0b3J5IjpbMTg1NDEyNDM2MCwxNjA0NjY2NTAxLDQxNj
+YxMTA5MywtMzU4OTc1NDczXX0=
 -->
