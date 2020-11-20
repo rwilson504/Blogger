@@ -32,8 +32,13 @@ Choose a Blank Node.js Console Application and ensure it's the one with TypeScri
 Click the Next button
 
 ## Initialize New PCF Component
+Now that the environment and solution are all set up we can start initializing new PCF Components.
+
+Create a new folder in your new Node.js project which will hold your PCF code.
+
+Open a Developer PowerShell in Visual Studio
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzA0ODk4LDE4NTQxMjQzNjAsMTYwND
-Y2NjUwMSw0MTY2MTEwOTMsLTM1ODk3NTQ3M119
+eyJoaXN0b3J5IjpbLTc0MDk1MjgzMiwxODU0MTI0MzYwLDE2MD
+Q2NjY1MDEsNDE2NjExMDkzLC0zNTg5NzU0NzNdfQ==
 -->
