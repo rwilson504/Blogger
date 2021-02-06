@@ -6,7 +6,8 @@ For those working in the U.S. Government or DoD/Military space needing the Power
 **NOTE: Before attempting the video or written instructions below, contact your system administrator to determine which U.S. Government region you belong to.**
 
 ## Video Tutorial
-[![Install PowerApps Mobile for U.S. Government and DoD](http://img.youtube.com/vi/rP16iRNXq5M/0.jpg)](http://www.youtube.com/watch?v=rP16iRNXq5M "Install PowerApps Mobile for U.S. Government and DoD")
+Click the image below to open the YouTube video.
+[![Install PowerApps Mobile for U.S. Government and DoD](http://img.youtube.com/vi/beWOKp0Xq4E/0.jpg)](http://www.youtube.com/watch?v=beWOKp0Xq4E "Install PowerApps Mobile for U.S. Government and DoD")
 
 ## Instructions
 Here are the instruction on how to install the Power Apps mobile application and change the region setting before you log in.
@@ -30,6 +31,6 @@ xzb24gKFJBVylcbnRhZ3M6ID4tXG4gIHBvd2VyYXBwcyxtb2Jp
 bGUsYW5kcm9pZCxpcGhvbmUsZ292ZXJubWVudCxwdWJsaWNzZW
 N0b3IsdXNnb3Zlcm5tZW50LGRvZCxtaWxpYXJ5LG1pY3Jvc29m
 dCxkeW5hbWljcyxwb3dlcnBsYXRmb3JtLGRhdGF2ZXJzZVxuIi
-wiaGlzdG9yeSI6WzEwODA1MjkwMTIsMTkxODUxMTI2NiwtMTAw
-NDM3MTAzNCw4OTYzMzM0ODldfQ==
+wiaGlzdG9yeSI6WzI5MTAzNTkyMSwxMDgwNTI5MDEyLDE5MTg1
+MTEyNjYsLTEwMDQzNzEwMzQsODk2MzMzNDg5XX0=
 -->
