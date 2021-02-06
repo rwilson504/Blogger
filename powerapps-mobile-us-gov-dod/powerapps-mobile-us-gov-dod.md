@@ -3,7 +3,10 @@ For those of you working in the U.S. Government of DoD space utilizing the Power
  - US Government CGG High
  - US Government DoD
 
+Here are the instruction on how to install the Power Apps mobile application on Android and change the Region setting before you log in.  Before you attempt this talk with your system administrator to determine which Region your organizational data resides in.
+
+ - Open "Google 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjU2NDAxODUsODk2MzMzNDg5XX0=
+eyJoaXN0b3J5IjpbNTE4MTYyMTk4LDg5NjMzMzQ4OV19
 -->
