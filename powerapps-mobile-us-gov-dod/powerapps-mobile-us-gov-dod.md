@@ -10,7 +10,7 @@ For those of you working in the U.S. Government or DoD/Military space using the 
 ## Instructions
 Here are the instruction on how to install the Power Apps mobile application and change the region setting before you log in.
 
- - Android : Open Google Play store / iPhone: Open 
+ - **Android** : Open Google Play / **iPhone**: Open App Store
  - Search for "powerapps"
  - Install the Power Apps mobile app
  - Open the Power Apps mobile app
@@ -22,5 +22,5 @@ Here are the instruction on how to install the Power Apps mobile application and
  - Click the right arrow to begin the sign-in process
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTA3OTAxNjMsODk2MzMzNDg5XX0=
+eyJoaXN0b3J5IjpbLTEwMDQzNzEwMzQsODk2MzMzNDg5XX0=
 -->
