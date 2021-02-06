@@ -1,4 +1,4 @@
-For those of you working in the U.S. Government of DoD space Microsoft has separate date centers whe
+For those of you working in the U.S. Government of DoD space Microsoft has separate Regions (collection of data centers) where information is stored.  Organization in the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA5Njg5NDEsODk2MzMzNDg5XX0=
+eyJoaXN0b3J5IjpbMTQ0MzI1MTc0Myw4OTYzMzM0ODldfQ==
 -->
