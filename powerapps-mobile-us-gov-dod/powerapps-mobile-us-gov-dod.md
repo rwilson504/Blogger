@@ -3,7 +3,9 @@ For those of you working in the U.S. Government of DoD space utilizing the Power
  - US Government CGG High
  - US Government DoD
 
-Here are the instruction on how to install the Power Apps mobile application on Android and change the Region setting before you log in.  Before you attempt this talk with your system administrator to determine which Region your organizational data resides in.
+Before you attempt following the video or instructions below cont your system administrator to determine which Region your organizational data resides in.
+
+Here are the instruction on how to install the Power Apps mobile application on Android and change the Region setting before you log in.  
 
  - Open Google Play store
  - Search for "powerapps"
@@ -11,8 +13,11 @@ Here are the instruction on how to install the Power Apps mobile application on 
  - Open the Power Apps mobile app
  - Click the gear icon in the lower right hand corner of the app.
  - Select "Region settings" from the menu
- - Select your
+ - Select your correct region in the drop down
+ - Click the "OK" button to save your region settings
+ - Enter your organizational email address
+ - Click the right arrow to begin the sign-in process
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3MzY1NjczLDg5NjMzMzQ4OV19
+eyJoaXN0b3J5IjpbODUwODIwMzQ0LDg5NjMzMzQ4OV19
 -->
