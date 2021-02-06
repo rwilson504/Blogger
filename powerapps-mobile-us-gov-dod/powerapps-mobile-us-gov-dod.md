@@ -1,4 +1,4 @@
-For those of you working in the U.S. Government or DoD/Military space using the Power Apps mobile application on your phone an additional step must be taken before you attempt to sign-in.  The reason for this is that Microsoft has separate Regions (collection of data centers) where U.S. Government information is stored.  Current there are three region dedicated to the U.S. Government and Military. For additional information on these regions and Dynamics 365 within these regions [click here](https://docs.microsoft.com/en-us/power-platform/admin/microsoft-dynamics-365-government).
+For those of you working in the U.S. Government or DoD/Military space using the Power Apps mobile application on your phone, an additional step must be taken before you attempt to sign-in.  Microsoft has separate regions (collection of data centers) where U.S. Government information is stored.  Current there are three region dedicated to the U.S. Government and Military, for additional information [click here](https://docs.microsoft.com/en-us/power-platform/admin/microsoft-dynamics-365-government).
  - US Government GCC
  - US Government CGG High
  - US Government DoD
@@ -22,5 +22,5 @@ Here are the instruction on how to install the Power Apps mobile application on 
  - Click the right arrow to begin the sign-in process
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTI2MDk0NDUsODk2MzMzNDg5XX0=
+eyJoaXN0b3J5IjpbMjA4MzUxMjU1NSw4OTYzMzM0ODldfQ==
 -->
