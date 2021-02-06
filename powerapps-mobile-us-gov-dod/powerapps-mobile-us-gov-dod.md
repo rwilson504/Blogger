@@ -3,7 +3,7 @@ For those working in the U.S. Government or DoD/Military space needing the Power
  - US Government CGG High
  - US Government DoD
 
-**NOTE: Before attemp following the video or instructions below, contact your system administrator to determine which region your data resides in.**
+**NOTE: Before attempting the video or written instructions below, contact your system administrator to determine which U.S. Government region you belong to.**
 
 ## Video Tutorial
 [![Install PowerApps Mobile for U.S. Government and DoD](http://img.youtube.com/vi/rP16iRNXq5M/0.jpg)](http://www.youtube.com/watch?v=rP16iRNXq5M "Install PowerApps Mobile for U.S. Government and DoD")
@@ -23,6 +23,6 @@ Here are the instruction on how to install the Power Apps mobile application and
  - Click the right arrow to begin the sign-in process
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjAwODMxNiwxOTE4NTExMjY2LC0xMD
+eyJoaXN0b3J5IjpbMTQxNDY5MDMxNSwxOTE4NTExMjY2LC0xMD
 A0MzcxMDM0LDg5NjMzMzQ4OV19
 -->
