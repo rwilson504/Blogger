@@ -23,6 +23,13 @@ Here are the instruction on how to install the Power Apps mobile application and
  - Click the right arrow to begin the sign-in process
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDY5MDMxNSwxOTE4NTExMjY2LC0xMD
-A0MzcxMDM0LDg5NjMzMzQ4OV19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEluc3RhbGwvQ29uZmlndX
+JlIFBvd2VyIEFwcHMgTW9iaWxlIGZvciBVLlMuIEdvdmVybm1l
+bnQgYW5kIERvRCBVc2VyXG5hdXRob3I6IFJpY2hhcmQgQSBXaW
+xzb24gKFJBVylcbnRhZ3M6ID4tXG4gIHBvd2VyYXBwcyxtb2Jp
+bGUsYW5kcm9pZCxpcGhvbmUsZ292ZXJubWVudCxwdWJsaWNzZW
+N0b3IsdXNnb3Zlcm5tZW50LGRvZCxtaWxpYXJ5LG1pY3Jvc29m
+dCxkeW5hbWljcyxwb3dlcnBsYXRmb3JtLGRhdGF2ZXJzZVxuIi
+wiaGlzdG9yeSI6WzEwODA1MjkwMTIsMTkxODUxMTI2NiwtMTAw
+NDM3MTAzNCw4OTYzMzM0ODldfQ==
 -->
