@@ -16,7 +16,7 @@ Add a **Vertical gallery** within the horizonal container you created.
 Set the following propertie(s) on the Vertical gallery.
 * **ShowNavigation** = true (this isn't required but the navigation buttons make it much easier to move up and down the list when the up/down scrollbar is off the screen.)
 * **Height** = Parent.Height (if you are using the Show Navigation option then set this to Parent.Heigh - 20 so that the navigation buttons are not covered up by the scroll bar.)
-* **LayoutMinWidth** = 1000 (choose whatever size will allow you to fit all of you gallery fields)
+* **LayoutMinWidth** = 1000 (This value needs to be larger than the width of the horizontal container for the scrollbar to appears.  Choose a size will allow you to fit all of you gallery fields in the template.)
 
 Now we have a gallery that we can scroll left to right to see more data.  
 
