@@ -1,6 +1,10 @@
-So you have a lot of data to display but the screen in Power Apps isn't large enough.  My friend [Ronald Sease](https://www.linkedin.com/in/ronald-sease-888438111/) recently showed me how to create a gallery in Power Apps that you can scroll horizontally.  It's a simple soluti
+So you have a lot of data to display but the screen in Power Apps isn't large enough.  My friend [Ronald Sease](https://www.linkedin.com/in/ronald-sease-888438111/) recently showed me how to create a gallery in Power Apps that you can scroll horizontally.  It's a simple but powerful solution utilizing a horizontal container and a vertical gallery.
+
+## Demo
 
 ![Scrollable Gallery](https://github.com/rwilson504/Blogger/blob/master/scrollable-canvas-gallery/ScrollingCanvasGallery.gif?raw=true)
+
+## Instructions
 
 First add a **Horizontal container** to your screen.  
 
@@ -29,14 +33,14 @@ First let's make sure the seperator goes all the way across. Change the followin
 
 ![image](https://user-images.githubusercontent.com/7444929/110699445-dd34ec80-81bc-11eb-94a9-5b4891a6dfac.png)
 
-Next let's turn on the gallery loading spinner so our users know when the control is loading more data.  
+Next let's turn on the gallery loading spinner so our users know when the control is loading more data.  You can do this by clicking on the 
 
 ![image](https://user-images.githubusercontent.com/7444929/110703176-6f3ef400-81c1-11eb-8b68-e54730cb8c3e.png)
 
-Finally add any additional fields you want to show and update the heigh of the gallery template to your needs. **IMPORTANT NOTE** The Power Apps editor gets somewhat confused as to the placement of items after you have scrolled so in order to move the components around on the gallery template you will need to utilize the X/Y Position values on the controls.  
+Finally add any additional fields you want to show and update the height of the gallery template to your needs. **IMPORTANT NOTE** The Power Apps editor gets somewhat confused as to the placement of items after you have scrolled so in order to move the components around on the gallery template you will need to utilize the X/Y Position values on the controls.  
 
 ![image](https://user-images.githubusercontent.com/7444929/110702572-b1b40100-81c0-11eb-9b38-5cfd999b5ae6.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyODM1OTg3XX0=
+eyJoaXN0b3J5IjpbNTY1MDQ4OTc3XX0=
 -->
