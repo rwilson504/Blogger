@@ -10,8 +10,9 @@ First add a **Horizontal container** to your screen.
 
 ![Add Horizontal Container to Screen](https://user-images.githubusercontent.com/7444929/110697283-29326200-81ba-11eb-9893-138b0d7802e6.png)
 
-Set the following propertie(s) on the Horizontal container.
-* **LayoutOverflowX** = LayoutOverflow.Scroll
+Set the LayoutOverflowX property on the Horizontal container.
+
+**LayoutOverflowX** = LayoutOverflow.Scroll
 
 Add a **Vertical gallery** within the horizonal container you created.
 
@@ -29,11 +30,13 @@ Now we have a gallery that we can scroll left to right to see more data.
 Let's finish up designing our Gallery.  
 
 First let's make sure the seperator goes all the way across. Change the following property on the seperator.
-* **Width** = Parent.LayoutMinWidth
+
+**Width** = Parent.LayoutMinWidth
 
 ![image](https://user-images.githubusercontent.com/7444929/110699445-dd34ec80-81bc-11eb-94a9-5b4891a6dfac.png)
 
-Next let's turn on the gallery loading spinner so our users know when the control is loading more data.  You can do this by clicking on the 
+Next let's turn on the gallery loading spinner so our users know when the control is loading more data.  You can do this by clicking on the Gallery control and setting the following property.
+
 
 ![image](https://user-images.githubusercontent.com/7444929/110703176-6f3ef400-81c1-11eb-8b68-e54730cb8c3e.png)
 
@@ -42,5 +45,5 @@ Finally add any additional fields you want to show and update the height of the 
 ![image](https://user-images.githubusercontent.com/7444929/110702572-b1b40100-81c0-11eb-9b38-5cfd999b5ae6.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1MDQ4OTc3XX0=
+eyJoaXN0b3J5IjpbMTQ3MTc4ODg2XX0=
 -->
