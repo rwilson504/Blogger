@@ -1,8 +1,8 @@
-So you have a lot of data to display but the screen in Power Apps isn't large enough.  My friend [Ronald Sease](https://www.linkedin.com/in/ronald-sease-888438111/) recently showed me how to create a gallery in Power Apps that you can scroll horizontally.
+So you have a lot of data to display but the screen in Power Apps isn't large enough.  My friend [Ronald Sease](https://www.linkedin.com/in/ronald-sease-888438111/) recently showed me how to create a gallery in Power Apps that you can scroll horizontally.  It's a simple soluti
 
 ![Scrollable Gallery](https://github.com/rwilson504/Blogger/blob/master/scrollable-canvas-gallery/ScrollingCanvasGallery.gif?raw=true)
 
-First add a **Horizontal contianer** to your screen.  
+First add a **Horizontal container** to your screen.  
 
 ![Add Horizontal Container to Screen](https://user-images.githubusercontent.com/7444929/110697283-29326200-81ba-11eb-9893-138b0d7802e6.png)
 
@@ -37,3 +37,6 @@ Finally add any additional fields you want to show and update the heigh of the g
 
 ![image](https://user-images.githubusercontent.com/7444929/110702572-b1b40100-81c0-11eb-9b38-5cfd999b5ae6.png)
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTAyODM1OTg3XX0=
+-->
