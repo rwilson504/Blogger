@@ -13,5 +13,11 @@ Luckily [APIMATIC](https://www.apimatic.io/) allows you to convert the Postman 2
 Have fun creating custom connectors!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDM5MTM2NV19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBvd2VyIEF1dG9tYXRlIE
+N1c3RvbSBDb25uZWN0b3JzIC0gSW1wb3J0IFBvc3RtYW4gdjIg
+Q29sbGVjdGlvblxuYXV0aG9yOiBSaWNoYXJkIFdpbHNvblxudG
+FnczogJ1Bvd2VyQXV0b21hdGUsIFBvd2VyUGxhdGZvcm0sIEN1
+c3RvbUNvbm5lY3RvciwgUG93ZXJBcHBzLEFjdGlvbnMsVHJpZ2
+dlcnMnXG4iLCJoaXN0b3J5IjpbLTE0NzQ1MTI5NTEsLTc1NDM5
+MTM2NV19
 -->
