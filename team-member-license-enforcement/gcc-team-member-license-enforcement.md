@@ -16,8 +16,7 @@ Additional information on the license enforcement can be found on the [Microsoft
 ## What are the team license types?
 
 To better understand what licenses you currently have in your environment let's take a look the different team licenses.  The image below shows you the display names of the different
-team licenses available and what they can access.  As you can see there is a **Dynamics 365 for Team Members for Government** that has no restrictions.  These lisences were the ones
-purchased by organization before October 2018.  If your users have this license you will not see any changes and your apps will continue to work correctly.  If you have the 
+team licenses available and what they can access.  As you can see there is a **Dynamics 365 for Team Members for Government** that has no restrictions.  These licenses were the ones purchased by organizations before October 2018.  If your users have this license you will not see any changes and your apps will continue to work correctly.  That being said upgrading these to Power Apps licenses can open up a lot of new fun  If you have the 
 **Dynamics 365 for Team Members for Government** or **PowerApps for Dynamics 365 Team Members for Government** you will soon be limited to limited first party apps.
 ![image](https://user-images.githubusercontent.com/7444929/118153725-3818d900-b3e4-11eb-8269-ca393c7b60f2.png)
 
@@ -38,3 +37,6 @@ Also Upgrading your organization to Power Apps licenses can open up the opportun
 * [Power Apps Home Page](https://powerapps.microsoft.com/en-us/)
 * [Power Apps Guided Tour](https://dynamics.microsoft.com/en-us/guidedtour/power-platform/power-apps/1/1)
 * [Power Apps Pricing](https://powerapps.microsoft.com/en-us/pricing/)  Make sure you look for any promotional pricing that may be going on within the page that could apply to your organization.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzI0NDMyOTg3XX0=
+-->
