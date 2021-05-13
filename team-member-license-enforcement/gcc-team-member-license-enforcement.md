@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/7444929/118153758-3ea75080-b3e4-11eb-9d7d-079a8f53a627.png)
 
-If you have custom applications built on Dynamics/Dataverse within the US Government Community Cloud (GCC) and only have Team user licenes that were purchased after October 2018 your apps screen may soon like like the one above.
+If you have custom applications built on Dynamics/Dataverse within the US Government Community Cloud (GCC) and only have Team user license that were purchased after October 2018 your apps screen may soon like like the one above.
 
 These Team licenses were designed for access to very specific first party apps.
 * Customer Service Team Member
@@ -40,6 +40,6 @@ Vuc2UgRW5mb3JjZW1lbnQgaW4gR0NDXG5hdXRob3I6IFJpY2hh
 cmQgV2lsc29uXG50YWdzOiA+LVxuICBnY2MsIGdvdmVybm1lbn
 QsIGxpY2Vuc2UsXG4gIHBvd2VyYXBwcyxwb3dlcnBsYXRmb3Jt
 LGR5bmFtaWNzLGRhdGF2ZXJzZSxtaWNyb3NvZnQsdGVhbXMsdG
-VhbW1lbWJlclxuIiwiaGlzdG9yeSI6WzQ3NzE1MzcxMSwtOTc4
-NDcwMjg1XX0=
+VhbW1lbWJlclxuIiwiaGlzdG9yeSI6WzE1Mjc1MjM5NzksLTk3
+ODQ3MDI4NV19
 -->
