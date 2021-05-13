@@ -13,8 +13,7 @@ Additional information on the license enforcement can be found on the [Microsoft
 
 ## What are the team license types?
 
-To better understand what licenses you currently have in your environment let's take a look the different team licenses.  The image below shows you the display names of the different
-team licenses available and what they can access.  As you can see there is a **Dynamics 365 for Team Members for Government** that has no restrictions.  These licenses were the ones purchased by organizations before October 2018.  If your users have this license you will not see any changes and your apps will continue to work correctly.  That being said upgrading these to Power Apps licenses can open up a lot of new opportunity.  If you have the **Dynamics 365 for Team Members for Government** or **PowerApps for Dynamics 365 Team Members for Government** you will soon be limited to limited first party apps.
+To better understand what licenses you currently have in your environment let's take a look the different team licenses.  The image below shows you the display names of the different team licenses available and what they can access.  As you can see there is a **Dynamics 365 for Team Members for Government** that has no restrictions.  These licenses were the ones purchased by organizations before October 2018.  If your users have this license you will not see any changes and your apps will continue to work correctly.  That being said upgrading these to Power Apps licenses can open up a lot of new opportunity.  If you have the **Dynamics 365 for Team Members for Government** or **PowerApps for Dynamics 365 Team Members for Government** you will soon be limited to limited first party apps.
 ![image](https://user-images.githubusercontent.com/7444929/118153725-3818d900-b3e4-11eb-8269-ca393c7b60f2.png)
 
 ## Where do i find my license types?
@@ -39,6 +38,6 @@ Vuc2UgRW5mb3JjZW1lbnQgaW4gR0NDXG5hdXRob3I6IFJpY2hh
 cmQgV2lsc29uXG50YWdzOiA+LVxuICBnY2MsIGdvdmVybm1lbn
 QsIGxpY2Vuc2UsXG4gIHBvd2VyYXBwcyxwb3dlcnBsYXRmb3Jt
 LGR5bmFtaWNzLGRhdGF2ZXJzZSxtaWNyb3NvZnQsdGVhbXMsdG
-VhbW1lbWJlclxuIiwiaGlzdG9yeSI6Wy0yMTQ0MjAxOTcsLTk3
+VhbW1lbWJlclxuIiwiaGlzdG9yeSI6Wy01MjgyNzU3OTUsLTk3
 ODQ3MDI4NV19
 -->
