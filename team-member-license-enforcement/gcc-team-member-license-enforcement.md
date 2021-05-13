@@ -35,5 +35,11 @@ Upgrading your organization to Power Apps licenses will also allow your organiza
 * [Power Apps Guided Tour](https://dynamics.microsoft.com/en-us/guidedtour/power-platform/power-apps/1/1)
 * [Power Apps Pricing](https://powerapps.microsoft.com/en-us/pricing/)  Make sure you look for any promotional pricing that may be going on within the page that could apply to your organization.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzc5MzI0OSwtOTc4NDcwMjg1XX0=
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRlYW0gTWVtYmVyIExpY2
+Vuc2UgRW5mb3JjZW1lbnQgaW4gR0NDXG5hdXRob3I6IFJpY2hh
+cmQgV2lsc29uXG50YWdzOiA+LVxuICBnY2MsIGdvdmVybm1lbn
+QsIGxpY2Vuc2UsXG4gIHBvd2VyYXBwcyxwb3dlcnBsYXRmb3Jt
+LGR5bmFtaWNzLGRhdGF2ZXJzZSxtaWNyb3NvZnQsdGVhbXMsdG
+VhbW1lbWJlclxuIiwiaGlzdG9yeSI6WzQ3NzE1MzcxMSwtOTc4
+NDcwMjg1XX0=
 -->
