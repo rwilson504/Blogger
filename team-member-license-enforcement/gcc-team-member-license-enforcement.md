@@ -29,13 +29,12 @@ As an individual user you can check your license by going to your [Office 365 ac
 
 ## So what should i do?
 
-**Don't get caught off guard** by losing access to your applications.  If you are utilizing the newer Teams licenses for apps not includes within the first party list get together with your Microsoft sales representative or [contact sales directly](https://info.microsoft.com/ww-Landing-PowerApps-Contact-Us.html?LCID=EN-US).  
-They can help you figure out what license options are available to you and which ones best fit your organizations need.
+**Don't get caught off guard** by losing access to your applications.  If you are utilizing the newer Teams licenses for apps not includes within the first party list get together with your Microsoft sales representative or [contact sales directly](https://info.microsoft.com/ww-Landing-PowerApps-Contact-Us.html?LCID=EN-US).  They can help you figure out what license options are available and which ones best fit your organizational needs.
 
-Also upgrading your organization to Power Apps licenses will allow your organization to be part of the low code revolution.  See the links below for more information.
+Upgrading your organization to Power Apps licenses will also allow your organization to be part of the low code revolution.
 * [Power Apps Home Page](https://powerapps.microsoft.com/en-us/)
 * [Power Apps Guided Tour](https://dynamics.microsoft.com/en-us/guidedtour/power-platform/power-apps/1/1)
 * [Power Apps Pricing](https://powerapps.microsoft.com/en-us/pricing/)  Make sure you look for any promotional pricing that may be going on within the page that could apply to your organization.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1MjM4Njk4XX0=
+eyJoaXN0b3J5IjpbLTk3ODQ3MDI4NV19
 -->
