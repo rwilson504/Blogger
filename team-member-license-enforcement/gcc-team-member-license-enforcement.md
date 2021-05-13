@@ -7,8 +7,7 @@ These Team licenses were designed for access to very specific first party apps.
 * Sales Team Member
 * Project Resource Hub
 
-For a long time the restriction on these licenses in GCC had not had any sort of technical enforcement behind them but that is changing.  Restrictions are being put in place that will
-ensure users can only utilize the first party apps listed above.
+For a long time the restriction on these licenses in GCC had not had any sort of technical enforcement behind them but that is changing.  Restrictions are being put in place that will ensure users can only utilize the first party apps listed above.
 
 Additional information on the license enforcement can be found on the [Microsoft docs site](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-sales/license-enforcement-users-new-team-member-licenses).
 
@@ -40,6 +39,6 @@ Vuc2UgRW5mb3JjZW1lbnQgaW4gR0NDXG5hdXRob3I6IFJpY2hh
 cmQgV2lsc29uXG50YWdzOiA+LVxuICBnY2MsIGdvdmVybm1lbn
 QsIGxpY2Vuc2UsXG4gIHBvd2VyYXBwcyxwb3dlcnBsYXRmb3Jt
 LGR5bmFtaWNzLGRhdGF2ZXJzZSxtaWNyb3NvZnQsdGVhbXMsdG
-VhbW1lbWJlclxuIiwiaGlzdG9yeSI6WzE1Mjc1MjM5NzksLTk3
+VhbW1lbWJlclxuIiwiaGlzdG9yeSI6Wy0yMTQ0MjAxOTcsLTk3
 ODQ3MDI4NV19
 -->
