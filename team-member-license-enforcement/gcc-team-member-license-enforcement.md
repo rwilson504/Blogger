@@ -1,7 +1,6 @@
 ![image](https://user-images.githubusercontent.com/7444929/118153758-3ea75080-b3e4-11eb-9d7d-079a8f53a627.png)
 
-If you have custom applications built on Dynamics/Dataverse within the US Government Community Cloud (GCC) and only have Team user licenes that were purchased after 
-October 2018 your apps screen may soon like like the one above.
+If you have custom applications built on Dynamics/Dataverse within the US Government Community Cloud (GCC) and only have Team user licenes that were purchased after October 2018 your apps screen may soon like like the one above.
 
 These Team licenses were designed for access to very specific first party apps.
 * Customer Service Team Member
@@ -36,5 +35,5 @@ Upgrading your organization to Power Apps licenses will also allow your organiza
 * [Power Apps Guided Tour](https://dynamics.microsoft.com/en-us/guidedtour/power-platform/power-apps/1/1)
 * [Power Apps Pricing](https://powerapps.microsoft.com/en-us/pricing/)  Make sure you look for any promotional pricing that may be going on within the page that could apply to your organization.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODQ3MDI4NV19
+eyJoaXN0b3J5IjpbMTMzMzc5MzI0OSwtOTc4NDcwMjg1XX0=
 -->
