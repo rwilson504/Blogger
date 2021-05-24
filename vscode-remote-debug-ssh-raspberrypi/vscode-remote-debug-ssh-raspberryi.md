@@ -1,6 +1,8 @@
-While utilizing the [Remote Development tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) to connecto to a raspberry pi board using SSH I encountered the following error after doing a full OS reset on the pi.
+While utilizing the [Remote Development tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) to connecto to a raspberry pi board using SSH I encountered the following error after doing a full OS reset on the pi board.
 
-The detailed error within VS code was the following.
+![Visual Studio Code Error](https://user-images.githubusercontent.com/7444929/119375596-feb85700-bc88-11eb-835c-dd2e981f0909.png)
+
+The detailed error within the VS code console was the following.
 
 ``WARNING: POSSIBLE DNS SPOOFING DETECTED! @
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -23,4 +25,5 @@ Offending ECDSA key in /Users/admin/.ssh/known_hosts:1
 ECDSA host key for raspberrypi.local has changed and you have requested strict checking.
 Host key verification failed.``
 
-To fix this open file explorer to the location of the SSH configuration file.  There you will see another file called known_hosts.  You can either delete the file completely or if you open it up you can just remove the line specific to the device you are connecting to and save it.  You will be prompted the next time you connect using VS Code to update the key for that device which will then add the new key into this file.
+To fix this open file explorer to the location of the SSH configuration file.  There you will see another file called known_hosts.  You can either delete the file completely or edit it and remove the line specific to the device you are connecting to.  You will be prompted the next time you connect using VS Code to update the key for that device which will then add it back to this file.
+![Delete known_hosts file](https://user-images.githubusercontent.com/7444929/119375670-11cb2700-bc89-11eb-865a-6b5cfbb07bca.png)
