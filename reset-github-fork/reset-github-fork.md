@@ -1,4 +1,6 @@
-Getting started with Git can get confusing at times.  Recently when looking back at one of the first projects I forked from GitHub i realized i had done commits in my master branch instead of creating a branch.  I wanted to be able to merge changes back into the forks source so I figured it would be a good idea to reset my master back to it's original.  I was able to accomplish this using the commands below.
+Getting started with Git can get confusing at times.  Recently when looking back at one of the first projects I forked from GitHub (DefinitelyTyped) I realized I had done commits in my master branch instead of creating a branch.  I wanted to be able to merge changes back into the fork source so I figured it would be a good idea to reset my forked master back to the original git repo.  Also if you forked master is far behind the origin master you can also use this to bring your fork master up to date.
+
+Here is the script for forcing your forked master to match the current origin master.
 
 ```
 cd c:\code\DefinitelyTyped
