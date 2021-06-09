@@ -14,7 +14,7 @@ Next add an Application User to Dataverse. To do this follow the [instructions M
 ![App User Power Platform Admin Portal](https://github.com/rwilson504/Blogger/blob/master/call-dataverse-webapi-in-powershell-with-client-credentials/appuserinadminportal.png?raw=true)
 
 ## PowerShell Script
-Utilize the script below to connect get the Authorization token and make any Web API calls you want.  The Web API call in this script just pulls back the fullname of the first 10 contacts in the system.
+Utilize the script below to connect get the Authorization token and make any Web API calls you want.  The Web API call in this script just pulls back the fullname of the first 10 contacts in the system. If you want to view this file in GitHub [click here](https://github.com/rwilson504/Blogger/blob/master/call-dataverse-webapi-in-powershell-with-client-credentials/CallDataverseWebAPIUsingClientCredentials.ps1).
 
 ```
 <#
@@ -104,5 +104,5 @@ Write-Host $apiCallResponse.value
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzA5MzYxNTBdfQ==
+eyJoaXN0b3J5IjpbLTg1NTk3NTU2N119
 -->
