@@ -15,5 +15,11 @@ To see all the differences between Custom Process Actions and Custom API check o
 
 On a side note, most of the articles I found about creating a Custom API talked about creating the code first.  This ended up causing me a bit of a headache the first time i tried to deploy my Custom API code with [spkl](https://github.com/scottdurow/SparkleXrm/wiki/spkl). A null reference exception kept being throw during the registration.  I finally realized that I needed to create the Custom API record within my solution before actually attempting to deploy the code.  It was a silly mistake but one that cost me about an hour of my life which hopefully you can avoid 😀
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjg5ODk4MF19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEN1c3RvbSBQcm9jZXNzIE
+FjdGlvbiB2cyBDdXN0b20gQVBJIGluIERhdGF2ZXJzZVxuYXV0
+aG9yOiBSaWNoYXJkIFdpbHNvblxudGFnczogPi1cbiAgZGF0YX
+ZlcnNlLHdlYmFwaSxjdXN0b21wcm9jZXNzLGN1c3RvbXByb2Nl
+c3NhY3Rpb24sY3VzdG9tYWN0aW9uLGN1c3RvbWFwaSxhcGksZH
+luYW1pY3MscG93ZXJhcHBzXG4iLCJoaXN0b3J5IjpbLTIyOTUw
+NDI5Ml19
 -->
