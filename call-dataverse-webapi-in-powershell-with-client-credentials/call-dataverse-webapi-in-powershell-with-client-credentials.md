@@ -1,4 +1,4 @@
-![PowerShell Plus Dataverse](https://raw.githubusercontent.com/rwilson504/Blogger/master/custom-process-action-vs-custom-api/powershellplusdataverse.png)
+![PowerShell Plus Dataverse](https://github.com/rwilson504/Blogger/blob/master/call-dataverse-webapi-in-powershell-with-client-credentials/powershellplusdataverse.png?raw=true)
 
 Connecting to Dataverse using PowerShell can be very helpful for data migrations and use within Azure DevOps. Connecting to an instance in a non-interactive way can be tricky though. This article will provide you the links you need for creation and App registration and adding the app user to your environment. You can then utilize the script provided to call Web API requests including ones you define using the new [Custom API](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/custom-api) functionality now available.
 
@@ -11,7 +11,7 @@ The first thing to do is create an App Registration within Azure AD for Datavers
 
 ## Add App User to Dataverse
 Next add an Application User to Dataverse. To do this follow the [instructions Microsoft has provided](https://docs.microsoft.com/en-us/power-platform/admin/manage-application-users). Application users additional are also now available within the Power Platform Admin Portal
-![App User Power Platform Admin Portal](appuserinadminportal.png)
+![App User Power Platform Admin Portal](https://github.com/rwilson504/Blogger/blob/master/call-dataverse-webapi-in-powershell-with-client-credentials/appuserinadminportal.png?raw=true)
 
 ## PowerShell Script
 Utilize the script below to connect get the Authorization token and make any Web API calls you want.  The Web API call in this script just pulls back the fullname of the first 10 contacts in the system.
@@ -104,5 +104,5 @@ Write-Host $apiCallResponse.value
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTYwMDE5MF19
+eyJoaXN0b3J5IjpbLTEwNzA5MzYxNTBdfQ==
 -->
