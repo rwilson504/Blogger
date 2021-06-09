@@ -1,4 +1,4 @@
-![PowerShell Plus Dataverse](powershellplusdataverse.png)
+![PowerShell Plus Dataverse](https://raw.githubusercontent.com/rwilson504/Blogger/master/custom-process-action-vs-custom-api/powershellplusdataverse.png)
 
 Connecting to Dataverse using PowerShell can be very helpful for data migrations and use within Azure DevOps. Connecting to an instance in a non-interactive way can be tricky though. This article will provide you the links you need for creation and App registration and adding the app user to your environment. You can then utilize the script provided to call Web API requests including ones you define using the new [Custom API](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/custom-api) functionality now available.
 
@@ -103,3 +103,6 @@ $apiCallResponse = $apiCallRequest
 Write-Host $apiCallResponse.value
 
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTk3MTYwMDE5MF19
+-->
