@@ -13,7 +13,7 @@ The iamge belows shows the output after a completed run.  We can now see the Act
 
 ![2021-06-22_13-59-51](https://user-images.githubusercontent.com/7444929/122977991-02143080-d364-11eb-8326-7cd42369dd68.png)
 
-If you would like to return additional information from the Failed result test the flow in a way which will force it to fail then look at the flow run history.  Expand the 
+If you would like to return additional information from the Failed result test the flow in a way which will force it to fail then look at the flow run history.  Expand the Catch block and click on the Filter Result for Failed action.  You can see the body of what is returned in the result and utilize any of that additional information in generating your error message.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFJldHVybiBFcnJvciBpbi
@@ -21,5 +21,5 @@ BQb3dlciBBdXRvbWF0ZSBXaGVuIFVzaW5nIFRyeS9DYXRjaCBT
 Y29wZXNcbnRhZ3M6ID4tXG4gIHBvd2VyYXV0b21hdGUscG93ZX
 JhcHBzLGVycm9yLGFjdGlvbnMsY2xvdWRmbG93LGZsb3csdHJ5
 Y2F0Y2gsdHJ5Y2F0Y2hmaW5hbGx5LHRyeSxjYXRjaCxmaW5hbG
-x5XG4iLCJoaXN0b3J5IjpbLTExOTMzMzE2ODddfQ==
+x5XG4iLCJoaXN0b3J5IjpbMzA3MzEyMzQ0XX0=
 -->
