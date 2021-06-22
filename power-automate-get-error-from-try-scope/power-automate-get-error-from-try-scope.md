@@ -1,4 +1,4 @@
-When utilizing scopes within Power Automate to create a try/catch/finally statement it can be useful to provide additional details about any errors that occured within the try block.  The example below shows how to get the results of a Try block after it has failed and return that information.
+When utilizing scopes within Power Automate to create a try/catch/finally statement it can be useful to provide additional details about any errors that occurred within the try block.  The example below shows how to get the results of a try block after it has failed and return that information.
 
 To replicate this do the following: 
 
@@ -195,3 +195,11 @@ If you would like to return additional information from the Failed result here i
     }
 }
 ```
+<!--stackedit_data:
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFJldHVybiBFcnJvciBpbi
+BQb3dlciBBdXRvbWF0ZSBXaGVuIFVzaW5nIFRyeS9DYXRjaCBT
+Y29wZXNcbnRhZ3M6ID4tXG4gIHBvd2VyYXV0b21hdGUscG93ZX
+JhcHBzLGVycm9yLGFjdGlvbnMsY2xvdWRmbG93LGZsb3csdHJ5
+Y2F0Y2gsdHJ5Y2F0Y2hmaW5hbGx5LHRyeSxjYXRjaCxmaW5hbG
+x5XG4iLCJoaXN0b3J5IjpbNzgzNjczNTJdfQ==
+-->
