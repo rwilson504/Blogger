@@ -15,6 +15,8 @@ The iamge belows shows the output after a completed run.  We can now see the Act
 
 If you would like to return additional information from the Failed result test the flow in a way which will force it to fail then look at the flow run history.  Expand the Catch block and click on the Filter Result for Failed action.  You can see the body of what is returned in the result and utilize any of that additional information in generating your error message.
 
+![2021-06-22_14-42-10](https://user-images.githubusercontent.com/7444929/122981846-32f66480-d368-11eb-9176-8aef3509c830.png)
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFJldHVybiBFcnJvciBpbi
 BQb3dlciBBdXRvbWF0ZSBXaGVuIFVzaW5nIFRyeS9DYXRjaCBT
