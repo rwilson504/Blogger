@@ -5,16 +5,16 @@ This image shows the message bar displayed within Dataverse when you open a link
 Previously in order to open a specific application using a link you had to create the link with the [app suffix url](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/manage-access-apps-security-roles?view=op-9-1) or append the appid parameters to the url.  
 
 ``
-https://<Your Org>.crm.dynamics.com/apps/<Your App Suffix>/main.aspx?pagetype=entitylist&etn=contac
+https://<Your Org>.crm.dynamics.com/apps/<Your App Suffix>/main.aspx?pagetype=entitylist&etn=contact
 ``
 
 or 
 
 ``
-
+https://<Your Org>.crm.dynamics.com/main.aspx?appid=82853804-d2b3-4536-ba75-f49ccca681eapagetype=entitylist&etn=contact
 ``
 
-Th
+Getting the appid or suff
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2MTcwNzA4LC04NDM3OTk0NzJdfQ==
+eyJoaXN0b3J5IjpbLTM4NDY0NzgwMCwtODQzNzk5NDcyXX0=
 -->
