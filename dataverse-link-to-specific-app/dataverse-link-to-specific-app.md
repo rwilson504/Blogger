@@ -37,6 +37,10 @@ uriHost(outputs('Get_CDS_Record')?['body/value'][0]?['@odata.id'])
 
 The get the url in Power Apps you have some options.  You can call a Power Automate flow which will call out to a CDS record and return the host url using the same method I described earlier or you can utilize the [CDS Environment URL ](https://pcf.gallery/cds-environment-url/) PCF component from Dan Cox.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDUwNjMxOSwtMTIyMjk1NzU4NywxMz
-UyMDE2MDk2LC02MzQ4NzIxMjksLTg0Mzc5OTQ3Ml19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZW4gTW9kZWwgQXBwcy
+BVcmwgVXNpbmcgVW5pcXVlIE5hbWVcbnRhZ3M6ICdwb3dlcmFw
+cHMscG93ZXJhdXRvbWF0ZSxkYXRhdmVyc2UsbW9kZWxhcHAsbW
+9kZWwsdXJsLHVuaXF1ZSdcbiIsImhpc3RvcnkiOlstMTgxMzUx
+NjkwLC02NzA1MDYzMTksLTEyMjI5NTc1ODcsMTM1MjAxNjA5Ni
+wtNjM0ODcyMTI5LC04NDM3OTk0NzJdfQ==
 -->
