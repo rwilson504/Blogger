@@ -21,7 +21,9 @@ Recently when creating a new App in the maker portal I saw the app creation scre
 ``
 https://<Your Org>.crm.dynamics.com/Apps/uniquename/<Your App Unique Name>/main.aspx?appid=82853804-d2b3-4536-ba75-f49ccca681eapagetype=entitylist&etn=contact
 ``
+
+Because the unique name does not change between environment you can now eliminate any calls you previously did to the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzAxMjk5NCwtNjM0ODcyMTI5LC04ND
+eyJoaXN0b3J5IjpbMjA5NzgyNDQxNCwtNjM0ODcyMTI5LC04ND
 M3OTk0NzJdfQ==
 -->
