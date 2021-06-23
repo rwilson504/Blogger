@@ -1,6 +1,6 @@
 ![2021-06-23_11-14-09](https://user-images.githubusercontent.com/7444929/123127614-727c8980-d418-11eb-9f01-8731c4896e78.png)
 
-When generating links for records, lists or reports in a Dataverse environment it is important that they open the specific application they relate to so users have the best experience. To see more details about generating links for Dataverse [click here.](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/open-forms-views-dialogs-reports-url?view=op-9-1). 
+When generating links for records, lists or reports in a Dataverse environment it is important that they open the specific application they relate to so users have the best experience. To see more details about generating links for Dataverse [click here.](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/open-forms-views-dialogs-reports-url?view=op-9-1)
 
 ![2021-06-23_10-59-18](https://user-images.githubusercontent.com/7444929/123127398-3ba67380-d418-11eb-9eff-85b6f39d2ed5.png)
 This image shows the message bar displayed within Dataverse when you open a link not directed to a specific application.
@@ -40,7 +40,7 @@ The get the url in Power Apps you have some options.  You can call a Power Autom
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZW4gTW9kZWwgQXBwcy
 BVcmwgVXNpbmcgVW5pcXVlIE5hbWVcbnRhZ3M6ICdwb3dlcmFw
 cHMscG93ZXJhdXRvbWF0ZSxkYXRhdmVyc2UsbW9kZWxhcHAsbW
-9kZWwsdXJsLHVuaXF1ZSdcbiIsImhpc3RvcnkiOlstMTgxMzUx
-NjkwLC02NzA1MDYzMTksLTEyMjI5NTc1ODcsMTM1MjAxNjA5Ni
-wtNjM0ODcyMTI5LC04NDM3OTk0NzJdfQ==
+9kZWwsdXJsLHVuaXF1ZSdcbiIsImhpc3RvcnkiOlstMjA1MzAx
+NjYwMCwtNjcwNTA2MzE5LC0xMjIyOTU3NTg3LDEzNTIwMTYwOT
+YsLTYzNDg3MjEyOSwtODQzNzk5NDcyXX0=
 -->
