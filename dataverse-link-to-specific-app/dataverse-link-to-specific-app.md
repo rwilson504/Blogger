@@ -28,8 +28,8 @@ Because the unique name does not change between environment you can now eliminat
 uriHost(outputs('Get_CDS_Record')?['body/value'][0]?['@odata.id'])
 ``
 
-The get the url in PowerApps you have two
+The get the url in PowerApps you have some options.  You can call a Power Automate flow which will call out to a CDS record and return the host url using the same method I described earlier or you can utilize the Environment URL PCF control from Dan Cox 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNzMyMDY0LC02MzQ4NzIxMjksLTg0Mz
-c5OTQ3Ml19
+eyJoaXN0b3J5IjpbLTQ5ODY4MTQ2MCwtNjM0ODcyMTI5LC04ND
+M3OTk0NzJdfQ==
 -->
