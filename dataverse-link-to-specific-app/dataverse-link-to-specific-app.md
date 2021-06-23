@@ -2,10 +2,13 @@ When generating links for records, lists or reports in a Dataverse environment i
 
 This image shows the message bar displayed within Dataverse when you open a link not directed to a specific application.
 
-Previously in order to open a specific application using a link you had to either create the link and include the [app suffix url](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/manage-access-apps-security-roles?view=op-9-1) or you can append the appid parameters to the url.  
+Previously in order to open a specific application using a link you had to create the link with the [app suffix url](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/manage-access-apps-security-roles?view=op-9-1) or append the appid parameters to the url.  
 
+``
+https://<Your Org>.crm.dynamics.com/apps/<Y>
+``
 
 Th
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTg1NjQzNCwtODQzNzk5NDcyXX0=
+eyJoaXN0b3J5IjpbMTM0MTU0Mjc5NSwtODQzNzk5NDcyXX0=
 -->
