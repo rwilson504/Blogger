@@ -13,13 +13,13 @@ or
 
 Using App Id
 ``
-https://<Your Org>.crm.dynamics.com/main.aspx?appid=82853804-d2b3-4536-ba75-f49ccca681eapagetype=entitylist&etn=contact
+https://<Your Org>.crm.dynamics.com/main.aspx?appid=82853804-d2b3-4536-ba75-f49ccca681ea&pagetype=entitylist&etn=contact
 ``
 
 Recently when creating a new App in the maker portal I saw the app creation screen now includes a Unified Interface URL which populates when you set the name of the app.  The format of the url looks like this.
 
 ``
-https://<Your Org>.crm.dynamics.com/Apps/uniquename/<Your App Unique Name>/main.aspx?appid=82853804-d2b3-4536-ba75-f49ccca681eapagetype=entitylist&etn=contact
+https://<Your Org>.crm.dynamics.com/Apps/uniquename/<Your App Unique Name>/main.aspx?pagetype=entitylist&etn=contact
 ``
 
 Because the unique name does not change between environment you can now eliminate any calls you previously did to the Model-driven App entity.  You may still need to get the host url for the environment you are in if using Power Apps or Power Automate.  To get the url in Power Automate you can make a call to any Dataverse entity and then parse out the url from the @odata.id value of any record you return.
@@ -30,6 +30,6 @@ uriHost(outputs('Get_CDS_Record')?['body/value'][0]?['@odata.id'])
 
 The get the url in PowerApps you have some options.  You can call a Power Automate flow which will call out to a CDS record and return the host url using the same method I described earlier or you can utilize the [CDS Environment URL ](https://pcf.gallery/cds-environment-url/) PCF component from Dan Cox.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjAxNjA5NiwtNjM0ODcyMTI5LC04ND
-M3OTk0NzJdfQ==
+eyJoaXN0b3J5IjpbLTEyMjI5NTc1ODcsMTM1MjAxNjA5NiwtNj
+M0ODcyMTI5LC04NDM3OTk0NzJdfQ==
 -->
