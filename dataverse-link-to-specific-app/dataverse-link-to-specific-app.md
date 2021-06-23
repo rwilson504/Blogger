@@ -22,8 +22,8 @@ Recently when creating a new App in the maker portal I saw the app creation scre
 https://<Your Org>.crm.dynamics.com/Apps/uniquename/<Your App Unique Name>/main.aspx?appid=82853804-d2b3-4536-ba75-f49ccca681eapagetype=entitylist&etn=contact
 ``
 
-Because the unique name does not change between environment you can now eliminate any calls you previously did to the Model-driven App entity.  You may still need to get the host url for the environment you are in if using Power Apps or Power Automate.
+Because the unique name does not change between environment you can now eliminate any calls you previously did to the Model-driven App entity.  You may still need to get the host url for the environment you are in if using Power Apps or Power Automate.  To get the url in Power Automate you can make a call to a Dataverse entity and then parse out the url from the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTkwOTUxNzQsLTYzNDg3MjEyOSwtOD
+eyJoaXN0b3J5IjpbLTIxNDQzNDQ0NDUsLTYzNDg3MjEyOSwtOD
 QzNzk5NDcyXX0=
 -->
