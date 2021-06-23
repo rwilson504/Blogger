@@ -18,8 +18,10 @@ https://<Your Org>.crm.dynamics.com/main.aspx?appid=82853804-d2b3-4536-ba75-f49c
 
 Recently when creating a new App in the maker portal I saw the app creation screen now includes a Unified Interface URL which populates when you set the name of the app.  The format of the url looks like this.
 
-
+``
+https://<Your Org>.crm.dynamics.com/Apps/uniquename/<Your App Unique Name>/main.aspx?appid=82853804-d2b3-4536-ba75-f49ccca681eapagetype=entitylist&etn=contact
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjA2NjYxOSwtNjM0ODcyMTI5LC04ND
+eyJoaXN0b3J5IjpbMTUyNzAxMjk5NCwtNjM0ODcyMTI5LC04ND
 M3OTk0NzJdfQ==
 -->
