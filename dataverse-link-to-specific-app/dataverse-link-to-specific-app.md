@@ -2,7 +2,7 @@ When generating links for records, lists or reports in a Dataverse environment i
 
 This image shows the message bar displayed within Dataverse when you open a link not directed to a specific application.
 
-Previously in order to open a specific application using a link you had to create the link with the [app suffix url](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/manage-access-apps-security-roles?view=op-9-1) or append the appid parameters to the url.  
+Previously in order to open a specific application using a link you had to create the link with the [app suffix url](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/manage-access-apps-security-roles?view=op-9-1) or append the appid parameters to the url.
 
 ``
 https://<Your Org>.crm.dynamics.com/apps/<Your App Suffix>/main.aspx?pagetype=entitylist&etn=contact
@@ -13,8 +13,6 @@ or
 ``
 https://<Your Org>.crm.dynamics.com/main.aspx?appid=82853804-d2b3-4536-ba75-f49ccca681eapagetype=entitylist&etn=contact
 ``
-
-Getting the appid or suff
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDY0NzgwMCwtODQzNzk5NDcyXX0=
+eyJoaXN0b3J5IjpbLTIwNTk1MjgzMjAsLTg0Mzc5OTQ3Ml19
 -->
