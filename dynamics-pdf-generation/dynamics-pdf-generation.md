@@ -1,4 +1,6 @@
-Dynamics allows you to easily generate all your Word Templates as [PDF files](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-quote-pdf).  Last year they expanded the functionality beyone just the out of the box sales entities to all custom entities.  In order to enable the functionality though you need to do some configuration.  Below are the different methods in which you can turn the PDF generation on or off for entities.
+![2021-06-24_17-09-43](https://user-images.githubusercontent.com/7444929/123333167-658e9180-d50f-11eb-91e6-1ce770308f59.png)
+
+Dataverse allows you to easily generate your Word Templates as [PDF files](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-quote-pdf).  Last year they expanded the functionality beyone just the out of the box sales entities to all custom entities.  In order to enable the functionality though you need to do some configuration.  Below are the different methods in which you can turn the PDF generation on or off for entities.
 
 **Note**: Aftert updating these settings in whatever manor make sure you [clear your browser data](https://support.microsoft.com/en-us/windows/microsoft-edge-browsing-data-and-privacy-bb8174ba-9d73-dcf2-9b4a-c582b4e640dd).  The ribbon stores the values for which entities are enabled and disabled within the browser session.  If you don't do this you may not see the PDF generation buttons show up after you enable them.
 
@@ -26,10 +28,14 @@ If you don't have sales installed on your system you can still enable this featu
 
 First we will open FetchXML Builder and retrieve the pdfsetting entity, we will need to specify the pdfsettingsid and pdfsettingsjson attributes.  This will return a single records.  Copy the outputs of these fields to your text editor.
 
+![2021-06-24_13-52-57](https://user-images.githubusercontent.com/7444929/123332434-7c80b400-d50e-11eb-9c85-a7bcccd1b45c.png)
+
 Next I will utilize the WebAPI Launcher to update the pdfsettign entity with our updated json which will contain all the entities you want to enable for PDF generation.
 
+![2021-06-24_15-19-38](https://user-images.githubusercontent.com/7444929/123332462-84d8ef00-d50e-11eb-9d55-d7101b2b611d.png)
+
 ## Method 4 (PowerShell)
-Because the PDF settings are stored per envrionment you may want to update them as part of your ALM.  One way of doing this would be to run a PowerShell script which sets them during deployment.  To learn more about how to connect to Dataverse using PowerShell check out [this article](https://www.richardawilson.com/2021/06/calling-dataverse-web-api-in-powershell.html).
+Because the PDF settings are stored per envrionment you may want to update them as part of your ALM.  One way of doing this would be to run a PowerShell script which sets them during deployment.  To learn more about how to connect to Dataverse using PowerShell check out [this article](https://www.richardawilson.com/2021/06/calling-dataverse-web-api-in-powershell.html).  The following Invoke-RestMethod calls would get the existing pdfsetting entity and then update that entity with the JSON you want.
 
 ```
 ##########################################################
