@@ -20,7 +20,7 @@ For this example I'm using emails supplied by a service called Tadpole which my 
 ![2021-06-25_19-32-46](https://user-images.githubusercontent.com/7444929/123494377-9fce6080-d5ed-11eb-9aae-55dc092b1ed2.png)
 
 ## Gmail Label and Filter
-The first thing i did was went into my Gamil and created a new label for the incoming emails.  The name of the service the school use is Tadpole so i made that my label.  I think created a filter so that all emails coming from the Tadpole address would get that label applied.  All of this is important because otherwise your Flow will run on everything in your Inbox which could be a lot of messages and you could end up running into API limits for Flow depending on your license.
+The first thing i did was went into my Gmail and created a new label for the incoming emails.  The name of the service the school use is Tadpole so i made that my label.  I think created a filter so that all emails coming from the Tadpole address would get that label applied.  All of this is important because otherwise your Flow will run on everything in your Inbox which could be a lot of messages and you could end up running into API limits for Flow depending on your license.
 
 ![2021-06-25_15-23-53](https://user-images.githubusercontent.com/7444929/123493442-73fdab80-d5ea-11eb-8882-e7aab0a1b7c6.png)
 
@@ -97,5 +97,5 @@ In order to test my flow I added another Gmail filter that would tagged any emai
 ![2021-06-25_20-05-43](https://user-images.githubusercontent.com/7444929/123495267-128d0b00-d5f1-11eb-95d9-0b4db5f1a0d4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTY5MDI4NTldfQ==
+eyJoaXN0b3J5IjpbMTM1NDQxNTMwOV19
 -->
