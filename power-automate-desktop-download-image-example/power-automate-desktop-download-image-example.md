@@ -1,3 +1,5 @@
+![2021-06-25_20-38-09](https://user-images.githubusercontent.com/7444929/123496929-b928da00-d5f8-11eb-991b-e216185ec8dc.png)
+
 After watching the RPA (Robotic Process Automation) demo from Steve Winward [Real-Life Use case using AI Builder Form Processing with Power Automate Desktop](https://www.youtube.com/watch?v=r6f0m1Bn878) I have been looking for ways to utilize [Power Automate Desktop Flows](https://flow.microsoft.com/en-us/desktop) in order to make my life a little easier.  Yesterday like every day I started clicking through the emails that I receive from my kids schools.  I open each email, download the image, then move the image to a network drive on my computer. This takes me a few minutes every day but my kids are worth it :) This scenario was a perfect one for me to automate using Desktop Flows since they can access the network drive on my desktop.
 
 The basic flow of the solution will be as follows:
