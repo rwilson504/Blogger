@@ -1,7 +1,7 @@
-After watching the RPA (Robotic Process Automation) demo from Steve Winward [Real-Life Use case using AI Builder Form Processing with Power Automate Desktop](https://www.youtube.com/watch?v=r6f0m1Bn878) I have been looking for ways to utilize Power Automate Desktop Flows in order to make my life a little easier.  Yesterday like every day I started clicking through all the emails that I receive from my kids schools.  I open each email, download the image, then move the image to a network drive on my computer. This takes me a few minutes every day but my kids are worth it :) This scenario was a perfect one for me to automate using Desktop Flows since they can access the network drive on my desktop.
+After watching the RPA (Robotic Process Automation) demo from Steve Winward [Real-Life Use case using AI Builder Form Processing with Power Automate Desktop](https://www.youtube.com/watch?v=r6f0m1Bn878) I have been looking for ways to utilize [Power Automate Desktop Flows](https://flow.microsoft.com/en-us/desktop) in order to make my life a little easier.  Yesterday like every day I started clicking through the emails that I receive from my kids schools.  I open each email, download the image, then move the image to a network drive on my computer. This takes me a few minutes every day but my kids are worth it :) This scenario was a perfect one for me to automate using Desktop Flows since they can access the network drive on my desktop.
 
 The basic flow of the solution will be as follows:
-- A Power Automate Cloud Flow will be set up to run whenever a new email comes into my gmail account with a specific tag.
+- A Power Automate Cloud Flow will be triggered to run whenever a new email comes into my Gmail account with a specific tag.
 - The Cloud Flow will gather up all the information needed to run the Desktop Flow
 - The Cloud Flow call the Desktop Flow by connecting through an On-Premise Data Gateway that is installed on my desktop.
 - The Desktop Flow will download the image and save it to my network drive.
@@ -97,5 +97,5 @@ In order to test my flow I added another Gmail filter that would tagged any emai
 ![2021-06-25_20-05-43](https://user-images.githubusercontent.com/7444929/123495267-128d0b00-d5f1-11eb-95d9-0b4db5f1a0d4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzUyNDkzMzRdfQ==
+eyJoaXN0b3J5IjpbNzgzMjA2NzEwXX0=
 -->
