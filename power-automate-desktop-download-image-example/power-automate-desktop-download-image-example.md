@@ -46,14 +46,14 @@ Check to see if the network drive folder exists and if not create it.
 Finally we will download the file using the url provided as an input variable and save it to our network drive folder.  
 ![2021-06-25_15-48-55](https://user-images.githubusercontent.com/7444929/123493760-73b1e000-d5eb-11eb-8f67-373abdb36ccd.png)
 
-We have not successfully created our Desktop flow. Make sure you save it and then you can test it by clickin the run button in the editor.  
+We have not successfully created our Desktop flow. Make sure you save it and then you can test it by clicking the Run button in the editor.  
 ![2021-06-25_15-51-50](https://user-images.githubusercontent.com/7444929/123493782-8fb58180-d5eb-11eb-8ca6-f0e76e48efbe.png)
 
 
 ## Creating the Cloud Flow
-Now that we have created oru desktop flow we need to run it any time an email arrives in our Tadpole inbox.  This flow also needs to extract the Url for the image and pass that information to the cloude flow.
+Now that we have created our Desktop Flow we need to run it any time an email arrives in our Tadpole inbox.  This flow also needs to extract the rrl for the image and pass that information to the Desktop Flow.
 
-The image below is a high level outline of the Flow we are going to build.  
+Here is a high level outline of the Flow we are going to build.  
 ![2021-06-25_17-08-39](https://user-images.githubusercontent.com/7444929/123493050-4fed9a80-d5e9-11eb-9b23-1d8c51ec76c9.png)
 
 Now let's get started building! We will start by creating a solution in the maker portal.  
@@ -62,7 +62,7 @@ Now let's get started building! We will start by creating a solution in the make
 Add a new Cloud Flow.  
 ![2021-06-25_16-12-41](https://user-images.githubusercontent.com/7444929/123493154-a5c24280-d5e9-11eb-8399-9490a6296802.png)
 
-Setup for our Gmail trigger.  Again if you havent created a new Application within the Google console you should do that now using the instructions located [here](https://docs.microsoft.com/en-us/connectors/gmail/#creating-an-oauth-client-application-in-google).  
+Setup for our Gmail trigger.  Again if you haven't created a new Application within the Google console you should do that now using the instructions located [here](https://docs.microsoft.com/en-us/connectors/gmail/#creating-an-oauth-client-application-in-google).  
 ![2021-06-25_16-14-53](https://user-images.githubusercontent.com/7444929/123493166-afe44100-d5e9-11eb-8da6-69d15274ad66.png)
 
 ![2021-06-25_16-24-09](https://user-images.githubusercontent.com/7444929/123493197-c4283e00-d5e9-11eb-8b68-92c885f76b76.png)
@@ -96,3 +96,6 @@ In order to test my flow I added another Gmail filter that would tagged any emai
 
 ![2021-06-25_20-05-43](https://user-images.githubusercontent.com/7444929/123495267-128d0b00-d5f1-11eb-95d9-0b4db5f1a0d4.png)
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQzMDk0NzQ1NV19
+-->
