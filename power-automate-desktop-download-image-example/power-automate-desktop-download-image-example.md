@@ -11,8 +11,8 @@ In order to complete all this you will need the following.
 
 - Access to a Power Apps environment.  If you don't have one you can try it out by signing up for a Developer Plan [here](https://powerapps.microsoft.com/en-us/developerplan/).
 - Power Automate Desktop.  This needs to be installed on your computer, download it [here](https://flow.microsoft.com/en-us/desktop).
-- On-Premise data gateway.  This is how the online Power Automate cloud flows will connect to your Desktop Flows.  You can download it [here](https://www.microsoft.com/en-us/download/details.aspx?id=53127).
-- A Application registration for Gmail.  You cannot use the default shared application because it's not compatible with the Encodian or any other external Flow actions. Learn how to create this [here](https://docs.microsoft.com/en-us/connectors/gmail/#creating-an-oauth-client-application-in-google).
+- On-Premise data gateway.  This is how the online Power Automate cloud flows will connect to your Desktop Flows.  You can download it [here](https://www.microsoft.com/en-us/download/details.aspx?id=53127).  Instructions for installation can be found [here](https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-install).
+- An application registration for Gmail within the Google console.  You cannot use the default shared application because it's not compatible with the Encodian actions or any other external Flow actions. Learn how to create this [here](https://docs.microsoft.com/en-us/connectors/gmail/#creating-an-oauth-client-application-in-google).
 - API key for Encodian to utilize their Regex action in your flow. You can sign up for one [here](https://www.encodian.com/products/flowr/#form)
 
 ## Inspecting the Email
@@ -97,5 +97,5 @@ In order to test my flow I added another Gmail filter that would tagged any emai
 ![2021-06-25_20-05-43](https://user-images.githubusercontent.com/7444929/123495267-128d0b00-d5f1-11eb-95d9-0b4db5f1a0d4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTY0OTQ2Nl19
+eyJoaXN0b3J5IjpbLTEyNTY5MDI4NTldfQ==
 -->
