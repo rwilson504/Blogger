@@ -69,7 +69,7 @@ Setup for our Gmail trigger.  Again if you haven't created a new Application wit
 
 ![2021-06-25_16-21-51](https://user-images.githubusercontent.com/7444929/123493181-ba063f80-d5e9-11eb-8398-2554f1e6be75.png)
 
-All the emails that contain images have my kids names at the beginning of the subject so i will set up a condition to make sure that this is an image email and also extract that data so i can use it to save the image later.  
+All the emails that contain images have kids names at the beginning of the subject so i will set up a condition to make sure that this is an image email and also extract that data so i can use it to save the image later.  
 ![2021-06-25_16-27-59](https://user-images.githubusercontent.com/7444929/123493239-dace9500-d5e9-11eb-9e0b-1cdaa11ef310.png)
 
 ![2021-06-25_16-32-34](https://user-images.githubusercontent.com/7444929/123493249-e1f5a300-d5e9-11eb-9b5d-250b57380912.png)
@@ -96,6 +96,9 @@ In order to test my flow I added another Gmail filter that would tagged any emai
 
 ![2021-06-25_20-05-43](https://user-images.githubusercontent.com/7444929/123495267-128d0b00-d5f1-11eb-95d9-0b4db5f1a0d4.png)
 
+
+## Conclusion
+I hope this example shows you how you can utilize RPA to automate those little tasks you do every day.  Automating things like this free up your time so you can spend it 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDk0NzQ1NV19
+eyJoaXN0b3J5IjpbLTEzNTYxMDYzOTddfQ==
 -->
