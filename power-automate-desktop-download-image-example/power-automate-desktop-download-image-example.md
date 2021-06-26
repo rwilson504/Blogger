@@ -11,7 +11,7 @@ In order to complete all this you will need the following.
 
 - Access to a Power Apps environment.  If you don't have one you can try it out by signing up for a Developer Plan [here](https://powerapps.microsoft.com/en-us/developerplan/)
 - Power Automate Desktop.  This needs to be installed on your computer, download it [here](https://flow.microsoft.com/en-us/desktop)
-- On-Premise data gateway.  This is how the online Power Automate cloud flows will connect to your deckstop flows.  You can download it [here](https://www.microsoft.com/en-us/download/details.aspx?id=53127)
+- On-Premise data gateway.  This is how the online Power Automate cloud flows will connect to your Desktop Flows.  You can download it [here](https://www.microsoft.com/en-us/download/details.aspx?id=53127)
 - A Application registration for Gmail.  You cannot use the defualt shared application because it's not compatible with the Encodian or any other external Flow actions. Learn how to create this [here](https://docs.microsoft.com/en-us/connectors/gmail/#creating-an-oauth-client-application-in-google).
 - API key for Encodian to utilize their Regex action in your flow. You can sign up for one [here](https://www.encodian.com/products/flowr/#form)
 
@@ -20,7 +20,7 @@ For this example I'm using emails supplied by a service called Tadpole which my 
 ![2021-06-25_19-32-46](https://user-images.githubusercontent.com/7444929/123494377-9fce6080-d5ed-11eb-9aae-55dc092b1ed2.png)
 
 ## Gmail Label and Filter
-The first thing i did was went into my Gamil and created a new label for the incoming emails.  The name of the service the school use is Tadpole so i made that my label.  I think created a filter so that all emails comging from the Tadpole address would get that label applied.  All of this is important because otherwise your Flow will run on everything in your Inbox which could be a lot of messages and you could end up running into API limits for Flow depdenting on your license.
+The first thing i did was went into my Gamil and created a new label for the incoming emails.  The name of the service the school use is Tadpole so i made that my label.  I think created a filter so that all emails coming from the Tadpole address would get that label applied.  All of this is important because otherwise your Flow will run on everything in your Inbox which could be a lot of messages and you could end up running into API limits for Flow depending on your license.
 
 ![2021-06-25_15-23-53](https://user-images.githubusercontent.com/7444929/123493442-73fdab80-d5ea-11eb-8882-e7aab0a1b7c6.png)
 
@@ -96,9 +96,6 @@ In order to test my flow I added another Gmail filter that would tagged any emai
 
 ![2021-06-25_20-05-43](https://user-images.githubusercontent.com/7444929/123495267-128d0b00-d5f1-11eb-95d9-0b4db5f1a0d4.png)
 
-
-## Conclusion
-I hope this example shows you how you can utilize RPA to automate those little tasks you do every day.  Automating things like this free up your time so you can spend it 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTYxMDYzOTddfQ==
+eyJoaXN0b3J5IjpbMjEwOTE4MzcxN119
 -->
