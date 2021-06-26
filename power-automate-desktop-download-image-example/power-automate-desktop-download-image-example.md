@@ -97,5 +97,11 @@ In order to test my flow I added another Gmail filter that would tagged any emai
 ![2021-06-25_20-05-43](https://user-images.githubusercontent.com/7444929/123495267-128d0b00-d5f1-11eb-95d9-0b4db5f1a0d4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDQxNTMwOV19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBvd2VyIEF1dG9tYXRlIE
+Rlc2t0b3AgRXhhbXBsZSAtIERvd25sb2FkaW5nIEltYWdlIEZy
+b20gRW1haWwgVG8gTmV0d29yayBEcml2ZVxuYXV0aG9yOiBSaW
+NoYXJkIEEuIFdpbHNvblxudGFnczogPi1cbiAgcnBhLHBvd2Vy
+YXV0b21hdGUscG93ZXJhdXRvbWF0ZWRlc2t0b3AsZGVza3RvcG
+Zsb3csZmxvdyxleG1hcGxlLGRvd25sb2FkLG5ldHdvcmssZW1h
+aWwsdXJsXG4iLCJoaXN0b3J5IjpbMzE1NTE2Mjc0XX0=
 -->
