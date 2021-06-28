@@ -48,7 +48,7 @@ Check to see if the network drive folder exists and if not create it.
 Finally we will download the file using the url provided as an input variable and save it to our network drive folder.  
 ![2021-06-25_15-48-55](https://user-images.githubusercontent.com/7444929/123493760-73b1e000-d5eb-11eb-8f67-373abdb36ccd.png)
 
-We have not successfully created our Desktop flow. Make sure you save it and then you can test it by clicking the Run button in the editor.  
+We have now successfully created our Desktop flow. Make sure you save it and then you can test it by clicking the Run button in the editor.  
 ![2021-06-25_15-51-50](https://user-images.githubusercontent.com/7444929/123493782-8fb58180-d5eb-11eb-8ca6-f0e76e48efbe.png)
 
 
@@ -105,6 +105,6 @@ b20gRW1haWwgVG8gTmV0d29yayBEcml2ZVxuYXV0aG9yOiBSaW
 NoYXJkIEEuIFdpbHNvblxudGFnczogPi1cbiAgcnBhLHBvd2Vy
 YXV0b21hdGUscG93ZXJhdXRvbWF0ZWRlc2t0b3AsZGVza3RvcG
 Zsb3csZmxvdyxleG1hcGxlLGRvd25sb2FkLG5ldHdvcmssZW1h
-aWwsdXJsXG4iLCJoaXN0b3J5IjpbNzYwMDI5ODE2LDMxNTUxNj
-I3NF19
+aWwsdXJsXG4iLCJoaXN0b3J5IjpbLTk1Nzg0MDU3LDc2MDAyOT
+gxNiwzMTU1MTYyNzRdfQ==
 -->
