@@ -25,5 +25,10 @@ The information returned to the page comes from a single WebAPI call.  If you wi
 https://<Your Org>.crm.dynamics.com/api/data/v9.0/RetrieveUserAppDebugInfo(UserIdOrEmail%20='testuser2@rawonet.onmicrosoft.com')
 ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE5OTU5OTZdfQ==
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE1vZGVsIEFwcCBBY2Nlc3
+MgQ2hlY2tlciBmb3IgRGF0YXZlcnNlXG5hdXRob3I6IFJpY2hh
+cmQgQS4gV2lsc29uXG50YWdzOiA+LVxuICBwb3dlcnBsYXRmb3
+JtLGFkbWluLHNlY3VyaXR5LGxpY2Vuc2luZyxhY2Nlc3MsY2hl
+Y2tlcixhcHBzLG1vZGVsYXBwLFxuICBkYXRhdmVyc2UscG93ZX
+JhcHBzXG4iLCJoaXN0b3J5IjpbLTE4NTU4MDEyMDJdfQ==
 -->
