@@ -19,7 +19,7 @@ In order to complete all this you will need the following.
 
 ## Inspecting the Email
 For this example I'm using emails supplied by a service called Tadpole which my kids school uses to send out images and notification.  The first thing I had to do was use the developer tools (F12) within the browser to help me understand how the urls were formatted for the service and how they worked.  After searching through the html I figured out the formatting and found that if i used one of the parameters found in the one link for d=t that it would download the full size image.
-![2021-06-25_19-32-46](https://user-images.githubusercontent.com/7444929/123494377-9fce6080-d5ed-11eb-9aae-55dc092b1ed2.png)
+![2021-06-25_19-32-46](https://user-images.githubusercontent.com/7444929/123862479-613eeb80-d8f6-11eb-968b-fb25a2887e11.png)
 
 ## Add Gmail Label and Filter
 The first thing i did was went into my Gmail and created a new label for the incoming emails.  The name of the service the school use is Tadpole so i made that my label.  I think created a filter so that all emails coming from the Tadpole address would get that label applied.  All of this is important because otherwise your Flow will run on everything in your Inbox which could be a lot of messages and you could end up running into API limits for Flow depending on your license.
