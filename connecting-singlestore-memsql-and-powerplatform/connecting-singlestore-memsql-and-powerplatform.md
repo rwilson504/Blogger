@@ -1,7 +1,7 @@
 # Connecting SingleStore (memSQL) On-Premise and Power Platform
 - Part 1 - Overview
 - **Part 2 - Installing SingleStore and Createing Demo Data**
-- Part 3 - Install On-Premise Data Connector
+- Part 3 - Install On-Premise Data Gateway
 - Part 4 - Getting Data Directly Using Power Automate and Power Apps
 - Part 5 - Utilizing Azur API Management and Logic Apps
 
@@ -80,4 +80,4 @@ INSERT INTO salaries (employeeId, salary) VALUES
 After you execute the query you will now have some data which you can test with.  
 ![image](https://user-images.githubusercontent.com/7444929/137364472-0a965352-d939-4c57-b071-7c8753f4f310.png)
 
-In the next part we will install the On-Premise data connector which will allow us to access this data within Azure and the Power Platform.
+In the next part we will install the On-Premise data gateway which will allow us to access this data within Azure and the Power Platform.
