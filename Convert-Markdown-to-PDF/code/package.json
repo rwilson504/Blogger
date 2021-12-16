@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "md-to-pdf": "^2.8.1"
+    "md-to-pdf": "^5.0.0"
   }
 }
