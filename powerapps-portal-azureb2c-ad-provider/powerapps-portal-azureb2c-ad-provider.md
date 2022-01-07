@@ -86,5 +86,10 @@ Now when a user attempts to register using your AD provider the email, first nam
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODEyMDgyMV19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBvd2VyIEFwcHMgUG9ydG
+FsIC0gQ29uZmlndXJlIEF6dXJlIEFEIFByb3ZpZGVyIGluIEF6
+dXJlIEIyQ1xuYXV0aG9yOiBSaWNoYXJkIFdpbHNvblxudGFncz
+ogJ3Bvd2VyYXBwcyxwb3J0YWwsYXp1cmUsYWN0aXZlZGlyZWN0
+b3J5LGIyYydcbiIsImhpc3RvcnkiOlstNTYxMTM3OTU0LDE4Nj
+gxMjA4MjFdfQ==
 -->
