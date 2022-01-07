@@ -84,12 +84,13 @@ Now when a user attempts to register using your AD provider the email, first nam
 ![B2C Login Page](https://user-images.githubusercontent.com/7444929/148600720-4b044ee1-6b12-43cf-8e40-a96328cfb66b.png)
 ![Profile Page After Login](https://user-images.githubusercontent.com/7444929/148600771-89a76665-4662-424a-85f7-7f5a342ec09e.png)
 
-
+## Invitation Info
+One thing I discovered through all this was that the Invitation system still works correctly after moving to B2C.  I was able to create Invitations for contact and redeem those invitation with the B2C provider in the exact same mannor I did with the other aut
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBvd2VyIEFwcHMgUG9ydG
 FsIC0gQ29uZmlndXJlIEF6dXJlIEFEIFByb3ZpZGVyIGluIEF6
 dXJlIEIyQ1xuYXV0aG9yOiBSaWNoYXJkIFdpbHNvblxudGFncz
 ogJ3Bvd2VyYXBwcyxwb3J0YWwsYXp1cmUsYWN0aXZlZGlyZWN0
-b3J5LGIyYydcbiIsImhpc3RvcnkiOlstNTYxMTM3OTU0LDE4Nj
+b3J5LGIyYydcbiIsImhpc3RvcnkiOlsxNzA5MTgyNzY5LDE4Nj
 gxMjA4MjFdfQ==
 -->
