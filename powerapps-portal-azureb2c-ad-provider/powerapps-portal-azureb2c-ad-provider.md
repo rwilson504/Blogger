@@ -1,19 +1,17 @@
-# Power Apps Portal - Configure Azure AD Provider in Azure B2C
-
 It is recommended that you no longer use Local Login authentication for Power Apps Portal but instead utilize Azure Active Directory B2C to provide this type of authentication. See [Migrate identity providers to Azure AD B2C
 ](https://docs.microsoft.com/en-us/powerapps/maker/portals/configure/migrate-identity-providers)
 
-Configuring the B2C providers is fairly straightforward utilizing the the new preview interface [Configure the Azure Active Directory B2C provider](https://docs.microsoft.com/en-us/powerapps/maker/portals/configure/configure-azure-ad-b2c-provider).  Make sure you navigate to the preview version of the Maker portal for now to access this, [https://make.preview.powerapps.com/](https://make.preview.powerapps.com/).
+Configuring the B2C providers is fairly straightforward utilizing the new preview interface [Configure the Azure Active Directory B2C provider](https://docs.microsoft.com/en-us/powerapps/maker/portals/configure/configure-azure-ad-b2c-provider).  Make sure you navigate to the preview version of the Maker portal for now to access this, [https://make.preview.powerapps.com/](https://make.preview.powerapps.com/).
 
 For this article my goals were the following.
-* Set the existing Azure AD and Local Login configuration as deprectated authentication mechanisms within the portal to migrate the users to B2C.
+* Set the existing Azure AD and Local Login configuration as deprecated authentication mechanisms within the portal to migrate the users to B2C.
 * Allow user to authenticate to B2C using Azure AD, Google or create local B2C account.
 
 ![Original log in screen](https://user-images.githubusercontent.com/7444929/148592406-10108368-93ab-4308-a721-23f4412a8a22.png "Original Login Screen")
 
-## Depreacate Old Providers
+## Deprecate Old Providers
 
-Once I had run through the [instructions](https://docs.microsoft.com/en-us/powerapps/maker/portals/configure/configure-azure-ad-b2c-provider) for configuring the Azure B2C authentication I then had to mark the Local Login and Azure AD authentication mehtods as deprecated.  This ensures that when existing users log into the Portal using those methods they will then be asked to migrate their account to B2C.
+Once I had run through the [instructions](https://docs.microsoft.com/en-us/powerapps/maker/portals/configure/configure-azure-ad-b2c-provider) for configuring the Azure B2C authentication I then had to mark the Local Login and Azure AD authentication methods as deprecated.  This ensures that when existing users log into the Portal using those methods, they will then be asked to migrate their account to B2C.
 
 ![Account Migration](https://user-images.githubusercontent.com/7444929/148592949-b3d4f3ad-e5e2-48a4-92b3-624f5d7a14c8.png "Account Migration Screen")
 
@@ -27,8 +25,8 @@ The site setting for deprecated the local authentication was already in my site 
 | ----------- | ----------- |
 | Authentication/Registration/LocalLoginDeprecated      | true       |
 
-### Set Azure AD Authentication as Deprected
-In order to deprecate other providers you need to create the site settings for them and set the value to true. The format for these values are.
+### Set Azure AD Authentication as Deprecated
+In order to deprecate other providers you need to create the site settings for them and set the value to true. The format for these values is.
 ``
 Authentication/[protocol]/[provider]/Deprecated	
 ``
@@ -40,12 +38,12 @@ Authentication/[protocol]/[provider]/Deprecated
 | Authentication/OpenIdConnect/AzureAD/Deprecated      | true       |
 
 ### Google Identity Provider
-Setting up the Google identity provider was easily and the instructions provided worked without any issues. See [Set up sign-up and sign-in with a Google account using Azure Active Directory B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-google?pivots=b2c-user-flow)
+Setting up the Google identity provider was easy and the instructions provided worked without any issues. See [Set up sign-up and sign-in with a Google account using Azure Active Directory B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-google?pivots=b2c-user-flow)
 
 ### Azure AD Provider
 The instructions for [Adding an Azure Active Directory provider to Azure Active Directory B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-azure-ad-single-tenant?pivots=b2c-user-flow) but there were a few items missing to get it working correctly with Power Apps Portal.
 
-If you don't complete the additional steps you will end up with users in your B2C who do not have an email address assigned to them.  Additionally the persons email, first name and last name will not be provided to the portal which will result in the following error screen when new users attempt to register.
+If you don't complete the additional steps you will end up with users in your B2C who do not have an email address assigned to them.  Additionally, the persons email, first name and last name will not be provided to the portal which will result in the following error screen when new users attempt to register.
 ![Email field is required](https://user-images.githubusercontent.com/7444929/148596769-659b9c43-3bfb-42c8-a921-20c99063bfdc.png "Email field is required")
 
 The first thing we need to do after creating the Azure AD provider app registration is to update the token configuration.  This will ensure that email, first name, and last name are included correctly in the token.
@@ -87,3 +85,6 @@ Now when a user attempts to register using your AD provider the email, first nam
 ![Profile Page After Login](https://user-images.githubusercontent.com/7444929/148600771-89a76665-4662-424a-85f7-7f5a342ec09e.png)
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTg2ODEyMDgyMV19
+-->
