@@ -1,11 +1,14 @@
-Power Automate Desktop - Adding Items to Sharepoint 
-(Let me count the ways 1... 2.... 3...)
+Power Automate Desktop - How to Add Items to SharePoint, Let me count the ways...
 
-[Screen Recording](#screen-recording)
-[SharePoint REST API](#sharepoint-rest-api)
+* [Screen Recording](#screen-recording)
+* [SharePoint REST API](#sharepoint-rest-api)
+* [Powershell PnP](#powershell-pnp)
 
 ## Screen Recording
 
+One issue i did run into while building this automation was that after the first record creation the validation on the SharePoint create screen always said that my required field were not filled in even though they were.  To work around this I added a Browser Reaload Web Page action at the start of each loop to reload the SharePoint list url.
+
+If you copy the code below you can paste it into the Power Automate Desktop design surface to get started. 
 ```
 Excel.LaunchExcel.LaunchAndOpen Path: $'''C:\\Files\\Desktop\\MOCK_CLIENT_DATA.xlsx''' Visible: True ReadOnly: False LoadAddInsAndMacros: False Instance=> ExcelInstance
 @@timestamp: '01/27/2022 02:14:39'
@@ -208,6 +211,22 @@ WebAutomation.CloseWebBrowser BrowserInstance: Browser
 
 ## SharePoint REST API
 
+### Create a Service Principal
+[Granting access using SharePoint App-Only](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
+
+### Enable Tenant for App-Only Access
+At the time I wrote this article I was unable to run these commands with PowerShell v7, so if you run into any issues that the term is not recognized for Connect-SPOService run these commands in PowerShell v5.
+
+Additionally after you run this command it can take some time for it to propegate, so go grab some coffee or drink of your choice.
+
+```
+Install-Module -Name Microsoft.Online.SharePoint.PowerShell
+Connect-SPOService -Url https://yoursharepoint-admin.sharepoint.com
+set-spotenant -DisableCustomAppAuthentication $false
+```
+
+
+If you copy the code below you can paste it into the Power Automate Desktop design surface to get started. 
 ```
 Excel.LaunchExcel.LaunchAndOpen Path: $'''C:\\Files\\Desktop\\MOCK_CLIENT_DATA.xlsx''' Visible: True ReadOnly: False LoadAddInsAndMacros: False Instance=> ExcelInstance
 Excel.GetFirstFreeColumnRow Instance: ExcelInstance FirstFreeColumn=> FirstFreeColumn FirstFreeRow=> FirstFreeRow
@@ -235,10 +254,24 @@ Excel.CloseExcel.Close Instance: ExcelInstance
 SET NumberOfClients TO ExcelData.RowsCount
 ```
 
-## Powershell - PnP
+## Powershell PnP
+
+### Install SharePoint PnP
+```
+Install-Module -Name PnP.PowerShell
+Register-PnPManagementShellAccess
+```
+
+![image](https://user-images.githubusercontent.com/7444929/151807568-b5516ce7-4b51-4520-a012-77e23f248554.png)
+
 
 [How to use the Windows Credential Manager to ease authentication with PnP PowerShell](https://github.com/pnp/PnP-PowerShell/wiki/How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell)
 
+```
+Add-PnPStoredCredential -Name https://yourtenant.sharepoint.com -Username youraccount@yourtenant.onmicrosoft.com -Password (ConvertTo-SecureString -String "YourPassword" -AsPlainText -Force)
+```
+
+If you copy the code below you can paste it into the Power Automate Desktop design surface to get started. 
 ```
 Excel.LaunchExcel.LaunchAndOpen Path: $'''C:\\files\\Desktop\\MOCK_CLIENT_DATA.xlsx''' Visible: True ReadOnly: False LoadAddInsAndMacros: False Instance=> ExcelInstance
 Excel.GetFirstFreeColumnRow Instance: ExcelInstance FirstFreeColumn=> FirstFreeColumn FirstFreeRow=> FirstFreeRow
