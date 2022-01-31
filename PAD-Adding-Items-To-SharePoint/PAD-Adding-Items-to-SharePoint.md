@@ -210,21 +210,25 @@ WebAutomation.CloseWebBrowser BrowserInstance: Browser
 ```
 
 ## SharePoint REST API
+The SharePoint REST API offer a huge amount of capabilities for carrying out actions within SharePoint.  In order to utilize them within Power Automate Desktop we can use the **Invoke web service** action.  In order to utilize the web service it must have the proper authentication information sent along with it.  The authentication mechanism will consist of a service principal, within sharepoint there are two options for doing this.  The first is App-only authentication which can be configured through the use of SharePoint pages and is detailsed [here](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs). Additionally you can utilize AD-only authentication which is newer and prefered for SharePoint Only but does not work in SharePoitn On-Premise.  For the secario I choose to utilize the App-Only method due to the greater simplicity in setting it up and the ablity for it to function Online and On-Premise.
 
 ### Create a Service Principal
-[Granting access using SharePoint App-Only](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
+Creating the service principal and configuring it's permissions are well documented at [Setting up an app-only principal with tenant permissions](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs#setting-up-an-app-only-principal-with-tenant-permissions)
+
+After you have created the service principal you may also need to ensure that app-only authentication is not disabled.  The is detailed in the next section.
 
 ### Enable Tenant for App-Only Access
-At the time I wrote this article I was unable to run these commands with PowerShell v7, so if you run into any issues that the term is not recognized for Connect-SPOService run these commands in PowerShell v5.
+Newer tenants may App-only access disabled.  In order to enable you will need to update the setting for the SharePoint tenant.  This can be done though the use of the [SharePoint PnP PowerShell Cmdlets.](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps)
 
-Additionally after you run this command it can take some time for it to propegate, so go grab some coffee or drink of your choice.
+After you run these command it can take some time for it to propegate, so go grab some coffee or drink of your choice.
 
 ```
 Install-Module -Name Microsoft.Online.SharePoint.PowerShell
-Connect-SPOService -Url https://yoursharepoint-admin.sharepoint.com
-set-spotenant -DisableCustomAppAuthentication $false
+Install-Module -Name PnP.PowerShell
+Register-PnPManagementShellAccess
+Connect-PnPOnline -Url https://yoursharepoint.sharepoint.com
+Set-PnPTenant -DisableCustomAppAuthentication $false
 ```
-
 
 If you copy the code below you can paste it into the Power Automate Desktop design surface to get started. 
 ```
