@@ -1,6 +1,9 @@
 Power Automate Desktop - Adding Items to Sharepoint 
 (Let me count the ways 1... 2.... 3...)
 
+[Screen Recording](#screen-recording)
+[SharePoint REST API](#sharepoint-rest-api)
+
 ## Screen Recording
 
 ```
@@ -233,6 +236,8 @@ SET NumberOfClients TO ExcelData.RowsCount
 ```
 
 ## Powershell - PnP
+
+[How to use the Windows Credential Manager to ease authentication with PnP PowerShell](https://github.com/pnp/PnP-PowerShell/wiki/How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell)
 
 ```
 Excel.LaunchExcel.LaunchAndOpen Path: $'''C:\\files\\Desktop\\MOCK_CLIENT_DATA.xlsx''' Visible: True ReadOnly: False LoadAddInsAndMacros: False Instance=> ExcelInstance
