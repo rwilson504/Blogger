@@ -220,12 +220,18 @@ After you have created the service principal you may also need to ensure that ap
 ### Enable Tenant for App-Only Access
 Newer tenants may App-only access disabled.  In order to enable you will need to update the setting for the SharePoint tenant.  This can be done though the use of the [SharePoint PnP PowerShell Cmdlets.](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?view=sharepoint-ps)
 
-After you run these command it can take some time for it to propegate, so go grab some coffee or drink of your choice.
-
+In order to install PnP and authorize it run the following commands.
 ```
 Install-Module -Name Microsoft.Online.SharePoint.PowerShell
 Install-Module -Name PnP.PowerShell
 Register-PnPManagementShellAccess
+```
+The Register-PnPManagementShellAccess will open a web browser where you will need to authorize the managment shell app.  When this screen appears click the Accept button.  You can also choose if you have the proper rights to authorize this connection for your entire organization.
+![Authorize Management Shell](https://user-images.githubusercontent.com/7444929/151868432-6a41a238-42ef-44af-9dbc-8770d60e8587.png)
+
+Now you are ready to update the property which will allow for App-Only authentication.  After you run these command it can take some time for it to propegate, so go grab some coffee or drink of your choice.
+
+```
 Connect-PnPOnline -Url https://yoursharepoint.sharepoint.com
 Set-PnPTenant -DisableCustomAppAuthentication $false
 ```
@@ -261,12 +267,14 @@ SET NumberOfClients TO ExcelData.RowsCount
 ## Powershell PnP
 
 ### Install SharePoint PnP
+Open powershell and run the following commands.
 ```
 Install-Module -Name PnP.PowerShell
 Register-PnPManagementShellAccess
 ```
 
-![image](https://user-images.githubusercontent.com/7444929/151807568-b5516ce7-4b51-4520-a012-77e23f248554.png)
+The Register-PnPManagementShellAccess will open a web browser where you will need to authorize the managment shell app.  When this screen appears click the Accept button.  You can also choose if you have the proper rights to authorize this connection for your entire organization.
+![Authorize Management Shell](https://user-images.githubusercontent.com/7444929/151868432-6a41a238-42ef-44af-9dbc-8770d60e8587.png)
 
 
 [How to use the Windows Credential Manager to ease authentication with PnP PowerShell](https://github.com/pnp/PnP-PowerShell/wiki/How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell)
