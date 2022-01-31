@@ -3,6 +3,7 @@ Power Automate Desktop - How to Add Items to SharePoint, Let me count the ways..
 * [Screen Recording](#screen-recording)
 * [SharePoint REST API](#sharepoint-rest-api)
 * [Powershell PnP](#powershell-pnp)
+* [SharePoint Connector for PAD - FUTURE](#sharepoint-connector-for-pad)
 
 ## Screen Recording
 
@@ -297,3 +298,10 @@ Scripting.RunPowershellScript Script: PowerShellScript ScriptOutput=> Powershell
 Excel.CloseExcel.Close Instance: ExcelInstance
 SET NumberOfClients TO ExcelData.RowsCount
 ```
+
+## SharePoint Connector for PAD
+The FY22 Realese Wave 1 plans show plans for a dedicated SharePoint connector within Power Automate Desktop.  Once this is released there will be even another way to connect!
+
+[SharePoint connector in Power Automate for desktop](https://docs.microsoft.com/en-us/power-platform-release-plan/2022wave1/power-automate/sharepoint-connector-power-automate-desktop)
+
+![image](https://user-images.githubusercontent.com/7444929/151870624-483f4c07-b849-4e39-9e2c-58008e55342a.png)
