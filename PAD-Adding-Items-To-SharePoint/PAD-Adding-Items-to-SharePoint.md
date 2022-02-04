@@ -4,7 +4,7 @@
 ## Overview
 [Power Automate Desktop](https://powerautomate.microsoft.com/en-us/desktop) is a great way to automate many of your daily task so you can focus on real work.  A prime example of this is getting data from one place to another, especially when those data sources do not have an API such as a legacy desktop application or a file.  
 
-In this example I demonstrate several ways in which an Excel sheet containing ficticious customer can be loaded into a SharePoint list.  In order to do this I first generated some fake data for my customers using [Mockaroo](https://www.mockaroo.com/).
+In this example I demonstrate several ways in which an Excel sheet containing fictitious customer data could be loaded into a SharePoint list.  In order to do this I first generated some fake data for my customers using [Mockaroo](https://www.mockaroo.com/).
 
 ![Excel Data](https://user-images.githubusercontent.com/7444929/152590014-68ffa7f4-365e-4c5f-9f78-a774a90ed7bd.png)
 
@@ -13,9 +13,9 @@ I then created a new SharePoint list and added some columns to match my spreadsh
 ![New SharePoint List](https://user-images.githubusercontent.com/7444929/152590069-9ce3ffcc-4270-41e3-9fae-0a50baa6652f.png)
 
 ## Methods
-My original plan was to just use the PAD [recorder](https://docs.microsoft.com/en-us/power-automate/desktop-flows/recording-flow), which I did, but after creating that Flow I decided to find other possible ways to acomplish the task.  The list below is not a complete list but should provide some ideas.  The flexibility of PAD allows for an even wider range of possibilities for carrying out tasks such as these.
+My original plan was to just use the PAD [recorder](https://docs.microsoft.com/en-us/power-automate/desktop-flows/recording-flow), which I did, but after creating that Flow I decided to find other possible ways to accomplish the task.  The list below is not a complete list but should provide some ideas.  The flexibility of PAD allows for an even wider range of possibilities for carrying out tasks such as these.
 
-Also at the end of each section I have placed the source for each of these Flows.  If you copy the code you can then right click on PAD designer action area and select paste.  The code you copy will be automatically converted to actions.  This is a great way to get started.
+At the end of each section I have placed the source for each of these Flows.  If you copy the code you can then right click on PAD designer action area and select paste.  The code you copy will be automatically converted to actions.  This is a great way to get started.
 
 * [Screen Recording](#screen-recording)
 * [SharePoint REST API](#sharepoint-rest-api)
@@ -235,7 +235,7 @@ WebAutomation.CloseWebBrowser BrowserInstance: Browser
 ```
 
 ## SharePoint REST API
-The SharePoint REST API offer a huge amount of capabilities for carrying out actions within SharePoint.  In order to utilize them within Power Automate Desktop we can use the **Invoke web service** action.  In order to utilize the web service it must have the proper authentication information sent along with it.  The authentication mechanism will consist of a service principal, within sharepoint there are two options for doing this.  The first is App-only authentication which can be configured through the use of SharePoint pages and is detailsed [here](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs). Additionally you can utilize AD-only authentication which is newer and prefered for SharePoint Only but does not work in SharePoitn On-Premise.  For the secario I choose to utilize the App-Only method due to the greater simplicity in setting it up and the ablity for it to function Online and On-Premise.
+The SharePoint REST API offers a huge amount of capabilities for carrying out actions within SharePoint.  In order to utilize them within Power Automate Desktop we can use the **Invoke web service** action.  In order to utilize the web service it must have the proper authentication information sent along with it.  The authentication mechanism will consist of a service principal, within SharePoint there are two options for doing this.  The first is App-only authentication which can be configured through the use of SharePoint pages and is detailed [here](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs). Additionally, you can utilize AD-only authentication which is newer and preferred for SharePoint Only but does not work in SharePoint On-Premise.  For the scenario I choose to utilize the App-Only method due to the greater simplicity in setting it up and the ability for it to function Online and On-Premise.
 
 ### Create a Service Principal
 Creating the service principal and configuring it's permissions are well documented at [Setting up an app-only principal with tenant permissions](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs#setting-up-an-app-only-principal-with-tenant-permissions)
@@ -257,7 +257,7 @@ The Register-PnPManagementShellAccess will open a web browser where you will nee
 
 ![Authorize Management Shell](https://user-images.githubusercontent.com/7444929/151868432-6a41a238-42ef-44af-9dbc-8770d60e8587.png)
 
-Now you are ready to update the property which will allow for App-Only authentication.  After you run these command it can take some time for it to propegate, so go grab some coffee or drink of your choice.
+Now you are ready to update the property which will allow for App-Only authentication.  After you run these commands it can take some time for it to propagate, so go grab some coffee or drink of your choice.
 
 ```
 Connect-PnPOnline -Url https://yoursharepoint.sharepoint.com
@@ -276,7 +276,7 @@ Next parse the JSON returned from the authentication call so that we can easily 
 
 Now we can use the Invoke web service to call a post method that will create our new item.  You can see in the custom headers section where we utilized the output of the authentication call to pass our bearer token. Additional information on how to generate the Request body when working with the SharePoint REST API can be found here: [Working with lists and list items with REST](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest)
 
-Also you will need the content type for the sharepoint list item.  There are several ways to do this but the easiest I find it using a browser windows that is already authenticated to the SharePoitn site and entering the following url to call the web api. Make sure you update the url to match your specific SharePoint site location and List name.  
+Also, you will need the content type for the SharePoint list item.  There are several ways to do this but the easiest I find it using a browser windows that is already authenticated to the SharePoint site and entering the following url to call the web API. Make sure you update the url to match your specific SharePoint site location and List name.  
 
 ```
 https://yoursharepoint.sharepoint.com/sites/Clients/_api/web/lists/GetByTitle('Client Contacts')/items?$select=ContentType/Name
@@ -326,7 +326,7 @@ SET NumberOfClients TO ExcelData.RowsCount
 ## Powershell PnP
 
 ### Install SharePoint PnP
-Open powershell and run the following commands.
+Open PowerShell and run the following commands.
 
 ```
 Install-Module -Name PnP.PowerShell
@@ -336,7 +336,7 @@ Register-PnPManagementShellAccess
 The Register-PnPManagementShellAccess will open a web browser where you will need to authorize the managment shell app.  When this screen appears click the Accept button.  You can also choose if you have the proper rights to authorize this connection for your entire organization.
 ![Authorize Management Shell](https://user-images.githubusercontent.com/7444929/151868432-6a41a238-42ef-44af-9dbc-8770d60e8587.png)
 
-In order for the PowerShell script to authenticate to sharepoint we can utilize the PnP module to save the credential to the machine within the Windows Credential Manager.  For more information on this go here: [How to use the Windows Credential Manager to ease authentication with PnP PowerShell](https://github.com/pnp/PnP-PowerShell/wiki/How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell)
+In order for the PowerShell script to authenticate to SharePoint we can utilize the PnP module to save the credential to the machine within the Windows Credential Manager.  For more information on this go here: [How to use the Windows Credential Manager to ease authentication with PnP PowerShell](https://github.com/pnp/PnP-PowerShell/wiki/How-to-use-the-Windows-Credential-Manager-to-ease-authentication-with-PnP-PowerShell)
 
 This command will store the credential for the SharePoint site so that the PowerShell script can access them.
 
