@@ -14,6 +14,8 @@ I then created a new SharePoint list and added some columns to match my spreadsh
 ## Methods for creating list item.
 My original plan was to just use the [recorder](https://docs.microsoft.com/en-us/power-automate/desktop-flows/recording-flow), which I did, but after creating that Flow I decided to find other possible ways to create list items.  The list below is not a complete list but should provide some ideas.  The flexibility of PAD allows for an even wider range of possibilities for carrying out tasks such as these.
 
+Also at the end of each section I have placed the source for each of these Flows.  If you copy the code you can then right click on PAD designer action area and select paste.  The code you copy will be automatically converted the actions.  This is a great way to get started.
+
 * [Screen Recording](#screen-recording)
 * [SharePoint REST API](#sharepoint-rest-api)
 * [Powershell PnP](#powershell-pnp)
@@ -257,7 +259,9 @@ Connect-PnPOnline -Url https://yoursharepoint.sharepoint.com
 Set-PnPTenant -DisableCustomAppAuthentication $false
 ```
 
-Now that our authentication mechanism is all ready we will add in the first Invoke web service call which will return the bearer token we need for subsequent calls.
+Now that our authentication mechanism is all ready we will add in the first Invoke web service call which will return the bearer token we need for subsequent calls. To generate the data needed for the URL and the Request Body of the message I have created a PowerShell script which will generate these values for you by just putting in the SharePoint site url.
+
+[PowerShell to generate URL and Request Body for SharePoint authentication](https://github.com/rwilson504/PowerShell/blob/main/SharePoint/AppOnlyWebResquestProperties.ps1)
 
 ![Inovke web service for authentication](https://user-images.githubusercontent.com/7444929/152588294-bffa6e31-67b4-47cb-9c87-607035742d34.png)
 
