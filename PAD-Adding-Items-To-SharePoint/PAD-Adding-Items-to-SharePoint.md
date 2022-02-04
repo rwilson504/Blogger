@@ -1,4 +1,5 @@
-Power Automate Desktop - How to Add Items to SharePoint, Let me count the ways...
+![How do it create...](https://user-images.githubusercontent.com/7444929/152599822-85aeae57-142d-4d85-80aa-b0bd8459de4d.png)
+
 
 ## Overview
 [Power Automate Desktop](https://powerautomate.microsoft.com/en-us/desktop) is a great way to automate many of your daily task so you can focus on real work.  A prime example of this is getting data from one place to another, especially when those data sources do not have an API such as a legacy desktop application or a file.  
@@ -11,7 +12,7 @@ I then created a new SharePoint list and added some columns to match my spreadsh
 
 ![New SharePoint List](https://user-images.githubusercontent.com/7444929/152590069-9ce3ffcc-4270-41e3-9fae-0a50baa6652f.png)
 
-## Methods for creating list item.
+## Methods
 My original plan was to just use the PAD [recorder](https://docs.microsoft.com/en-us/power-automate/desktop-flows/recording-flow), which I did, but after creating that Flow I decided to find other possible ways to acomplish the task.  The list below is not a complete list but should provide some ideas.  The flexibility of PAD allows for an even wider range of possibilities for carrying out tasks such as these.
 
 Also at the end of each section I have placed the source for each of these Flows.  If you copy the code you can then right click on PAD designer action area and select paste.  The code you copy will be automatically converted to actions.  This is a great way to get started.
