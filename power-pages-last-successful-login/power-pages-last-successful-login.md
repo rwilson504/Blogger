@@ -1,4 +1,4 @@
-![image](https://github.com/rwilson504/Blogger/assets/7444929/e2938898-c824-416f-9791-3d6fc324a1a0)
+![image](https://github.com/rwilson504/Blogger/assets/7444929/fb22e794-434e-4aaa-a8f6-b38f5998e666)
 
 Hey Power Pages developers!  Are you sitting there scratching your head wondering why the **Authentication/LoginTrackingEanbled** site setting isn't working?  Unfortunately it has been [deprecated](https://cloudblogs.microsoft.com/dynamics365/it/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/) :sob::sob::sob::sob:.  This saddened me a lot because I utilize the **Last Successful Login** date field on the Contact table for a lot of reporting and automation using Power Automate. In this article I will demonstrate how you can use the Portal WebAPI with a little Javascript/Liquid to popuplate that field.  Before we get started, there are also a few other options you have:
 
@@ -23,6 +23,8 @@ Add the Authenticaed User web role to the Table Permission.
 
 ### Create WebAPI Settings
 Create two Site Settings that will enable the webapi for the Contact record and alow access to the adx_identity_lastsuccessfullogin which is the logical name for the field displayed on the Contact form.
+
+Note: In the site settings below we are using the out of the box column provided in the default portal solution.  You are not required to use that field, you can use your own custom date column and use the logical name of that column here instead.
 
 | Name  | Value |
 |-------|-------|
