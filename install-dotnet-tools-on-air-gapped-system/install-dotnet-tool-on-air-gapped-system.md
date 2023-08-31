@@ -25,3 +25,36 @@ Start by creating a primary folder named packages. This will serve as the centra
 
 Once your folder hierarchy is in place, proceed to transfer the .NET SDK installer and the NuGet packages to their respective locations. The method you choose will depend on the tools and protocols available in your specific setup. Whether it's through USB drives, optical discs, or any other secure transfer method your organization permits, ensure the files are safely and completely transferred to the destination machine.
 
+# Step 2: Installing the .NET SDK on the Air-Gapped Machine
+
+## Initiate the Installation:
+Navigate to the location where you've transferred the .NET SDK installer. Double-click the installer file to initiate the installation process. Follow the on-screen prompts, ensuring you select the appropriate options that suit your environment. Once the installation is complete, you should be able to access the dotnet command from the command line or terminal.
+
+## Setting Up the NuGet Configuration File:
+
+Given the unique constraints of an air-gapped system, the default behavior of the dotnet command line, which seeks out online NuGet repositories, won't serve our purpose. Even using the --add-soure command option and pointing that to our local directory will not circumvent the default behavior.  To get around this, we'll create a custom NuGet configuration file that points solely to our local repository.
+
+## Creating the NuGet Configuration File:
+Open a text editor of your choice and paste the following configuration:
+```
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <add key="Local NuGet" value="F:\packages\nuget" />
+  </packageSources>
+</configuration>
+```
+
+Ensure that the value attribute in the <add> tag points to the correct location of your nuget folder. Save this file as nuget.config within your packages/nuget directory.
+![nuget.config file](https://github.com/rwilson504/Blogger/assets/7444929/bddc68be-768a-4eda-bd95-8b9353e10b36)
+
+# Step 3: Running dotnet tool commands
+When you wish to install a tool or package using the dotnet command line, ensure you use the --configfile option, pointing it to your custom nuget.config. This ensures that the command line only refers to your local NuGet repository and doesn't attempt to reach out to the default online NuGet provider. For example:
+
+```
+dotnet tool install <tool-name> --configfile F:\packages\nuget\nuget.config
+```
+
+![installing docfx](https://github.com/rwilson504/Blogger/assets/7444929/4dcb3d87-9ca9-424b-acb9-affc75b2997a)
+
+By following these steps, you effectively create an environment where the dotnet command line works seamlessly, even in the absence of an internet connection. This approach not only ensures successful installations but also provides a blueprint for managing and expanding your local NuGet repository in the future.
