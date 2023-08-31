@@ -46,6 +46,7 @@ Open a text editor of your choice and paste the following configuration:
 ```
 
 Ensure that the value attribute in the <add> tag points to the correct location of your nuget folder. Save this file as nuget.config within your packages/nuget directory.
+
 ![nuget.config file](https://github.com/rwilson504/Blogger/assets/7444929/bddc68be-768a-4eda-bd95-8b9353e10b36)
 
 # Step 3: Running dotnet tool commands
