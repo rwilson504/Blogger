@@ -4,6 +4,8 @@ In today's digital age, the vast majority of our tasks rely heavily on internet 
 
 Before diving into the nitty-gritty of offline installations, it's essential to understand the foundational tools at our disposal. Central to our endeavor is the .NET SDK, a powerful suite that grants us the capability to harness the 'dotnet' command. With this command, we can perform a myriad of tasks, including the installation of .NET tools. But how do we achieve this without an active internet connection? The answer lies in NuGet packages. These packages, which are typically fetched from online repositories, can also be saved locally. By leveraging locally saved NuGet packages, we can sidestep the need for online connectivity, making it possible to install our desired .NET tools on air-gapped systems. In the sections that follow, we'll walk you through the step-by-step process of setting up the .NET SDK, accessing the 'dotnet' command, and utilizing local NuGet packages to achieve our installation goals.
 
+![default behavior when installing packages](https://github.com/rwilson504/Blogger/assets/7444929/3603f080-251d-4658-8f16-362982cf672d)
+
 # Step 1: Preparing for the Offline Journey
 Remember, the key to a successful installation on an air-gapped system is thorough preparation. By ensuring you have all necessary files on hand and understanding the nuances of your isolated environment, you're setting yourself up for a smooth and hassle-free installation process.
 
@@ -32,7 +34,7 @@ Navigate to the location where you've transferred the .NET SDK installer. Double
 
 ## Setting Up the NuGet Configuration File:
 
-Given the unique constraints of an air-gapped system, the default behavior of the dotnet command line, which seeks out online NuGet repositories, won't serve our purpose. Even using the --add-soure command option and pointing that to our local directory will not circumvent the default behavior.  To get around this, we'll create a custom NuGet configuration file that points solely to our local repository.
+Given the unique constraints of an air-gapped system, the default behavior of the dotnet command line, which seeks out online NuGet repositories, won't serve our purpose. Even using the --add-soure command option and pointing that to our local directory will not circumvent the default behavior unless you also include the --ignore-failed-sources option at the same time, which is a lot for users to remember. To get around this, we'll create a custom NuGet configuration file that points solely to our local repository.
 
 ## Creating the NuGet Configuration File:
 Open a text editor of your choice and paste the following configuration:
@@ -59,3 +61,6 @@ dotnet tool install <tool-name> --configfile F:\packages\nuget\nuget.config
 ![installing docfx](https://github.com/rwilson504/Blogger/assets/7444929/4dcb3d87-9ca9-424b-acb9-affc75b2997a)
 
 By following these steps, you effectively create an environment where the dotnet command line works seamlessly, even in the absence of an internet connection. This approach not only ensures successful installations but also provides a blueprint for managing and expanding your local NuGet repository in the future.
+
+* [MSFT Docs - dotnet tool install](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-tool-install)
+* [MSFT Docs - nuget.config reference](https://learn.microsoft.com/en-us/nuget/reference/nuget-config-file)
