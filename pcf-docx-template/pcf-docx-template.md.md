@@ -6,7 +6,7 @@ Have you ever wanted to fill in a Docx template within a Canvas App? Look no fur
 
 ## How to Get Started:
 
-1. **Installation:** Begin by [downloading](https://github.com/rwilson504/PCFControls/releases/latest/download/RAWDocxTemplateSample_1_0_0_1_managed.zip) and importing the managed solution into your environment. Ensure you've enabled PCF components for Canvas apps. If you're unsure how, you can find instructions [here](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/component-framework-for-canvas-apps).
+1. **Installation:** Begin by [downloading](https://github.com/rwilson504/PCFControls/releases/latest/download/RAWDocxTemplatesCanvas_managed.zip) and importing the managed solution into your environment. Ensure you've enabled PCF components for Canvas apps. If you're unsure how, you can find instructions [here](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/component-framework-for-canvas-apps).
 
 2. **Usage Instructions:** Once you're in the Power Apps Editor, navigate to **Insert -> Custom -> Import Components**. From there, select the **Code** tab and import the **RAW! Docx Templates (Canvas)**. Add the component to the form, and you're good to go! The component offers various input properties, such as `docxTemplate`, `fillTemplate`, and `templateData`, allowing for a customizable experience.
 
@@ -35,5 +35,5 @@ In conclusion, this new PCF component, combined with the capabilities of `easy-t
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3MTgwNzI2XX0=
+eyJoaXN0b3J5IjpbLTIxNDI5OTcxNzddfQ==
 -->
