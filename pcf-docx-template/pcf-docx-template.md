@@ -35,5 +35,10 @@ In conclusion, this new PCF component, combined with the capabilities of `easy-t
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjI3OTk4NiwtMTQ1MDE1Njk4M119
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6ICdQQ0YgQ29tcG9uZW50Oi
+BEb2N4IFRlbXBsYXRlcyBpbiBDYW52YXMgQXBwcydcbmF1dGhv
+cjogUmljaGFyZCBXaWxzb25cbnRhZ3M6ICdwY2YsZG9jeCx0ZW
+1wbGF0ZSx3b3JkLGR5bmFtaWNzLHBvd2VycGxhdGZvcm0sY2Fu
+dmFzLHBvd2VyYXBwcydcbiIsImhpc3RvcnkiOls1MDkyNjExNT
+csLTE0NTAxNTY5ODNdfQ==
 -->
