@@ -2,7 +2,7 @@
 
 Have you ever wanted to fill in a Docx template within a Canvas App? Look no further! I'm excited to introduce a new PCF component that allows you to do just that. This component leverages the [easy-template-x](https://github.com/alonrbar/easy-template-x) open-source library, making it a breeze to create and structure templates.
 
-![Docx Template Sample App](image.png)
+![Docx Template Sample App](https://raw.githubusercontent.com/rwilson504/PCFControls/master/DocxTemplatesCanvas/image.png)
 
 ## How to Get Started:
 
@@ -35,5 +35,5 @@ In conclusion, this new PCF component, combined with the capabilities of `easy-t
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI5OTcxNzddfQ==
+eyJoaXN0b3J5IjpbMTA3MzU0ODgyOF19
 -->
