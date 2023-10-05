@@ -10,9 +10,11 @@ While Power Automate offers a range of out-of-the-box authentication parameters,
 
 The Food Database API from Edamam is a perfect example of an API that doesn't use standard OAuth but requires an application ID and an application key for authentication. This API uses Natural Language Processing and semantically structured data, offering access to close to 900,000 basic foods, restaurant items, and consumer packaged foods. The data is enriched with diet, allergy, and nutrition labeling, making it a comprehensive resource for food-related applications.
 
+![image](https://github.com/rwilson504/Blogger/assets/7444929/e005d3a8-d7dd-4d16-8161-dee5e1b6443b)
+
 ## Getting Started with a New Connector
 
-- Begin by navigating to the Power Automate Maker Portal.
+- Begin by navigating to the [Power Automate Maker Portal](https://make.powerautomate.com/).
 - Create a new custom connector. 
 - When prompted for the **host**, provide the following for the Edamam API: `api.edamam.com`.
 - For the **base URL**, input: `/api`.
