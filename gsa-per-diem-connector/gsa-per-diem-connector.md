@@ -18,21 +18,54 @@ The connector is specifically designed to:
 - **Ensure Accuracy and Compliance**: Maintain alignment with federal travel expense standards.
 - **Enable Custom Solutions**: Combine per diem data with other Power Platform functionalities for bespoke application development.
 
-## Actions Available in the GSA Per Diem Connector
-The connector offers various actions to retrieve per diem rates:
-- **Retrieve Rates by City, State, and Year**
-- **Retrieve Rates for All Counties in a State**
-- **Retrieve Rates by ZIP Code**
-- **Lodging Rates for Continental US**
-- **Mapping ZIP Codes to Destination IDs**
-
 ## Practical Applications
 - **Automated Expense Reporting**: Enhances travel expense forms with automatically integrated current per diem rates.
 - **Budget Forecasting**: Leverages current and historical rate data for accurate fiscal planning.
 - **Custom Travel Management Tools**: Develops real-time, compliant travel planning applications.
 
+## Actions Available in the GSA Per Diem Connector
+The GSA Per Diem Connector offers a variety of actions to retrieve per diem rates, each tailored to different requirements. Here's a breakdown of these actions and how they can be utilized:
+
+1. **Retrieve Rates by City, State, and Year**
+   - **Functionality**: Fetches per diem rates for a specific city and state for a given fiscal year.
+   - **Use Case**: Ideal for applications focused on specific cities or for detailed travel planning within known destinations.
+
+2. **Retrieve Rates for All Counties in a State**
+   - **Functionality**: Provides per diem rates for all counties and cities within a chosen state for a specified year.
+   - **Use Case**: Useful for applications that require a broad view of per diem rates across an entire state, such as statewide travel management systems.
+
+3. **Retrieve Rates by ZIP Code**
+   - **Functionality**: Offers per diem rates based on ZIP code for a specific fiscal year.
+   - **Use Case**: Best suited for applications where the travel destination is known primarily by ZIP code, providing quick and localized rate information.
+
+4. **Lodging Rates for Continental US**
+   - **Functionality**: Gives detailed lodging rate information across various locations within the Continental US for the selected fiscal year.
+   - **Use Case**: Essential for applications managing accommodation expenses, offering comprehensive data for budgeting and reimbursement processes.
+
+5. **Mapping ZIP Codes to Destination IDs**
+   - **Functionality**: Delivers a mapping of ZIP codes to their corresponding Destination-IDs and state locations for a particular fiscal year.
+   - **Use Case**: This action is particularly beneficial for advanced applications that integrate geographic data with per diem rates for enhanced travel analysis and reporting.
+
+Each of these actions is designed to make accessing and utilizing per diem rate data as seamless and efficient as possible, ensuring your Power Platform solutions are both robust and compliant with federal travel regulations.
+
 ## Integrating the Connector
-Incorporating the connector into your Power Platform environment is straightforward, enhancing travel-related applications with essential per diem rate data. Steps include creating Power Automate flows and Power Apps using the connector.
+Incorporating the GSA Per Diem Connector into Power Platform enhances travel-related applications with essential per diem rate data. Here's a brief guide on how to utilize the connector in both Power Automate and Power Apps.
+
+### Building a Power Automate Flow
+1. **Create a New Flow**: Start by creating a new automated flow in Power Automate.
+2. **Trigger**: Choose a trigger that suits your application needs, such as a scheduled trigger for daily updates or a manual trigger for on-demand requests.
+3. **Add the Connector**: Search for the GSA Per Diem Connector in the action panel and add it to your flow.
+4. **Configure Parameters**: Set up the required parameters (City, State Abbreviation, Year, etc.) based on your specific needs.
+5. **Add Actions**: Use the retrieved per diem rates to perform calculations, create reports, send notifications, or store data in your database.
+6. **Test and Deploy**: Test your flow to ensure it works as expected and then deploy it for use.
+
+### Creating a Power App
+1. **Start a New App**: Open Power Apps and start a new canvas app from blank or choose a template that fits your scenario.
+2. **Add Data Connection**: Connect to the GSA Per Diem Connector as a data source.
+3. **Design the User Interface**: Create a user-friendly interface with input fields for city, state, and year, and display areas for the retrieved per diem rates.
+4. **Integrate the Connector**: Use Power Apps formulas to fetch per diem rates based on user input and display the results in the app.
+5. **Add Logic and Navigation**: Implement logic for data validation, error handling, and navigation between different screens of the app.
+6. **Test and Share Your App**: Thoroughly test the app for usability and accuracy. Once satisfied, share your app with users in your organization.
 
 ## Conclusion
 I am pleased to offer the public sector a practical tool in the GSA Per Diem Connector, simplifying the management of travel expenses in alignment with federal guidelines.
