@@ -1,4 +1,4 @@
-# Building Better Entities for Dataflows: Autonumber and Alternate Keys in Power Platform
+![Building Better Tables for Dataflows](https://github.com/rwilson504/Blogger/assets/7444929/75e1d6d2-d761-4bb5-9f59-99042cc927ef)
 
 ## Introduction
 
