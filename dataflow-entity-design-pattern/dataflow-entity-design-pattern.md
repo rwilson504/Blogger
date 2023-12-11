@@ -17,12 +17,10 @@ To address these challenges, I incorporate a consistent practice in my entity cr
 Implementing this pattern involves:
 
 1. **Creating an Autonumber Field**: Establish an autonumber field in each new entity as a unique identifier.
+   ![Create Autonumber Column](https://github.com/rwilson504/Blogger/assets/7444929/bd4297a0-46f3-4f42-bced-1ecc6e198220)
 
-![Create Autonumber Column](https://github.com/rwilson504/Blogger/assets/7444929/bd4297a0-46f3-4f42-bced-1ecc6e198220)
-
-2. **Setting Up an Alternate Key (IdKey)**: Implement an alternate key for the entity to facilitate efficient data mapping.
-
-![Create Alternate Key on ID Column](https://github.com/rwilson504/Blogger/assets/7444929/304f0fa4-7319-4dfe-9f47-6f2e562876f1)
+3. **Setting Up an Alternate Key (IdKey)**: Implement an alternate key for the entity to facilitate efficient data mapping.
+   ![Create Alternate Key on ID Column](https://github.com/rwilson504/Blogger/assets/7444929/304f0fa4-7319-4dfe-9f47-6f2e562876f1)
 
 ## Integrating This Setup in Dataflows
 
