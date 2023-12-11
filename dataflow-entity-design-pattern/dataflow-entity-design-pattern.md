@@ -1,4 +1,4 @@
-# Enhancing Data Management in Power Platform: Practical Tips for Entity Creation with Autonumber and Alternate Keys
+# Building Better Entities for Dataflows: Autonumber and Alternate Keys in Power Platform
 
 ## Introduction
 
@@ -8,7 +8,7 @@ Navigating the complexities of dataflows in Microsoft's Power Platform, especial
 
 The effectiveness of traditional dataflows in Microsoft's Power Platform often depends on how entities are configured in Dataverse. The challenge usually lies not in the dataflows themselves but in the nuances of entity setup. A critical aspect of this is the complexity involved in managing lookup values. The article [How to map a Lookup Column in a Power Platform Dataflow](https://www.apprising.co.nz/post/how-to-map-a-lookup-column-in-a-power-platform-dataflow) highlights these difficulties, underscoring the importance of well-structured entities. My design pattern addresses this by optimizing entity configuration, thus enhancing the overall functionality of traditional dataflows.
 
-## Building Better Entities for Dataflows: Autonumber and Alternate Keys in Power Platform
+## A Simplified Approach: Autonumber and Alternate Keys
 
 To address these challenges, I incorporate a consistent practice in my entity creation process. Each new entity begins with an 'ID' field set as an autonumber type, followed by an alternate key named 'IdKey.' This approach not only ensures uniformity but also greatly simplifies data mapping in dataflows.
 
@@ -24,9 +24,17 @@ Implementing this pattern involves:
 
 ![Create Alternate Key on ID Column](https://github.com/rwilson504/Blogger/assets/7444929/304f0fa4-7319-4dfe-9f47-6f2e562876f1)
 
-3. **Integrating This Setup in Dataflows**: Use this configuration in your dataflow setups for consistent and accurate data mapping.
+## Integrating This Setup in Dataflows
+
+Once you have established the autonumber field and alternate key (IdKey) in your entities, the next crucial step is integrating this configuration into your dataflows for effective data mapping. This integration is key to leveraging the full potential of your design pattern in Power Platform's data management.
 
 ![Using Autonumber field to set lookup value](https://github.com/rwilson504/Blogger/assets/7444929/6073839a-eae4-4e97-ac7a-b84e5044f5b9)
+
+1. **Data Mapping in Dataflows**: Navigate to the data mapping stage when setting up or editing a dataflow in Power Platform. Here, you will map data from your source to the corresponding fields in your Dataverse entities.
+2. **Mapping the ID Field**: Focus on the lookup columns of your entity. Correctly mapping the 'ID' field, your autonumber field, is crucial. This ID field will serve as a reference, ensuring data from your source is correctly associated with the corresponding record in your entity.
+3. **Setting the Lookup for the Entity**: For each lookup field in your entity, map it to the 'ID' field of the related entity in your data source. This maintains relational integrity by establishing a direct link between the records in your data source and the corresponding records in Dataverse.
+4. **Validating Data Integrity**: After configuring the mappings, validate the data integrity by running a test. This helps identify any potential issues with the mapping setup.
+5. **Regular Monitoring and Adjustments**: Regularly monitor and adjust the data mappings as needed to ensure that your dataflow continues to function accurately and efficiently over time.
 
 ## Enhancing Existing Tables with Autonumber Fields
 
