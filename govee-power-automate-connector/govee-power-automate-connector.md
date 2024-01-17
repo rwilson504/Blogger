@@ -7,7 +7,14 @@ In the sphere of smart home technology, linking lighting systems with automation
 The Govee Lights Power Automate Connector provides a pragmatic solution for controlling Govee smart lights through the Power Automate platform. By utilizing the Govee Developer API, this connector enables a straightforward yet sophisticated approach to lighting automation.
 
 ### Building the Connector: Technical Insights into the Govee API
-Developing this connector required an in-depth understanding of the Govee API. Resources such as the Postman Getting Started Guide and the Govee Developer API Reference were instrumental in comprehending and utilizing Govee's API capabilities for the connector's development.
+
+The development of the Govee Lights Power Automate Connector required a detailed understanding of the Govee API. This process was facilitated by two key resources:
+
+1. **Postman Quickstart Guide for Govee:** This guide provides a comprehensive starting point for anyone looking to understand and use the Govee API. It is especially useful for beginners or those not familiar with API interactions. The guide walks you through the basic steps of setting up API requests and testing them in Postman, making it an invaluable resource for getting up to speed quickly. Access the guide here: [Postman Quickstart for Govee](https://quickstarts.postman.com/guide/govee/#0).
+
+2. **Govee Developer API Reference:** For a more in-depth exploration, the official Govee Developer API Reference is the go-to document. It contains detailed information on the API's capabilities, parameters, response structures, and more. This comprehensive document is essential for developers looking to fully exploit the features of the Govee API in their applications. You can find the official documentation here: [Govee Developer API Reference](https://govee-public.s3.amazonaws.com/developer-docs/GoveeDeveloperAPIReference.pdf).
+
+Using these resources, we were able to effectively understand and harness the full potential of Govee's API, paving the way for the creation of this connector. This knowledge allowed us to build a tool that can interact seamlessly with Govee lights, providing users with an enhanced level of control and automation possibilities.
 
 ### Key Features
 
