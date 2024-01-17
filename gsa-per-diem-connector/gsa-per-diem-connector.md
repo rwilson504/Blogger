@@ -66,12 +66,15 @@ Incorporating the GSA Per Diem Connector into Power Platform enhances travel-rel
 
 ![Sample Power App](https://github.com/rwilson504/Blogger/assets/7444929/e41323ec-217c-4d02-9939-a5faef508fa1)
 
+The entire sample app can be downloaded here: [Sample Power App](https://github.com/rwilson504/Blogger/raw/master/gsa-per-diem-connector/Travel%20Location.msapp)
+
 1. **Start a New App**: Open Power Apps and start a new canvas app from blank or choose a template that fits your scenario.
-2. **Add Data Connection**: Connect to the GSA Per Diem Connector as a data source.
-3. **Design the User Interface**: Create a user-friendly interface with input fields for city, state, and year, and display areas for the retrieved per diem rates.
-4. **Integrate the Connector**: Use Power Apps formulas to fetch per diem rates based on user input and display the results in the app.
-5. **Add Logic and Navigation**: Implement logic for data validation, error handling, and navigation between different screens of the app.
-6. **Test and Share Your App**: Thoroughly test the app for usability and accuracy. Once satisfied, share your app with users in your organization.
+2. **Add Data Connection**: Connect to the GSA Per Diem Connector as a data source.  
+   ![image](https://github.com/rwilson504/Blogger/assets/7444929/843b9b07-1748-4e6f-ae2a-8046ace82758)
+4. **Design the User Interface**: Create a user-friendly interface with input fields for city, state, and year, and display areas for the retrieved per diem rates.
+5. **Integrate the Connector**: Use Power Apps formulas to fetch per diem rates based on user input and display the results in the app.
+6. **Add Logic and Navigation**: Implement logic for data validation, error handling, and navigation between different screens of the app.
+7. **Test and Share Your App**: Thoroughly test the app for usability and accuracy. Once satisfied, share your app with users in your organization.
 
 PowerFx code for OnSelect of Location gallery.
 ```
