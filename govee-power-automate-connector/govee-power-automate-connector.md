@@ -31,10 +31,14 @@ The integration of this connector with Power Automate's automation tools enhance
 ### Application Example: Device Information Retrieval and Command Execution
 Consider a practical application of this integration:
 
-1. **Retrieve Device Information:** Create a flow in Power Automate to gather the necessary details about your Govee devices.
-2. **Process and Implement Data:** Use this information to prepare and structure the commands for the intended devices.
-3. **Command Execution:** Utilize this setup to execute desired actions, such as turning lights on or off and adjusting brightness.
-4. **Refine and Integrate Your Automation:** Test and modify your flow for optimal performance, potentially incorporating other smart automation triggers.
+1. **Retrieve Device Information:** Create a flow in Power Automate to gather the necessary details about your Govee devices.  
+   ![image](https://github.com/rwilson504/Blogger/assets/7444929/7a48f824-cf40-4542-8792-097910903def)
+
+3. **Process and Implement Data:** Use this information to prepare and structure the commands for the intended devices.
+4. **Command Execution:** Utilize this setup to execute desired actions, such as turning lights on or off and adjusting brightness.
+   ![image](https://github.com/rwilson504/Blogger/assets/7444929/ab7cd4b6-869b-4d78-be5a-cbc6cd289d30)
+
+6. **Refine and Integrate Your Automation:** Test and modify your flow for optimal performance, potentially incorporating other smart automation triggers.
 
 ### Examples of Power Automate Triggers for Govee Lights
 
