@@ -1,4 +1,4 @@
-# Govee and Power Platform: Transforming Smart Lighting Automation
+![Govee and Power Platform: Transforming Smart Lighting Automation](https://github.com/rwilson504/Blogger/assets/7444929/bb05d532-19a7-4236-bb4e-e91e169a1997)
 
 ## Introduction
 In the evolving world of smart home technology, the integration of lighting solutions with sophisticated automation platforms is gaining significant traction. Our focus in this discussion is the Govee Lights Power Automate Connector, a pioneering tool that brings together the advanced capabilities of Govee's smart lighting with the robust automation features of Microsoft Power Automate. 
