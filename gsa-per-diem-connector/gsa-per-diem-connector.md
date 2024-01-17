@@ -52,6 +52,9 @@ Each of these actions is designed to make accessing and utilizing per diem rate 
 Incorporating the GSA Per Diem Connector into Power Platform enhances travel-related applications with essential per diem rate data. Here's a brief guide on how to utilize the connector in both Power Automate and Power Apps.
 
 ### Building a Power Automate Flow
+
+![image](https://github.com/rwilson504/Blogger/assets/7444929/4f567874-08c5-40d5-a382-0335ee07cd0e)
+
 1. **Create a New Flow**: Start by creating a new automated flow in Power Automate.
 2. **Trigger**: Choose a trigger that suits your application needs, such as a scheduled trigger for daily updates or a manual trigger for on-demand requests.
 3. **Add the Connector**: Search for the GSA Per Diem Connector in the action panel and add it to your flow.
@@ -60,12 +63,94 @@ Incorporating the GSA Per Diem Connector into Power Platform enhances travel-rel
 6. **Test and Deploy**: Test your flow to ensure it works as expected and then deploy it for use.
 
 ### Creating a Power App
+
+![Sample Power App](https://github.com/rwilson504/Blogger/assets/7444929/e41323ec-217c-4d02-9939-a5faef508fa1)
+
 1. **Start a New App**: Open Power Apps and start a new canvas app from blank or choose a template that fits your scenario.
 2. **Add Data Connection**: Connect to the GSA Per Diem Connector as a data source.
 3. **Design the User Interface**: Create a user-friendly interface with input fields for city, state, and year, and display areas for the retrieved per diem rates.
 4. **Integrate the Connector**: Use Power Apps formulas to fetch per diem rates based on user input and display the results in the app.
 5. **Add Logic and Navigation**: Implement logic for data validation, error handling, and navigation between different screens of the app.
 6. **Test and Share Your App**: Thoroughly test the app for usability and accuracy. Once satisfied, share your app with users in your organization.
+
+PowerFx code for OnSelect of Location gallery.
+```
+Set(varPerDiemRates, GSAPerDiem.GetPerDiemRatesByCityStateAndYear(ThisItem.City, ThisItem.State, Dropdown1.SelectedText.Value).rates);
+If(
+    CountRows(varPerDiemRates) = 0,
+    Set(
+        noLocationFound,
+        true
+    );
+    Set(
+        varMeals,
+        Blank()
+    );
+    //Set(varHotelMonths, Table({}));
+Clear(colHotelMonths);
+    Set(
+        varCity,
+        Blank()
+    );
+    Set(
+        varState,
+        Blank()
+    );
+    Set(
+        varYear,
+        Blank()
+    );
+    ,
+    Set(
+        noLocationFound,
+        false
+    );
+    Set(
+        varMeals,
+        Index(
+            Index(
+                varPerDiemRates,
+                1
+            ).rate,
+            1
+        ).meals
+    );    
+Set(
+        varCity,
+        Index(
+            Index(
+                varPerDiemRates,
+                1
+            ).rate,
+            1
+        ).city
+    );
+    Set(
+        varState,
+        Index(
+            varPerDiemRates,
+            1
+        ).state
+    );
+    Set(
+        varYear,
+        Index(
+            varPerDiemRates,
+            1
+        ).year
+    );
+  ClearCollect(
+        colHotelMonths,
+        Index(
+            Index(
+                varPerDiemRates,
+                1
+            ).rate,
+            1
+        ).months.month
+    );  
+)
+```
 
 ## Conclusion
 I am pleased to offer the public sector a practical tool in the GSA Per Diem Connector, simplifying the management of travel expenses in alignment with federal guidelines.
