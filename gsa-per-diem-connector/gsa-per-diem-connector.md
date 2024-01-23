@@ -1,3 +1,4 @@
+<base target="_blank">
 ![# Enhancing Public Sector Travel with the GSA Per Diem Connector for Power Platform](https://github.com/rwilson504/Blogger/assets/7444929/cf4fb2d3-16a9-40de-ae6f-57b04cb20819)
 
 ## Introduction
