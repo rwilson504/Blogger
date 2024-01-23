@@ -162,5 +162,12 @@ I am pleased to offer the public sector a practical tool in the GSA Per Diem Con
 ## Explore and Connect
 Discover the GSA Per Diem Connector's capabilities within your Power Platform environment. For further information or support, feel free to reach out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTI1MjM1Ml19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6ID4tXG4gIEVuaGFuY2luZy
+BQdWJsaWMgU2VjdG9yIFRyYXZlbCB3aXRoIHRoZSBHU0EgUGVy
+IERpZW0gQ29ubmVjdG9yIGZvciBQb3dlclxuICBQbGF0Zm9ybV
+xuYXV0aG9yOiBSaWNrIFdpbHNvblxudGFnczogPi1cbiAgZ3Nh
+LGdvdmVybm1lbnQscG93ZXJwbGF0Zm9ybSxwb3dlcmF1dG9tYX
+RlLGNvbm5lY3RvcnMsY3VzdG9tY29ubmVjdG9ycyxmbG93cyxh
+dXRvbWF0aW9uLHBlcmRpZW0sdXNnb3ZcbiIsImhpc3RvcnkiOl
+syNzQ3NTEzOTksMTA1NTI1MjM1Ml19
 -->
