@@ -1,7 +1,7 @@
 ![Enhancing Public Sector Travel with the GSA Per Diem Connector for Power Platform](https://github.com/rwilson504/Blogger/assets/7444929/cf4fb2d3-16a9-40de-ae6f-57b04cb20819)
 
 ## Introduction
-Navigating travel expenses in the public sector can be intricate, especially when it comes to adhering to per diem rates. To address this, I developed the GSA Per Diem Connector for Power Platform, aiming to simplify access to essential travel expense data. For those looking to delve deeper into per diem rates, the [U.S. General Services Administration (GSA)](https://www.gsa.gov/travel/plan-book/per-diem-rates) offers comprehensive information. Additionally, the [GSA Per Diem API](https://open.gsa.gov/api/perdiem-api/), which serves as the backbone of this connector, provides detailed insights into the rate data.
+Navigating travel expenses in the public sector can be intricate, especially when it comes to adhering to per diem rates. To address this, I developed the GSA Per Diem Connector for Power Platform, aiming to simplify access to essential travel expense data. For those looking to delve deeper into per diem rates, the [U.S. General Services Administration (GSA)](https://www.gsa.gov/travel/plan-book/per-diem-rates) offers comprehensive information. Additionally, the [GSA Per Diem API](https://open.gsa.gov/api/perdiem/), which serves as the backbone of this connector, provides detailed insights into the rate data.
 
 ## The Importance of Per Diem Rates
 Per diem rates, set by the U.S. General Services Administration (GSA), are daily allowances allotted to federal employees to cover lodging, meals, and incidental expenses when traveling for work. These rates are crucial for budgeting and expense management in government-related travel.
@@ -10,7 +10,7 @@ Per diem rates, set by the U.S. General Services Administration (GSA), are daily
 Developing this connector involved aligning with Microsoft's [certification submission guidelines](https://learn.microsoft.com/en-us/connectors/custom-connectors/certification-submission-ip), ensuring both functionality and compliance. The approval signifies the connector's readiness to serve the public sector's specific needs.
 
 ## Connector Overview
-The GSA Per Diem Connector seamlessly integrates with Power Platform, granting users immediate access to up-to-date GSA per diem rates. This integration is key for accurately calculating travel expenses and streamlining expense reporting processes.
+The GSA Per Diem Connector seamlessly integrates with Power Platform, granting users immediate access to up-to-date GSA per diem rates. This integration is key for accurately calculating travel expenses and streamlining expense reporting processes. For more in-depth information and a detailed exploration of the connector's capabilities, visit the [official GSA Per Diem Rates connector page on Microsoft Learn](https://learn.microsoft.com/en-us/connectors/gsaperdiem/).
 
 ## Empowering Public Sector Organizations
 The connector is specifically designed to:
