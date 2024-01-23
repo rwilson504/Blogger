@@ -1,7 +1,7 @@
-![Enhancing Public Sector Travel with the GSA Per Diem Connector for Power Platform](https://github.com/rwilson504/Blogger/assets/7444929/cf4fb2d3-16a9-40de-ae6f-57b04cb20819)
+![# Enhancing Public Sector Travel with the GSA Per Diem Connector for Power Platform](https://github.com/rwilson504/Blogger/assets/7444929/cf4fb2d3-16a9-40de-ae6f-57b04cb20819)
 
 ## Introduction
-Navigating travel expenses in the public sector can be intricate, especially when it comes to adhering to per diem rates. To address this, I developed the GSA Per Diem Connector for Power Platform, aiming to simplify access to essential travel expense data. For those looking to delve deeper into per diem rates, the [U.S. General Services Administration (GSA)](https://www.gsa.gov/travel/plan-book/per-diem-rates) offers comprehensive information. Additionally, the [GSA Per Diem API](https://open.gsa.gov/api/perdiem/), which serves as the backbone of this connector, provides detailed insights into the rate data.
+Navigating travel expenses in the public sector can be intricate, especially when it comes to adhering to per diem rates. To address this, I developed the GSA Per Diem Connector for Power Platform, aiming to simplify access to essential travel expense data. For those looking to delve deeper into per diem rates, the [U.S. General Services Administration (GSA)](https://www.gsa.gov/travel/plan-book/per-diem-rates) offers comprehensive information. Additionally, the [GSA Per Diem API](https://open.gsa.gov/api/perdiem-api/), which serves as the backbone of this connector, provides detailed insights into the rate data.
 
 ## The Importance of Per Diem Rates
 Per diem rates, set by the U.S. General Services Administration (GSA), are daily allowances allotted to federal employees to cover lodging, meals, and incidental expenses when traveling for work. These rates are crucial for budgeting and expense management in government-related travel.
@@ -71,10 +71,11 @@ The entire sample app can be downloaded here: [Sample Power App](https://github.
 1. **Start a New App**: Open Power Apps and start a new canvas app from blank or choose a template that fits your scenario.
 2. **Add Data Connection**: Connect to the GSA Per Diem Connector as a data source.  
    ![image](https://github.com/rwilson504/Blogger/assets/7444929/843b9b07-1748-4e6f-ae2a-8046ace82758)
-4. **Design the User Interface**: Create a user-friendly interface with input fields for city, state, and year, and display areas for the retrieved per diem rates.
-5. **Integrate the Connector**: Use Power Apps formulas to fetch per diem rates based on user input and display the results in the app.
-6. **Add Logic and Navigation**: Implement logic for data validation, error handling, and navigation between different screens of the app.
-7. **Test and Share Your App**: Thoroughly test the app for usability and accuracy. Once satisfied, share your app with users in your organization.
+4
+3. **Design the User Interface**: Create a user-friendly interface with input fields for city, state, and year, and display areas for the retrieved per diem rates.
+54. **Integrate the Connector**: Use Power Apps formulas to fetch per diem rates based on user input and display the results in the app.
+65. **Add Logic and Navigation**: Implement logic for data validation, error handling, and navigation between different screens of the app.
+76. **Test and Share Your App**: Thoroughly test the app for usability and accuracy. Once satisfied, share your app with users in your organization.
 
 PowerFx code for OnSelect of Location gallery.
 ```
@@ -160,3 +161,6 @@ I am pleased to offer the public sector a practical tool in the GSA Per Diem Con
 
 ## Explore and Connect
 Discover the GSA Per Diem Connector's capabilities within your Power Platform environment. For further information or support, feel free to reach out.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA1NTI1MjM1Ml19
+-->
