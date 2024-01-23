@@ -1,7 +1,7 @@
 ![# Enhancing Public Sector Travel with the GSA Per Diem Connector for Power Platform](https://github.com/rwilson504/Blogger/assets/7444929/cf4fb2d3-16a9-40de-ae6f-57b04cb20819)
 
 ## Introduction
-Navigating travel expenses in the public sector can be intricate, especially when it comes to adhering to per diem rates. To address this, I developed the GSA Per Diem Connector for Power Platform, aiming to simplify access to essential travel expense data. For those looking to delve deeper into per diem rates, the [U.S. General Services Administration (GSA)](https://www.gsa.gov/travel/plan-book/per-diem-rates) offers comprehensive information. Additionally, the [GSA Per Diem API](https://open.gsa.gov/api/perdiem-api/), which serves as the backbone of this connector, provides detailed insights into the rate data.
+Navigating travel expenses in the public sector can be intricate, especially when it comes to adhering to per diem rates. To address this, I developed the GSA Per Diem Connector for Power Platform, aiming to simplify access to essential travel expense data. For those looking to delve deeper into per diem rates, the [U.S. General Services Administration (GSA)](https://www.gsa.gov/travel/plan-book/per-diem-rates) offers comprehensive information. Additionally, the [GSA Per Diem API](https://open.gsa.gov/api/perdiem-api/){:target="_blank"}, which serves as the backbone of this connector, provides detailed insights into the rate data.
 
 ## The Importance of Per Diem Rates
 Per diem rates, set by the U.S. General Services Administration (GSA), are daily allowances allotted to federal employees to cover lodging, meals, and incidental expenses when traveling for work. These rates are crucial for budgeting and expense management in government-related travel.
@@ -169,5 +169,5 @@ xuYXV0aG9yOiBSaWNrIFdpbHNvblxudGFnczogPi1cbiAgZ3Nh
 LGdvdmVybm1lbnQscG93ZXJwbGF0Zm9ybSxwb3dlcmF1dG9tYX
 RlLGNvbm5lY3RvcnMsY3VzdG9tY29ubmVjdG9ycyxmbG93cyxh
 dXRvbWF0aW9uLHBlcmRpZW0sdXNnb3ZcbiIsImhpc3RvcnkiOl
-syNzQ3NTEzOTksMTA1NTI1MjM1Ml19
+stODEyOTkxMTEyLDI3NDc1MTM5OSwxMDU1MjUyMzUyXX0=
 -->
