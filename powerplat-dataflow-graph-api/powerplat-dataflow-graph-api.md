@@ -11,11 +11,6 @@ The need for this project arose from our requirement to comprehensively collect 
 ## Exploring Graph API with Graph Explorer
 
 To become proficient in crafting queries for the Microsoft Graph API, a powerful resource at your disposal is the [Graph Explorer tool](https://developer.microsoft.com/en-us/graph/graph-explorer/). This interactive tool allows you to formulate and test Graph API queries in a user-friendly environment. It provides a practical hands-on approach to learning how the API responds to different queries and helps you understand the structure of the data it returns.
-
-## Getting Started with Graph Explorer
-- Navigate to the Graph Explorer website.
-- Use the sample queries provided or create your own to fetch data from your organization's Microsoft 365 environment.
-- Learn how to construct your queries by modifying these examples and observing the responses.
   
 By experimenting with Graph Explorer, you gain valuable insights into how Graph API operates, enabling you to build more effective queries for your Power Platform dataflows. Whether you're retrieving user data, managing tasks, or accessing analytics, the Graph Explorer can be your sandbox for mastering Graph API interactions.
 
