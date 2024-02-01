@@ -1,4 +1,4 @@
-![Handling Graph API Pagination in Power Platform Dataflows](https://github.com/rwilson504/Blogger/assets/7444929/fe32ad3a-b015-4081-9192-da1360d777e5)
+![Handling Graph API Pagination in Power Platform Dataflows](https://github.com/rwilson504/Blogger/assets/7444929/fe32ad3a-b015-4081-9192-da1360d777e51b60b7ec-18c0-4c4e-aa52-7e7026e9bc5c)
 
 ## Introduction
 
@@ -85,3 +85,11 @@ in
 ## Final Note
 
 Assess your project's specific requirements to determine whether looping through pagination or an alternative approach is more appropriate. This decision can significantly impact the efficiency and scalability of your data management in Power Platform and Graph API.
+<!--stackedit_data:
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEhhbmRsaW5nIEdyYXBoIE
+FQSSBQYWdpbmF0aW9uIGluIFBvd2VyIFBsYXRmb3JtIERhdGFm
+bG93c1xuYXV0aG9yOiBSaWNrIFdpbHNvblxudGFnczogJ3Bvd2
+VycGxhdGZvcm0sZGF0YWZsb3dzLGdyYXBoLGdyYXBoYXBpLGFw
+aSxkYXRhLHBhZ2luYXRpb24scXVlcnknXG4iLCJoaXN0b3J5Ij
+pbLTE3NTQ0NzY3OF19
+-->
