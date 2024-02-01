@@ -1,4 +1,4 @@
-![Handling Graph API Pagination in Power Platform Dataflows](https://github.com/rwilson504/Blogger/assets/7444929/fe32ad3a-b015-4081-9192-da1360d777e51b60b7ec-18c0-4c4e-aa52-7e7026e9bc5c)
+![Handling Graph API Pagination in Power Platform Dataflows](https://github.com/rwilson504/Blogger/assets/7444929/123afe82-83a8-4e29-9bd8-828bd925b8fc)
 
 ## Introduction
 
