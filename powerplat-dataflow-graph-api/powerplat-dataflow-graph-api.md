@@ -1,4 +1,4 @@
-# Efficiently Handling Graph API Pagination in Power Platform Dataflows: Techniques and Alternatives
+# Handling Graph API Pagination in Power Platform Dataflows
 
 ## Introduction
 
@@ -29,11 +29,11 @@ Now that you have a connection to graph you can utilze the default query that wa
 
 ### 3. Looping Through Paginated Data
 - Develop a script or logic within your dataflow to process each page and retrieve the next page's link.
-- The code below loops through all users within Entra ID and get all manager information.  You can utilize the **Advanced editor** button in the query window to copy/paste this code.
+- The code below loops through all users within [Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) and get all manager information.  You can utilize the **Advanced editor** button in the query window to copy/paste this code.
 ```
 let
     // This query will return all users who are domain members and have a usage location with the US.
-    // Expand gets us the the mail attribute for the users first level manager.
+    // Expand gets us the mail attribute for the users first level manager.
     // Top is set to 999, this is the max size of records returned per page for this call and will result in fewer calls having to be made.
     url = "https://graph.microsoft.com/v1.0/users?$filter=userType eq 'Member' and usageLocation eq 'US' &$select=userPrincipalName&$expand=manager($levels=1;$select=mail)&$top=999",
 
@@ -84,4 +84,4 @@ in
 
 ## Final Note
 
-Assess your project's specific requirements to determine whether looping through pagination or an alternative approach is more appropriate. This decision can significantly impact the efficiency and scalability of your data management in Power Platform and Graph API. Remember to add your connection setup details and scripts in the placeholders provided. Stay tuned for more insights on optimizing Power Platform and Graph API usage!
+Assess your project's specific requirements to determine whether looping through pagination or an alternative approach is more appropriate. This decision can significantly impact the efficiency and scalability of your data management in Power Platform and Graph API.
