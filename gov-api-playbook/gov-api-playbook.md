@@ -1,6 +1,6 @@
 # Government API Development Playbook: Designing for Power Platform and Building Custom Connectors
 
-![Government API Development Playbook: Designing for Power Platform and Building Custom Connectors](images/image-5.png)
+![Government API Development Playbook: Designing for Power Platform and Building Custom Connectors](https://github.com/rwilson504/Blogger/assets/7444929/9693714c-2bb4-456c-860f-7e12399e681d)
 
 **Table of Contents**
 
@@ -375,7 +375,7 @@ Creating a custom connector for the Power Platform involves careful selection of
 
 The Site Scanning program represents a pivotal federal initiative, automating the scanning of public federal websites to generate data on website health, policy compliance, and adherence to best practices. This program, provided as a no-cost shared service for federal agencies and the public, is built around the Federal Website Index, a comprehensive listing of all public federal .gov sites categorized by agency or department. Through daily scans, the program amasses over 1.5 million fields of data about approximately 26,000 federal .gov websites, all made accessible via an API and bulk download options.
 
-![GSA Site Scanning Program Website](images/image-6.png)
+![GSA Site Scanning Program Website](https://github.com/rwilson504/Blogger/assets/7444929/8c411181-5072-496e-b4d4-1f28c01ef249)
 
 #### Key Features and Benefits
 
@@ -401,7 +401,7 @@ Despite its numerous advantages, there are challenges associated with using the 
 
 - **Pagination Challenges**: Addressing the unique pagination method employed by the GSA Site Scanning API required a creative solution, as it diverges from the `@odata.nextLink` standard typically leveraged by Power Platform connectors for automatic paging. To facilitate efficient data access across the API's extensive dataset, I devised a custom flow that leverages the pagination metadata provided by the API. This approach involves dynamically adjusting query parameters based on the pagination links and metadata supplied with each API response, allowing for seamless iteration through pages of data. By incorporating conditional checks and loop controls within the flow, I ensured complete and efficient data retrieval, effectively overcoming the API's pagination challenge. This method demonstrates how developers can employ custom logic within Power Automate to handle non-standard pagination schemes, ensuring access to all available data without sacrificing performance or usability.  
   &nbsp;  
-  ![Illustration of the custom pagination flow in Power Automate, demonstrating how pagination metadata is utilized to navigate through pages of data.](paging-flow.drawio.svg)
+  ![Illustration of the custom pagination flow in Power Automate, demonstrating how pagination metadata is utilized to navigate through pages of data.](https://github.com/rwilson504/Blogger/assets/7444929/6eee21b3-6c01-46d7-a140-2da36bd674ba)
   &nbsp;  
 
 - **OpenAPI 3.0 Format**: The API's OpenAPI file is provided in OpenAPI 3.0 format, which is currently not directly supported for custom connectors on the Power Platform. This necessitates converting the file to OpenAPI 2.0 (Swagger), requiring additional steps and potentially external tooling like Apimatic or the `api-spec-converter` command-line tool. This conversion process, although manageable, introduces an extra layer of complexity to the connector development workflow.
