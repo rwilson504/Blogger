@@ -774,3 +774,6 @@ The collaboration between custom connector developers and government API develop
 The journey towards fully leveraging the Power Platform within government services is ongoing. Developers and government entities alike are encouraged to share their success stories, engage with the community, and provide feedback. This collective effort will ensure that the ecosystem continues to grow, adapt, and serve the public with ever-greater effectiveness.
 
 As we look to the future, the role of custom connectors and well-designed government APIs will only increase in importance. This guide represents a step towards realizing that future—a future where digital government services are more integrated, more accessible, and more responsive to the needs of citizens.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTEwOTQxNTk4OV19
+-->
