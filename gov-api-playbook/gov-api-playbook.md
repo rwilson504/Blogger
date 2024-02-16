@@ -422,7 +422,7 @@ This real-world example serves as a valuable reference for your own connector de
 
 #### Step 1: Obtaining the API Key for the GSA Site Scanning API
 
-![GSA API Key Signup](images/image-7.png)
+![GSA API Key Signup](https://github.com/rwilson504/Blogger/assets/7444929/e26cc294-2e67-41c7-91c2-c5a3373df144)
 
 Before you can start building your custom connector, you need to secure an API key, which serves as your access credential for the GSA Site Scanning API. Here’s how to go about it:
 
@@ -611,9 +611,9 @@ After enhancing the OpenAPI definition file with extended attributes and adding 
     - **Title**: When naming your connector, avoid including the term "API" in the title. Microsoft's guidelines for connector submission stipulate that the title should not contain "API" to ensure clarity and consistency across the platform.
     - **Icon**: For this particular connector, an icon will not be used. When choosing to include an icon for other connectors, ensure it meets the [artifacts requirements](https://learn.microsoft.com/en-us/connectors/custom-connectors/certification-submission#step-5-prepare-the-connector-artifacts) set by Microsoft, which includes specifications for size, format, and design.
     - **Color**: Set the connector’s color to `#da3b01`. This specific color is a requirement for independent connectors, helping to distinguish them visually within the Power Platform ecosystem.
-
-    ![Custom Connector Configuration Page](images/image-3.png)
-
+    
+    ![Custom Connector Configuration Page](https://github.com/rwilson504/Blogger/assets/7444929/bc7b4afc-068a-4e3a-849f-965547088c2a)
+   
     Incorporate these configuration details carefully to align with the platform's standards and increase the likelihood of your connector being approved for publication. Further refine authentication methods, actions, triggers, parameters, and general information according to the functionality and data flow defined in your OpenAPI file.
 
 #### Step 8: Saving and Testing the Connector
@@ -624,17 +624,17 @@ After configuring your custom connector, the crucial next steps involve saving y
 
 2. **Testing the Connector**: Utilize the testing feature within the custom connector editor on the Power Platform. This enables you to run each action defined in the connector to verify correct interaction with the API and appropriate response handling.  
 
-    ![Custom Connector Test Area](images/image-2.png)
+    ![Custom Connector Test Area](https://github.com/rwilson504/Blogger/assets/7444929/2b6b182b-f55e-4d25-b041-7a2644223eb6)
 
-3. **Encountering and Resolving Errors**: During testing, you may run into various schema validation errors. Addressing these errors is key to ensuring your connector's reliability and user-friendliness.
+4. **Encountering and Resolving Errors**: During testing, you may run into various schema validation errors. Addressing these errors is key to ensuring your connector's reliability and user-friendliness.
 
     - **Remove 'Required' Sections from Response Schemas**: For return schemas (those defining API responses), removing the "required" section can prevent issues where the actual API response does not strictly adhere to the expected schema, particularly for non-mandatory fields.
 
     - **Adjusting for Type Mismatches**: Use the Swagger Editor, accessible via a toggle in the custom connector editor, to quickly edit the Swagger (OpenAPI) information. This allows for rapid adjustments to resolve type mismatches and other schema validation errors highlighted during testing.  
 
-      ![Using Swagger Editor in Custom Connector UI](images/image-1.png)
+      ![Using Swagger Editor in Custom Connector UI](https://github.com/rwilson504/Blogger/assets/7444929/8bafc5b5-2912-46e2-87a6-acea7de1b248)
 
-4. **Re-testing After Making Adjustments**: Once you've made the necessary corrections, conduct another round of tests to ensure all issues have been resolved. Continue refining and testing until the connector performs flawlessly across all operations.
+5. **Re-testing After Making Adjustments**: Once you've made the necessary corrections, conduct another round of tests to ensure all issues have been resolved. Continue refining and testing until the connector performs flawlessly across all operations.
 
 Thorough testing and diligent error resolution are indispensable for preparing your custom connector for deployment or submission as an independent publisher. By meticulously addressing any issues encountered during the testing phase, you ensure the connector is robust, functional, and ready for use within the Power Platform ecosystem.
 
@@ -742,12 +742,12 @@ With paconn installed and authenticated, manage your connector effectively:
         paconn validate --api-def apiDefinition.swagger.json
         ```
 
-      ![Output of paconn validate Command](images/image.png)
+      ![Output of paconn validate Command](https://github.com/rwilson504/Blogger/assets/7444929/6cf8aedf-4a9f-4b18-be73-579163ac2b88)
 
 6. **Submitting a Pull Request and Providing Proof of Testing**  
 After finalizing your connector, you'll need to submit a pull request from your fork to the main PowerPlatformConnectors repository, targeting the `dev` branch. To ensure your submission will be accepted:
 
-    ![Pull Request](images/image-4.png)
+    ![Pull Request](https://github.com/rwilson504/Blogger/assets/7444929/83321919-43a1-45b8-962b-ee2159f57184)
 
    - **Attach Images of Successful Action Tests**: Include screenshots that show each action of your connector running successfully within Power Automate. These images should clearly demonstrate the action configurations and the successful outcomes.
 
