@@ -530,8 +530,8 @@ Best Practices
 For APIs dealing exclusively with JSON data, explicitly specifying `application/json` for both `consumes` and `produces` attributes is crucial. This ensures that the API and client applications correctly handle content types:
 
 ```json
-consumes: ["application/json"],
-produces: ["application/json"]
+"consumes": ["application/json"],
+"produces": ["application/json"]
 ```
 
 Setting these attributes correctly ensures data formats are properly understood and handled, promoting consistency and reliability in data exchange.
