@@ -22,6 +22,9 @@ Integrating directly into Power Apps and Power Automate, the FBI Most Wanted Cus
 
 To illustrate the practical use of the connector, a sample PowerApp and a flow have been developed:
 - **Sample PowerApp**: This application allows users to search and access detailed profiles of the FBI’s most wanted, designed to facilitate public engagement and support law enforcement efforts.
+  
+  ![Sample PowerApp](https://github.com/rwilson504/Blogger/assets/7444929/8e2dc855-b040-4c59-a411-21fb1985f80e)
+
 - **Sample Flow**: An automated system that alerts users about new entries or updates in the most wanted list, ensuring critical information is rapidly shared with those who can act on it.
 
 ### Getting Started
