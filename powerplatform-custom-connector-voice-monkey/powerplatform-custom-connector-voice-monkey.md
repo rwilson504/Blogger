@@ -63,6 +63,52 @@ The practical applications of this connector are vast. From automating home ligh
 
 - **Efficient Workplace Notifications**: Automate the broadcasting of meeting reminders or urgent alerts throughout your office space, improving communication and operational efficiency among teams.
 
+## Demonstrating the Voice Monkey Connector: Email Alert with Smart LED Control
+
+Let's create a Power Automate Flow that uses the Voice Monkey Connector to trigger an Alexa routine that changes the LED lights behind your office TV to yellow when an important email is received.
+Certainly, here's how you can integrate the setup instructions for Voice Monkey and the Alexa routine into your article:
+
+### Setting Up Voice Monkey:
+
+1. **Create a Voice Monkey Account**:
+   - Navigate to the Voice Monkey website and sign up for an account if you haven't already: [Voice Monkey Console](https://console.voicemonkey.io).
+
+2. **Add a New Device**:
+   - Once logged in, create a new "Device" by following the instructions provided. This device will act as a trigger for your Alexa routine.  
+    ![Add a new device](https://github.com/rwilson504/Blogger/assets/7444929/7ef616b8-da27-4aa6-b8dd-61b94c9c0cfb)
+
+3. **Device Naming Convention**:
+   - Name your device with an easily recognizable identifier, such as including "VM" in the name, to denote it’s a Voice Monkey device.
+
+4. **Integration with Alexa**:
+   - After creating the device, it will appear in your list of devices within the Alexa app on your phone. You may need to refresh the devices or rescan to see the new addition.  
+    ![Alexa Device](https://github.com/rwilson504/Blogger/assets/7444929/7a3c83c8-b693-4dc6-9e1b-47e02577ac57)
+
+
+### Setting Up the Alexa Routine:
+
+![Alexa Routine](https://github.com/rwilson504/Blogger/assets/7444929/9b33ae6d-dadc-4e62-b0b6-82c3659858ed)
+
+1. **Access Routines in the Alexa App**:
+   - Open the Alexa app on your mobile device and navigate to the 'Routines' section.
+
+2. **Create a New Routine**:
+   - Tap the '+' icon to create a new routine. Assign it a name that reflects its purpose, like "Important Email Notification."
+
+3. **Set the Trigger**:
+   - For the trigger, select "Smart Home," then find and choose the Voice Monkey device you created as the trigger.
+
+4. **Add Actions for LED Lights**:
+   - Add actions to turn on the LED light strips, set them to the color yellow, and then turn them off after a set duration. Ensure your LED strips are Alexa-compatible and have been set up in the Alexa app.
+
+5. **Testing the Routine**:
+   - Save your routine and test it by manually triggering the Voice Monkey device from your Voice Monkey console to ensure the lights respond as intended.
+
+6. **Finalize and Activate**:
+   - Once confirmed, your routine is ready. It will automatically trigger when the Voice Monkey device is activated by the Power Automate Flow upon receiving an important email.  
+
+By following these steps, you'll have a visual alert system that integrates the Voice Monkey connector with your smart lighting to signal the arrival of critical emails, enhancing your productivity and response time.
+
 ## Conclusion
 
 The integration of Voice Monkey with the Microsoft Power Platform expands the boundaries of what smart automation can achieve. It allows users to bypass the traditional voice command model, instead leveraging automated processes to run Alexa routines. Alongside, its TTS announcements and media playback control features build upon Alexa's existing functionalities, opening up new avenues for creating interconnected and automated personal and professional spaces. Voice Monkey thus offers a comprehensive suite of tools that bring sophistication and simplicity to the management of smart environments, indicating a significant step forward in the evolution of home and office automation.
