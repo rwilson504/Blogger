@@ -10,6 +10,24 @@ In the realm of smart technology, voice assistants have been pivotal, but their 
 
 **Media Playback Control:** Users gain the ability to control media playback through custom TTS commands. This operation extends Alexa's functionality to manage entertainment options, distribute information, and control ambient sounds, all integrated within Power Platform workflows.
 
+## Capabilities of Voice Monkey: Devices, Flows, and Announcements
+
+Voice Monkey is a versatile Alexa Skill designed to augment your smart home or office with advanced automation and interactive features. Here’s an overview of its key capabilities:
+
+### Devices: Your Automation Triggers
+- **Virtual Devices**: Create virtual triggers within the Voice Monkey console that appear as devices in your Alexa app. These can start Alexa Routines when activated by the Voice Monkey API.
+- **Physical Echo Device Linking**: Associate these virtual devices with actual Echo devices to play audio or video content directly when triggered.
+
+### Flows: Complex Automations Made Simple
+- **Customizable Actions**: Design sequences of actions, similar to Alexa Routines, that can perform a variety of tasks like playing sounds, displaying images, or controlling smart home devices.
+- **Conditional Logic**: Incorporate conditions into your Flows, allowing for dynamic responses based on variables or inputs.
+
+### Announcements: Engage Your Space with Sound and Vision
+- **Text to Speech**: Send spoken messages through your Alexa devices, using custom text and a selection of voices and languages.
+- **Multimedia Integration**: Include images, audio, and video in your announcements, turning your Echo devices into multimedia hubs.
+
+By combining Devices, Flows, and Announcements, Voice Monkey enhances your Alexa ecosystem, providing you with the tools to create a more responsive and personalized smart environment. Whether it's for relaxation with ambient sounds, adding fun with interactive apps, or increasing productivity through automated alerts, Voice Monkey delivers a robust smart home experience.
+
 ## Detailed Operations of the Voice Monkey Power Platform Custom Connector
 
 Integrate advanced automation capabilities into your environment with the Voice Monkey Power Platform Custom Connector. This tool enriches your Alexa-enabled devices with new layers of interaction, bypassing the need for voice commands. Below is a detailed look at the operations you can leverage:
@@ -106,6 +124,33 @@ Certainly, here's how you can integrate the setup instructions for Voice Monkey 
 
 6. **Finalize and Activate**:
    - Once confirmed, your routine is ready. It will automatically trigger when the Voice Monkey device is activated by the Power Automate Flow upon receiving an important email.  
+
+### Create Power Automate Flow:
+
+1. **Sign In to Power Automate**:
+   - Log into your Power Automate account and navigate to 'My flows'.
+   - Choose to create a new automated flow.
+
+2. **Trigger Setup**:
+   - Select 'When a new email arrives (V3)' from the available triggers (you may need to sign into your email if it’s your first time setting this up).
+   - Set the trigger to look for emails with a specific subject line or from a particular sender to filter for "important" emails.
+
+3. **Condition Control**:
+   - Add a new step and choose 'Condition' to specify the criteria that classifies an email as important (e.g., subject contains "urgent", from a specific address, etc.).
+
+4. **Voice Monkey Routine Trigger**:
+   - If the condition is met (email is deemed important), add a new 'Action'.
+   - Search for the 'Voice Monkey' connector and choose the 'Trigger a Routine' action.
+   - Fill in the details:
+     - **Device ID**: Enter the ID of the Alexa device controlling your LED lights.
+     - **Routine Name**: Specify the name of the Alexa routine you’ve set up to change the LED color to yellow.
+
+5. **Email Received Confirmation** (Optional):
+   - After the routine is triggered, you can add another step to send a confirmation back to your email or as a mobile notification.
+
+6. **Save and Test**:
+   - Save your flow and give it an appropriate name.
+   - Test the flow by sending an email that matches your important criteria and observe the LED lights behind your TV.
 
 By following these steps, you'll have a visual alert system that integrates the Voice Monkey connector with your smart lighting to signal the arrival of critical emails, enhancing your productivity and response time.
 
