@@ -1,4 +1,4 @@
-# Embracing the Future of Home Automation with Voice Monkey and Power Platform
+![Elevate Your Automation Game with the Voice Monkey Power Platform Connector](https://github.com/rwilson504/Blogger/assets/7444929/fe817911-bad0-4c7b-90e1-7fded04134b0)
 
 In the dynamic world of smart home automation, the advent of voice assistants like Amazon Alexa has revolutionized how we interact with our digital and physical environments. The Voice Monkey Power Platform Custom Connector stands at the forefront of this innovation, offering a seamless integration between Microsoft Power Platform and Amazon Alexa. This powerful connector not only enhances the functionality of Alexa but also unlocks a plethora of automation capabilities that were previously unattainable.
 
