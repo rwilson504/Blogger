@@ -12,18 +12,40 @@ In the realm of smart technology, voice assistants have been pivotal, but their 
 
 ## Detailed Operations of the Voice Monkey Power Platform Custom Connector
 
-Incorporating the Voice Monkey Power Platform Custom Connector into your automation toolbox unlocks several powerful operations. This section delves into the specifics of these capabilities, offering insight into how they can revolutionize your interaction with Amazon Alexa and your smart environment:
+Integrate advanced automation capabilities into your environment with the Voice Monkey Power Platform Custom Connector. This tool enriches your Alexa-enabled devices with new layers of interaction, bypassing the need for voice commands. Below is a detailed look at the operations you can leverage:
 
-### Trigger Routine
-- **Functionality**: This operation allows you to externally trigger Alexa routines. It paves the way for initiating a sequence of actions on your Alexa devices based on external events captured by the Power Platform.
+### Make an Announcement
+- **Functionality**: Sends custom Text To Speech (TTS) commands for announcements and can include additional content such as images, audio, and video.
+- **Input Properties**:
+  - **Device ID**: Target your announcement to a specific device by its unique identifier.
+  - **Announcement Text**: Define the text for Alexa to articulate.
+  - **Voice**: Select from a range of voices for the TTS announcement.
+  - **Language Code**: Choose the language code that the announcement should be made in.
+  - **Chime**: Opt for a notification/alarm sound at the beginning of the announcement.
+  - **Audio URL**: Provide an HTTPS URL to an audio file for playback.
+  - **Background Audio URL**: Set an HTTPS URL for background audio during TTS.
+  - **Website URL**: Open a specific website on screen-enabled Echo devices.
+  - **No Background**: Decide whether to display the Voice Monkey logo/image on devices.
+  - **Image URL**: Display an image on screen-enabled devices via an HTTPS URL.
+  - **Media Width/Height**: Specify the dimensions of the image to be displayed.
+  - **Media Scaling**: Choose how the image should be scaled within its container.
+  - **Media Alignment**: Align the image within its display area.
+  - **Media Radius**: Set the clipping radius for the image corners, if desired.
+  - **Video URL**: Include an HTTPS URL to a video file for screen-enabled devices.
+  - **Video Repeat Count**: Determine how many times the video should loop.
+  - **Echo Dot With Clock Display**: Input text to be displayed on devices like the Echo Dot With Clock.
 
-### Send Announcement
-- **Functionality**: Enables the sending of custom Text To Speech (TTS) announcements to your Alexa devices. This feature is particularly useful for broadcasting messages, reminders, or alerts throughout your home or office without manual intervention.
+### Trigger a Routine
+- **Functionality**: Initiates one of your Alexa routines via a Voice Monkey Trigger Device.
+- **Input Properties**:
+  - **Device ID**: Use the unique identifier to specify the device you want to trigger.
 
-### Media Playback
-- **Functionality**: Through custom TTS commands, this operation facilitates the playback of media on Alexa devices. It extends the utility of your smart devices to include entertainment, information dissemination, and ambient sound management, all controllable through Power Platform workflows.
+### Trigger a Flow
+- **Functionality**: Starts a predefined Voice Monkey Flow.
+- **Input Properties**:
+  - **Flow ID**: The numeric identifier of the Flow you wish to initiate.
 
-Each operation comes with customizable input properties, allowing for tailored automation solutions that fit the specific needs of your smart environment. Whether it's enhancing communication, automating routine tasks, or creating a more responsive and interconnected home or workplace, these operations offer the flexibility and control needed to bring your automation ideas to life.
+These operations provide a rich set of tools for customizing the behavior of your smart devices. With Voice Monkey's Power Platform Connector, you can create a tailored, automated experience that responds to your unique needs, whether at home or in a business setting.
 
 ## Setting the Stage
 
