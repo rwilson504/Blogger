@@ -15,6 +15,9 @@ In the realm of smart technology, voice assistants have been pivotal, but their 
 Voice Monkey is a versatile Alexa Skill designed to augment your smart home or office with advanced automation and interactive features. Here’s an overview of its key capabilities:
 
 ### Devices: Your Automation Triggers
+
+![Device Types](https://github.com/rwilson504/Blogger/assets/7444929/02637e82-de74-48d4-8be8-6df4e3ab2c5f)
+
 - **Virtual Devices**: Create virtual triggers within the Voice Monkey console that appear as devices in your Alexa app. These can start Alexa Routines when activated by the Voice Monkey API.
 - **Physical Echo Device Linking**: Associate these virtual devices with actual Echo devices to play audio or video content directly when triggered.
 
@@ -92,7 +95,7 @@ Certainly, here's how you can integrate the setup instructions for Voice Monkey 
    - Navigate to the Voice Monkey website and sign up for an account if you haven't already: [Voice Monkey Console](https://console.voicemonkey.io).
 
 2. **Add a New Device**:
-   - Once logged in, create a new "Device" by following the instructions provided. This device will act as a trigger for your Alexa routine.  
+   - Once logged in, create a new `Device` by following the instructions provided. This device will act as a trigger for your Alexa routine.  
     ![Add a new device](https://github.com/rwilson504/Blogger/assets/7444929/7ef616b8-da27-4aa6-b8dd-61b94c9c0cfb)
 
 3. **Device Naming Convention**:
@@ -102,7 +105,8 @@ Certainly, here's how you can integrate the setup instructions for Voice Monkey 
    - After creating the device, it will appear in your list of devices within the Alexa app on your phone. You may need to refresh the devices or rescan to see the new addition.  
     ![Alexa Device](https://github.com/rwilson504/Blogger/assets/7444929/7a3c83c8-b693-4dc6-9e1b-47e02577ac57)
 
-
+5. **Obtaining API Credentials**
+   - Under the `Settings -> API Credentials` section copy your API token which will be used in Power Automate to create your connection.
 ### Setting Up the Alexa Routine:
 
 ![Alexa Routine](https://github.com/rwilson504/Blogger/assets/7444929/9b33ae6d-dadc-4e62-b0b6-82c3659858ed)
@@ -127,28 +131,26 @@ Certainly, here's how you can integrate the setup instructions for Voice Monkey 
 
 ### Create Power Automate Flow:
 
+![Sample Flow](https://github.com/rwilson504/Blogger/assets/7444929/66ff648a-79e0-4c46-8033-18c590c05853)
+
 1. **Sign In to Power Automate**:
    - Log into your Power Automate account and navigate to 'My flows'.
    - Choose to create a new automated flow.
 
 2. **Trigger Setup**:
    - Select 'When a new email arrives (V3)' from the available triggers (you may need to sign into your email if it’s your first time setting this up).
-   - Set the trigger to look for emails with a specific subject line or from a particular sender to filter for "important" emails.
+   - Set the trigger to look for emails with a specific subject line or that have a "High" importance level.
 
-3. **Condition Control**:
-   - Add a new step and choose 'Condition' to specify the criteria that classifies an email as important (e.g., subject contains "urgent", from a specific address, etc.).
-
-4. **Voice Monkey Routine Trigger**:
-   - If the condition is met (email is deemed important), add a new 'Action'.
+3. **Voice Monkey Routine Trigger**:
    - Search for the 'Voice Monkey' connector and choose the 'Trigger a Routine' action.
+   - Create the connection using the API token you copied earlier from the Voice Monkey console.
    - Fill in the details:
-     - **Device ID**: Enter the ID of the Alexa device controlling your LED lights.
-     - **Routine Name**: Specify the name of the Alexa routine you’ve set up to change the LED color to yellow.
+     - **Device ID**: Enter the ID of the Alexa device controlling your LED lights.     
 
-5. **Email Received Confirmation** (Optional):
+4. **Email Received Confirmation** (Optional):
    - After the routine is triggered, you can add another step to send a confirmation back to your email or as a mobile notification.
 
-6. **Save and Test**:
+5. **Save and Test**:
    - Save your flow and give it an appropriate name.
    - Test the flow by sending an email that matches your important criteria and observe the LED lights behind your TV.
 
