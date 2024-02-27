@@ -22,7 +22,7 @@ Power Apps allows for the integration of HTML and CSS through its HTML text cont
 Integrating a gradient involves embedding CSS code within an HTML structure. Here's a snippet that showcases a subtle yet impactful gradient:
 
 ```html
-"<div style='width:100%;height:" & App.Height & "px;
+"<div style='width:100%;height:" & App.Height - 1 & "px;
 background: #373B44; /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #4286f4, #373B44); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
