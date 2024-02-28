@@ -1,6 +1,8 @@
+![Step-by-Step to Success: Run AutoGPT using Azure OpenAI on Docker](https://github.com/rwilson504/Blogger/assets/7444929/105d93ce-4983-4c37-9fc2-bbf9dbc6be3e)
+
 Integrating AutoGPT with Azure OpenAI through Docker offers a direct path to unlocking advanced AI capabilities. This detailed guide not only walks through the initial setup and configuration steps but also emphasizes the critical adjustments required for effective Azure OpenAI integration. Let's dive into a more focused and informative discussion on setting up AutoGPT and ensuring it works seamlessly with Azure OpenAI services.
 
-### What is AutoGPT?
+## What is AutoGPT?
 
 [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) is like having a smart robot buddy that helps you achieve a specific goal by chatting with a super smart AI, kind of like having a conversation with a genius friend. Here’s how it works, broken down really simply:
 
@@ -16,13 +18,13 @@ Integrating AutoGPT with Azure OpenAI through Docker offers a direct path to unl
 
 In short, AutoGPT is like a helpful middleman between you and a super-smart AI, doing all the talking and thinking for you, so you don't have to come up with what to ask next. It makes getting to your goal easier by handling the conversation, making sure everything stays on track.
 
-### Detailed Configuration Steps for Integrating AutoGPT with Azure OpenAI
+## Detailed Configuration Steps for Integrating AutoGPT with Azure OpenAI
 
-#### Initial Setup
+### Initial Setup
 
 1. **Fork and Clone the AutoGPT Repository**: Begin by forking the [AutoGPT repository on GitHub](https://github.com/Significant-Gravitas/AutoGPT) and cloning it to your local machine, for instance, at `C:\Auto-GPT`.
 
-#### Configuration
+### Configuration
 
 2. **Environment Setup**:
    - Copy the `.env.template` file from `C:\Auto-GPT\autogpts\autogpt` to the primary folder `C:\Auto-GPT` and rename it to `.env`.
@@ -43,14 +45,14 @@ In short, AutoGPT is like a helpful middleman between you and a super-smart AI, 
        - ./azure.yaml:/app/azure.yaml
      ```
 
-#### Azure AI Models Deployment
+### Azure AI Models Deployment
 
 5. **Deploy Azure AI Models**:
    - Use [Azure AI Studio](https://oai.azure.com/portal) to deploy necessary models like `gpt-4` and `gpt-3.5-turbo-text-embedding-ada-002`, setting deployment names to match the model names for simplicity.  
 
      ![image](https://github.com/rwilson504/Blogger/assets/7444929/51e4ed6d-ffe3-4bc1-9acb-2fb43f47528b)
 
-#### Final Adjustments
+### Final Adjustments
 
 6. **Modify the `azure.yaml` File**:
    - Set `azure_api_type` to `azure`, ensuring the use of the API key for authentication.  If you want to use Azure AD you can set the parameter to `azure_ad`.  This will also require that you use an auth token as your OPENAPI_API_KEY.  Instructions on how to obtain this token can be found in [How to Configure AutoGPT with Azure OpenAI Active Directory Managed Identity](https://gist.github.com/primaryobjects/523577860628974501ffd3c52cd73525). 
@@ -76,12 +78,12 @@ In short, AutoGPT is like a helpful middleman between you and a super-smart AI, 
          ext-embedding-3-small: text-embedding-ada-002
      ```
 
-#### Execution
+### Execution
 
 7. **Running AutoGPT**:
    - Execute AutoGPT via Docker from the `C:\Auto-GPT` directory using the command `docker compose run --rm auto-gpt`. This step confirms the successful integration and functionality of AutoGPT with Azure OpenAI.
 
-### Conclusion
+## Conclusion
 
 AutoGPT revolutionizes our interaction with AI by automating the conversation process, guiding us toward achieving specific goals with minimal effort. This transformative approach streamlines tasks ranging from content creation to complex data analysis, making it a versatile tool for anyone looking to leverage AI's power. The simplicity of AutoGPT, coupled with its goal-oriented methodology, democratizes access to advanced AI capabilities, enabling users to focus on outcomes rather than getting bogged down in the technicalities of prompt engineering.
 
