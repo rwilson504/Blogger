@@ -22,7 +22,9 @@ In short, AutoGPT is like a helpful middleman between you and a super-smart AI, 
 
 ### Initial Setup
 
-1. **Fork and Clone the AutoGPT Repository**: Begin by forking the [AutoGPT repository on GitHub](https://github.com/Significant-Gravitas/AutoGPT) and cloning it to your local machine, for instance, at `C:\Auto-GPT`.
+1. Install [Docker](https://www.docker.com/get-started/)
+   
+2. **Fork and Clone the AutoGPT Repository**: Begin by forking the [AutoGPT repository on GitHub](https://github.com/Significant-Gravitas/AutoGPT) and cloning it to your local machine, for instance, at `C:\Auto-GPT`.
 
 ### Configuration
 
@@ -40,10 +42,40 @@ In short, AutoGPT is like a helpful middleman between you and a super-smart AI, 
    - Copy the `azure.yaml.template` file to `C:\Auto-GPT` rename it to `azure.yaml` we will adjust it later according to our Azure OpenAI service details.
    - Create a `docker.compose.yml` file in `C:\Auto-GPT` using the Docker setup template from the AutoGPT documentation. Add the following line to the volumes section to prevent the `app/azure.yaml` file not found error:
 
+     Volume Sample:
      ```yaml
      volumes:
        - ./azure.yaml:/app/azure.yaml
      ```
+
+     Entire docker-compose:
+     ```yaml
+      version: "3.9"
+      services:
+        auto-gpt:
+          image: significantgravitas/auto-gpt
+          env_file:
+            - .env    
+          ports:
+            - "8000:8000"  # remove this if you just want to run a single agent in TTY mode
+          profiles: ["exclude-from-up"]
+          volumes:
+            - ./data:/app/data
+            ## allow auto-gpt to write logs to disk
+            - ./logs:/app/logs
+            ## allow auto-gpt to read the azure yaml file
+            - ./azure.yaml:/app/azure.yaml
+            ## uncomment following lines if you want to make use of these files
+            ## you must have them existing in the same folder as this docker-compose.yml
+            #- type: bind
+            #  source: ./ai_settings.yaml
+            #  target: /app/ai_settings.yaml
+            #- type: bind
+            #  source: ./prompt_settings.yaml
+            #  target: /app/prompt_settings.yaml
+     ```
+
+     
 
 ### Azure AI Models Deployment
 
