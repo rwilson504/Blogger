@@ -22,6 +22,8 @@ Join me as we explore the lessons learned, the obstacles overcome, and the path 
 
 ### Overcoming Technical Challenges
 
+Each of these technical challenges, while presenting significant hurdles, also offered valuable lessons in the application of AI technologies to software development. Through innovative problem-solving and strategic use of AI tools, it was possible to advance the project while gaining insights that could benefit future endeavors in AI-assisted automation.
+
 #### Markdown Syntax and AutoGPT
 
 **Challenge:** One of the first obstacles emerged when integrating Markdown syntax within AutoGPT prompts. The use of backticks (`) for code formatting inadvertently caused processing errors, hindering the ability to receive accurate responses from AutoGPT.
@@ -54,11 +56,9 @@ Join me as we explore the lessons learned, the obstacles overcome, and the path 
 
 **Insight:** This precaution emphasized the critical role of robust error handling in software development, especially when integrating with AI technologies. It reinforced the principle that preventing errors is as crucial as solving them, underscoring the need for defensive programming practices in AI-assisted projects.
 
-Each of these technical challenges, while presenting significant hurdles, also offered valuable lessons in the application of AI technologies to software development. Through innovative problem-solving and strategic use of AI tools, it was possible to advance the project while gaining insights that could benefit future endeavors in AI-assisted automation.
+### The Cost of Innovation
 
 The journey to integrate AutoGPT into the process of enhancing Power Platform connectors brought not only technical challenges but also highlighted the often-overlooked aspect of innovation: its cost. This section explores the financial considerations encountered during the project, offering insights into managing expenses in AI-assisted development endeavors.
-
-### The Cost of Innovation
 
 #### Unexpected Expenses
 
