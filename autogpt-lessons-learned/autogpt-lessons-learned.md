@@ -2,9 +2,15 @@ Given the additional context around your efforts to streamline the creation of c
 
 ### Article Title: Revolutionizing Power Platform Custom Connectors with AI: A Journey of Innovation and Learning
 
-#### Introduction
-- Present the article's objective: to share your journey of leveraging AI to streamline the creation of custom connectors for US government APIs on Power Platform.
-- Highlight the initial success with ChatGPT that significantly reduced the build process from days to hours, setting the stage for further automation attempts with AutoGPT.
+### Introduction
+
+In the realm of digital transformation, the integration of government APIs into the Power Platform stands as a beacon of efficiency and innovation. My previous endeavors, detailed in the ["Government API Development Playbook"](https://www.richardawilson.com/2024/02/government-api-development-playbook.html), laid the foundation for a journey towards more accessible and user-friendly interfaces for public services. Building upon this vision, I embarked on a new challenge: to revolutionize the creation process of custom connectors for US government APIs through the power of artificial intelligence.
+
+The journey from manual to AI-assisted development was motivated by a simple yet profound goal: to reduce the build time from days to mere hours, thereby streamlining the deployment of these vital connectors. With ChatGPT, I found a partner that significantly accelerated our process, proving that AI could indeed play a pivotal role in this transformation. Encouraged by this success, I turned to AutoGPT, aiming for even greater efficiency and automation.
+
+This article chronicles my adventure into the uncharted territories of AutoGPT, from the initial spark of inspiration to the hurdles that lay in wait. Despite facing technical challenges, navigating cost implications, and dealing with the intricacies of large OpenAPI files, the journey has been as enlightening as it has been challenging. Though not every goal was fully realized, the progress made offers a glimpse into a future where the creation of custom connectors is not just efficient but also seamlessly integrated with AI technologies.
+
+Join me as we explore the lessons learned, the obstacles overcome, and the path forward in harnessing AI to serve the public good through enhanced Power Platform connectors.
 
 #### The Drive for Efficiency
 - Describe your motivation to automate the connector creation process, emphasizing the importance of making US government APIs more accessible through Power Platform.
