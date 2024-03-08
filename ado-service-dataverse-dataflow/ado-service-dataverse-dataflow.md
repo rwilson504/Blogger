@@ -26,6 +26,10 @@ Our objective to synchronize specific ADO Work Item fields with a Dataverse tabl
 
 4. **API Limitations:** The `wit/workitemsbatch` endpoint, ideal for our purposes, does not support `POST` requests when authenticating with basic authentication via the `Web.Contents` function in M code. This limitation, along with a constraint on processing only 200 records at a time, required a strategic approach to batch processing and API requests.
 
+5. **Absence of a Direct Azure DevOps Connector in Dataflows:** Unlike Power BI Desktop, Dataflows lacks an out-of-the-box connector for Azure DevOps, adding an extra layer of complexity. This required us to utilize the Azure DevOps REST API, a robust yet initially daunting interface for those unfamiliar with its intricacies. Learning to navigate and effectively leverage the REST API took time but was essential for achieving our integration goals.
+
+For comprehensive guidance on utilizing the Azure DevOps REST API, including accessing work items, repositories, and other essential services, refer to the official API documentation: [Azure DevOps Services REST API Reference](https://learn.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-7.2&viewFallbackFrom=azure-devops-rest-7.1).
+
 ## The Solution
 
 Despite these obstacles, a solution was crafted through a series of steps, leveraging Power BI Dataflows as an intermediary to handle the data transformation and syncing process.
@@ -49,6 +53,8 @@ Remember, the PAT is sensitive and should be securely stored. It provides direct
 ### Step 2: Implement Power BI Dataflow
 
 After securing your PAT, the next step is to establish a Power BI dataflow that will serve as the intermediary for transferring and transforming data between Azure DevOps (ADO) and Microsoft Dataverse. This involves creating custom functions within Power BI to handle data batching and API calls. Follow these detailed instructions to set up your Power BI dataflow:
+
+![Copmleted Dataflow](https://github.com/rwilson504/Blogger/assets/7444929/1d1a23f1-448c-4c34-acee-b8c51087ac4b)
 
 #### Creating a New Blank Query for Batching
 
@@ -128,7 +134,7 @@ After completing these steps, you've successfully created the necessary function
 
 ## Step 3: Efficiently Combining Data for Synchronization
 
-To optimize our synchronization process, we strategically combine data, ensuring that we only query Azure DevOps for updates on ADO item IDs present in our Dataverse environment. This method significantly reduces Azure API usage, focusing our efforts on necessary data retrieval and processing. Sample code provided below illustrates how this efficient combination is achieved:
+As we proceed to optimize our synchronization process, it's important to address the configuration needed when actually running the query. This step ensures that we only query Azure DevOps for updates on ADO item IDs present in our Dataverse environment, significantly reducing Azure API usage. Below, we've provided sample code and now include essential guidance on configuring the connection for the Azure DevOps (ADO) URL.
 
 ### Efficient Data Fetching and Processing
 
@@ -155,6 +161,22 @@ let
 in
     #"Combined Results"
 ```
+
+### Running the Query and Configuring the Connection
+
+After setting up your query with the provided sample code, executing the query will prompt you to configure the connection settings for accessing Azure DevOps. Here’s how to accurately set up the connection:
+
+1. **Prompt for Connection Settings:** When you attempt to run the query for the first time, Power BI will prompt you to specify how to connect to the Azure DevOps URL. This is a crucial step to ensure secure and successful data retrieval.
+
+2. **Set Authentication Type:** In the dialog box that appears, you’ll need to set the authentication method for the ADO URL connection. Choose "Basic" as the authentication method. This selection is necessary to use your Personal Access Token (PAT) for authentication.
+
+3. **Configure Username and Password:** For the username field, leave it blank. The PAT does not require a username to be specified. In the password field, paste in the PAT that you created earlier. Your PAT acts as the password, providing secure access to Azure DevOps data based on the permissions you've set when creating the token.
+
+4. **Save and Proceed:** After configuring the authentication settings, save your changes and proceed with running the query. This setup should allow Power BI to securely fetch the required data from Azure DevOps using your PAT, enabling the data transformation and syncing process to proceed.
+
+### Finalizing the Data Preparation
+
+With the connection properly configured, you can efficiently combine the data fetched from Azure DevOps with the records in your Dataverse `new_customerrequirement` table. This process prepares the synchronized dataset for the final step of updating Dataverse records, ensuring that only relevant and updated ADO item information is processed and prepared for synchronization.
 
 ## Step 4: Creating a Dataverse Dataflow and Linking to Power BI Dataflow Results
 
