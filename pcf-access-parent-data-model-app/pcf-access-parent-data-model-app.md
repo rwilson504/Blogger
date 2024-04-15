@@ -49,7 +49,7 @@ Once the host form data is made available globally, your custom PCF can access t
 
 ### Implementing the Render Component
 
-I typically use the renderComponent function in PCF to make sure that the host data is loaded before the overall PCF is loaded, so that I make sure I can access this from everywhere within the PCF.  Within the renderComponent function is also where you might call render a React component which you can now pass this information in its props.
+I typically use the renderComponent function in PCF to make sure that the host data is loaded before the overall PCF is loaded, so that I make sure I can access this from everywhere within the PCF.  Within the renderComponent function is also where you might call the render of a React component.
 
 ```javascript
 
@@ -65,7 +65,7 @@ private renderComponent(){
 
 ### Accessing in React
 
-If you are using a React control within your PCF you can declare the namespace for the top level form within your typescript as an any so you don't get errors.
+If you are using a React control within your PCF you can declare the namespace for the top-level form within your typescript as an any so you don't get errors.
 
 ```javascript
 import * as React from "react";
@@ -77,7 +77,7 @@ export interface IProps {
 
 declare global {
     interface Window {
-        j: any
+        NEWCompetitorInfo: any
     }
 }
 ```
@@ -119,6 +119,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEhhcm5lc3NpbmcgSG9zdC
 BGb3JtIERhdGEgd2l0aCBQQ0YgQ29udHJvbHMgaW4gTW9kZWwt
 RHJpdmVuIEFwcGxpY2F0aW9uc1xuYXV0aG9yOiBSaWNrIFdpbH
 NvblxudGFnczogJ3Bvd2VyYXBwcyxtb2RlbGFwcHMscGNmLGR5
-bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbLTcyMD
-AwNTM5MCwtNjgwNDk5OTU0LC04MjQxNTE4NTFdfQ==
+bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbMTA1Mz
+MwNTY3OSwtNjgwNDk5OTU0LC04MjQxNTE4NTFdfQ==
 -->
