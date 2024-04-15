@@ -12,7 +12,7 @@ To enable a PCF control to access data from its hosting form, JavaScript needs t
 
 ### JavaScript Code Implementation
 
-Here is code you can utilize within a webresource which has been loaded into your host form.  This example loads the `formContext` and `globalContext` but you can load additional inforation here as you need.
+Here is code you can utilize within a webresource which has been loaded into your host form.  This example loads the `formContext` and `globalContext` but you can load additional information here as you need.
 
 ```javascript
 var NEWCompetitor = window.NEWCompetitor || {};
@@ -49,7 +49,7 @@ Once the host form data is made available globally, your custom PCF can access t
 
 ### Implementing the Render Component
 
-I typically use the rendenComponent function in PCF to make sure that the host data is loaded before the overall PCF is loaded, so that I make sure I can access this from everywhere within the PCF.  Within the renderComponent function is also where you might call render a React component which you can now pass this information in it's props.
+I typically use the renderComponent function in PCF to make sure that the host data is loaded before the overall PCF is loaded, so that I make sure I can access this from everywhere within the PCF.  Within the renderComponent function is also where you might call render a React component which you can now pass this information in it's props.
 
 ```javascript
 
@@ -65,7 +65,7 @@ private renderComponent(){
 
 ## Getting Data from Host Form in Microsoft Form Component PCF
 
-If you are using the Form Component to load editable form into a host form you may want to access information and interact with the host form.  The onLoad function running on the host form as shown earlier gets us gloabl variables we can use here as well.  These variables will enable you to call javascript on the form inside the component and access information from the hosing form.  More information about the Microsoft Fomponent can be found here [Edit related table records directly from another table’s main form](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/form-component-control).
+If you are using the Form Component to load editable form into a host form you may want to access information and interact with the host form.  The onLoad function running on the host form as shown earlier gets us global variables we can use here as well.  These variables will enable you to call JavaScript on the form inside the component and access information from the hosing form.  More information about the Form Component can be found here [Edit related table records directly from another table’s main form](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/form-component-control).
 
 ![image](https://github.com/rwilson504/Blogger/assets/7444929/7598bf4c-f269-4ba9-9876-313814049551)
 
@@ -86,3 +86,6 @@ if (top.NEWCompetitorInfo && top.NEWCompetitorInfo.formContext) {
 ```
 
 By implementing this method, the Form Component within your model-driven app can dynamically interact with the data from the host form, making it more responsive and capable of handling complex scenarios based on live data inputs.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE4MTA3MjMyMTVdfQ==
+-->
