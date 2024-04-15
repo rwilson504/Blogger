@@ -1,6 +1,3 @@
-Integrating PCF Controls with Custom Entity Data in Model-Driven Apps
-
-
 # Integrating PCF Controls with Host Form Data in Model-Driven Apps
 
 ## Introduction
@@ -9,8 +6,9 @@ This tutorial delves into integrating PowerApps Component Framework (PCF) contro
 ## Setting up JavaScript on Host Form
 To enable a PCF control to access data from its hosting form, a JavaScript module needs to be implemented on the host form. This module will capture and expose crucial context data (`formContext` and `globalContext`) to the PCF control through global variables.
 
-### 1. JavaScript Code Implementation
-Here is the code to be included in your entity form:
+### JavaScript Code Implementation
+Here is code you can utilize with a webresource which has been loaded into your host form.  This example loads the `formContext` and `globalContext` but you can load additional inforation here as you need.
+
 ```javascript
 var NEWCompetitor = window.NEWCompetitor || {};
 
@@ -35,51 +33,35 @@ var NEWCompetitor = window.NEWCompetitor || {};
 }).call(NEWCompetitor);
 ```
 
-### 2. Deployment and Configuration
+### Deployment and Configuration
 - **Add the Script**: Include the JavaScript as a web resource linked to the `new_Competitor` entity.
 - **Modify the OnLoad Event**: Configure the entity form's OnLoad event to trigger the `onLoad` function.
 
 ## Getting Data from Host Form in Custom PCF Control
-Once the host form data is made available globally, your custom PCF control needs to implement a method to utilize this data effectively.
+Once the host form data is made available globally, your custom PCF can access that information using `window.NEWCompetitorInfo.formContext`.
 
-### 1. Implementing the Render Component
+### Implementing the Render Component
+I typically use the rendenComponent function in PCF to make sure that the host data is loaded before the overall PCF is loaded, so that I make sure I can access this from everywhere within the PCF.  Within the renderComponent function is also where you might call render a React component which you can now pass this information in it's props.
+
 ```javascript
-var NEWCompetitor = NEWCompetitor || {};
 
-NEWCompetitor.renderComponent = function () {
-    var self = this;
-    if (!parent.NEWCompetitorInfo || !parent.NEWCompetitorInfo.formContext) {
-        setTimeout(function () { self.renderComponent(); }, 500);
-        return;
-    }
-
-    var formContext = parent.NEWCompetitorInfo.formContext;
-    var globalContext = parent.NEWCompetitorInfo.globalContext;
-    this.props = {
-        formContext: formContext,
-        globalContext: globalContext,
-    };
-
-    ReactDOM.render(
-        React.createElement(YourPCFControl, this.props),
-        this._container
-    );
-};
+private renderComponent(){
+		var self = this;
+		//@ts-ignore for this._context.mode.contextInfo
+		if (!window.NEWCompetitorInfo.formContext){			
+			setTimeout(() => {self.renderComponent()}, 500);
+			return;
+		}		
+	}
 ```
-
-### 2. Testing and Validation
-- **Include the Script**: Ensure the JavaScript is part of your PCF control's project.
-- **Initialization and Rendering**: Verify the `renderComponent` function is called properly during the control's initialization.
-- **Comprehensive Testing**: Test the integration to confirm that the control behaves as expected, especially when loading times vary.
 
 ## Getting Data from Host Form in Microsoft Form Component PCF
 
-Integrating host form data with a Microsoft Form Component PCF requires a strategic approach to ensure seamless functionality. By placing JavaScript within the Form Component itself, you can access shared context data (`formContext` and `globalContext`) from a global variable set in the host form. This setup enables the Form Component to interact dynamically with data from the host form, enhancing its capability to respond to data-driven events.
+Integrating host form data with a Microsoft Form Component PCF requires a strategic approach to ensure seamless functionality. By placing JavaScript within the Form Component itself, you can access shared context data (`formContext` and `globalContext`) from a global variable set in the host form. This setup enables the Form Component to interact dynamically with data from the host form, enhancing its capability to respond to data-driven events.  For information about the Microsoft Fomponent can be found here [Edit related table records directly from another table’s main form](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/form-component-control).
 
-### 1. Setting up JavaScript in the Form Component
+### Setting up JavaScript in the Child Form
 To access the `formContext` from the host form, insert JavaScript directly into the form that is hosted within the Form Component. This script will reference the global variable provided by the host form's script.
 
-#### JavaScript Code Example
 ```javascript
 // Access the formContext from the global variable set by the host form
 if (top.NEWCompetitorInfo && top.NEWCompetitorInfo.formContext) {
@@ -91,14 +73,5 @@ if (top.NEWCompetitorInfo && top.NEWCompetitorInfo.formContext) {
     // Additional logic to manipulate or use the form data
 }
 ```
-
-### 2. Implementation Steps
-- **Embed the Script**: Ensure that the JavaScript is embedded as a web resource within the Form Component's form. This script should be configured to execute appropriately, for example, during the form’s OnLoad event.
-- **Reference Global Variable**: Use the `top.NEWCompetitorInfo` object to access shared data. This structure should have been populated by the host form, as described in earlier sections.
-
-### 3. Considerations for Implementation
-- **Testing for Null Conditions**: Always check if `top.NEWCompetitorInfo` and `top.NEWCompetitorInfo.formContext` are not null before accessing properties or methods to avoid runtime errors.
-- **Cross-Frame Scripting Permissions**: Ensure that the configuration of your model-driven app and the user's browser settings allow for cross-frame scripting, as accessing `top` can be restricted in certain secure environments.
-- **Performance and Security**: Consider the performance implications of cross-frame data access and ensure all data handling complies with security standards, especially when sensitive information is involved.
 
 By implementing this method, the Microsoft Form Component within your model-driven app can dynamically interact with the data from the host form, making it more responsive and capable of handling complex scenarios based on live data inputs.
