@@ -3,6 +3,8 @@
 ## Introduction
 This tutorial delves into integrating PowerApps Component Framework (PCF) controls with host form data within Microsoft Power Platform's model-driven apps. For developers using Microsoft PowerApps and PCF, aligning custom controls with entity data not only boosts the controls' functionality but also their interactivity across applications. This article will guide you through the necessary scripting to expose and consume formContext and globalContext from a custom entity known as new_Competitor. Aimed at enhancing both custom and Microsoft Form Component PCF controls, this approach ensures dynamic interactions with the host form data. By the end of this tutorial, you'll have a clear understanding of how to implement these integrations effectively, making your model-driven apps more responsive and adept at managing complex interactions.
 
+**Disclaimer**: It's important to note that there are various methods to retrieve data within PCF controls, including the use of WebAPI. While WebAPI provides a versatile way to access data across different entities and contexts, the approach described in this tutorial focuses on directly integrating with host form data, which can be particularly beneficial in specific use cases where immediate context is crucial. This method allows for real-time data interactions that are essential for certain scenarios, providing a streamlined integration that may not always be achievable through WebAPI alone.
+
 ## Setting up JavaScript on Host Form
 To enable a PCF control to access data from its hosting form, a JavaScript module needs to be implemented on the host form. This module will capture and expose crucial context data (`formContext` and `globalContext`) to the PCF control through global variables.
 
