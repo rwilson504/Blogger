@@ -50,7 +50,7 @@ I typically use the rendenComponent function in PCF to make sure that the host d
 private renderComponent(){
 		var self = this;
 		//@ts-ignore for this._context.mode.contextInfo
-		if (!window.NEWCompetitorInfo.formContext){			
+		if (!parent.NEWCompetitorInfo.formContext){			
 			setTimeout(() => {self.renderComponent()}, 500);
 			return;
 		}		
