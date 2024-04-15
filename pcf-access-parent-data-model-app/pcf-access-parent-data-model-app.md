@@ -74,6 +74,8 @@ If you are using the Form Component to load editable form into a host form you m
 To access the `formContext` from the host form, use a webresource and event in the form hosted within the Form Component. This script will reference the global variable provided by the host form's script.
 
 ```javascript
+var NEWCompetitorContact = window.NEWCompetitorContact || {};
+
 (function () {
     "use strict";
 
@@ -89,7 +91,7 @@ To access the `formContext` from the host form, use a webresource and event in t
 		}
  };
 
-}).call(NEWCompetitor);
+}).call(NEWCompetitorContact);
 ```
 
 By implementing this method, the Form Component within your model-driven app can dynamically interact with the data from the host form, making it more responsive and capable of handling complex scenarios based on live data inputs.
@@ -98,6 +100,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEhhcm5lc3NpbmcgSG9zdC
 BGb3JtIERhdGEgd2l0aCBQQ0YgQ29udHJvbHMgaW4gTW9kZWwt
 RHJpdmVuIEFwcGxpY2F0aW9uc1xuYXV0aG9yOiBSaWNrIFdpbH
 NvblxudGFnczogJ3Bvd2VyYXBwcyxtb2RlbGFwcHMscGNmLGR5
-bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbLTY4MD
-Q5OTk1NCwtODI0MTUxODUxXX0=
+bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbLTk5ND
+k4MzI3MSwtNjgwNDk5OTU0LC04MjQxNTE4NTFdfQ==
 -->
