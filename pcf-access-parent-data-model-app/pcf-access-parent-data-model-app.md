@@ -63,7 +63,9 @@ private renderComponent(){
 	}
 ```
 
-### Accessing in Re
+### Accessing in React
+
+If you are using a react component within your PCF you can declar
 
 ## Getting Data from Host Form in Microsoft Form Component PCF
 
@@ -102,6 +104,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEhhcm5lc3NpbmcgSG9zdC
 BGb3JtIERhdGEgd2l0aCBQQ0YgQ29udHJvbHMgaW4gTW9kZWwt
 RHJpdmVuIEFwcGxpY2F0aW9uc1xuYXV0aG9yOiBSaWNrIFdpbH
 NvblxudGFnczogJ3Bvd2VyYXBwcyxtb2RlbGFwcHMscGNmLGR5
-bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbNjM3MD
-IwNzg0LC02ODA0OTk5NTQsLTgyNDE1MTg1MV19
+bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbMTM1OD
+E1MDY2LC02ODA0OTk5NTQsLTgyNDE1MTg1MV19
 -->
