@@ -56,7 +56,7 @@ I typically use the renderComponent function in PCF to make sure that the host d
 private renderComponent(){
 		var self = this;
 		//@ts-ignore for this._context.mode.contextInfo
-		if (!parent.NEWCompetitorInfo.formContext){			
+		if (!window.NEWCompetitorInfo.formContext){			
 			setTimeout(() => {self.renderComponent()}, 500);
 			return;
 		}		
@@ -94,5 +94,5 @@ To access the `formContext` from the host form, use a webresource and event in t
 
 By implementing this method, the Form Component within your model-driven app can dynamically interact with the data from the host form, making it more responsive and capable of handling complex scenarios based on live data inputs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDE1MTg1MV19
+eyJoaXN0b3J5IjpbMTkxNTI2NDkyMywtODI0MTUxODUxXX0=
 -->
