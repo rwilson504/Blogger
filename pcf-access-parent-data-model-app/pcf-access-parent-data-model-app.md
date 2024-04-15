@@ -49,7 +49,7 @@ Once the host form data is made available globally, your custom PCF can access t
 
 ### Implementing the Render Component
 
-I typically use the renderComponent function in PCF to make sure that the host data is loaded before the overall PCF is loaded, so that I make sure I can access this from everywhere within the PCF.  Within the renderComponent function is also where you might call render a React component which you can now pass this information in it's props.
+I typically use the renderComponent function in PCF to make sure that the host data is loaded before the overall PCF is loaded, so that I make sure I can access this from everywhere within the PCF.  Within the renderComponent function is also where you might call render a React component which you can now pass this information in its props.
 
 ```javascript
 
@@ -94,5 +94,5 @@ To access the `formContext` from the host form, use a webresource and event in t
 
 By implementing this method, the Form Component within your model-driven app can dynamically interact with the data from the host form, making it more responsive and capable of handling complex scenarios based on live data inputs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTI2NDkyMywtODI0MTUxODUxXX0=
+eyJoaXN0b3J5IjpbMTQ1MzY4MjkzNCwtODI0MTUxODUxXX0=
 -->
