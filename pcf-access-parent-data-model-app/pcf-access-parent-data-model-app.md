@@ -63,6 +63,8 @@ private renderComponent(){
 	}
 ```
 
+### Accessing in Re
+
 ## Getting Data from Host Form in Microsoft Form Component PCF
 
 If you are using the Form Component to load editable form into a host form you may want to access information and interact with the host form.  The onLoad function running on the host form as shown earlier gets us global variables we can use here as well.  These variables will enable you to call JavaScript on the form inside the component and access information from the hosing form.  More information about the Form Component can be found here [Edit related table records directly from another table’s main form](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/form-component-control).
@@ -100,6 +102,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEhhcm5lc3NpbmcgSG9zdC
 BGb3JtIERhdGEgd2l0aCBQQ0YgQ29udHJvbHMgaW4gTW9kZWwt
 RHJpdmVuIEFwcGxpY2F0aW9uc1xuYXV0aG9yOiBSaWNrIFdpbH
 NvblxudGFnczogJ3Bvd2VyYXBwcyxtb2RlbGFwcHMscGNmLGR5
-bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbLTk5ND
-k4MzI3MSwtNjgwNDk5OTU0LC04MjQxNTE4NTFdfQ==
+bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbNjM3MD
+IwNzg0LC02ODA0OTk5NTQsLTgyNDE1MTg1MV19
 -->
