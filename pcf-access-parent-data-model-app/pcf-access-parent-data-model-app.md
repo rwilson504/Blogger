@@ -65,7 +65,22 @@ private renderComponent(){
 
 ### Accessing in React
 
-If you are using a React control within your PCF you can declare 
+If you are using a React control within your PCF you can declare the namespace for the top level form within your typescript as an any so you don't get errors.
+
+```javascript
+import * as React from "react";
+import {IInputs} from "./generated/ManifestTypes";
+
+export interface IProps {
+    pcfContext: ComponentFramework.Context<IInputs>  
+}
+
+declare global {
+    interface Window {
+        j: any
+    }
+}
+```
 
 ## Getting Data from Host Form in Microsoft Form Component PCF
 
@@ -104,6 +119,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEhhcm5lc3NpbmcgSG9zdC
 BGb3JtIERhdGEgd2l0aCBQQ0YgQ29udHJvbHMgaW4gTW9kZWwt
 RHJpdmVuIEFwcGxpY2F0aW9uc1xuYXV0aG9yOiBSaWNrIFdpbH
 NvblxudGFnczogJ3Bvd2VyYXBwcyxtb2RlbGFwcHMscGNmLGR5
-bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbLTk0OD
-cyNTE5NSwtNjgwNDk5OTU0LC04MjQxNTE4NTFdfQ==
+bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbLTcyMD
+AwNTM5MCwtNjgwNDk5OTU0LC04MjQxNTE4NTFdfQ==
 -->
