@@ -65,7 +65,7 @@ private renderComponent(){
 
 ### Accessing in React
 
-If you are using a React control within your PCF you can declare the namespace for the top-level form within your typescript as an any so you don't get errors.
+If you are using a React control within your PCF you can declare the namespace for the top-level form within your typescript as an `any`.
 
 ```javascript
 import * as React from "react";
@@ -119,6 +119,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEhhcm5lc3NpbmcgSG9zdC
 BGb3JtIERhdGEgd2l0aCBQQ0YgQ29udHJvbHMgaW4gTW9kZWwt
 RHJpdmVuIEFwcGxpY2F0aW9uc1xuYXV0aG9yOiBSaWNrIFdpbH
 NvblxudGFnczogJ3Bvd2VyYXBwcyxtb2RlbGFwcHMscGNmLGR5
-bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbMTA1Mz
-MwNTY3OSwtNjgwNDk5OTU0LC04MjQxNTE4NTFdfQ==
+bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbMzk1MD
+YxMTM3LC02ODA0OTk5NTQsLTgyNDE1MTg1MV19
 -->
