@@ -1,8 +1,8 @@
-### Connecting the Paconn CLI Tool to GCC, GCCH, and DoD Environments for Power Platform Connectors
+![Connecting the Paconn CLI Tool to GCC, GCCH, and DoD Environments for Power Platform Connectors](https://github.com/user-attachments/assets/5a2755aa-9b80-4627-b02f-e2d78c8d996b)
 
 When working with the `paconn` CLI tool to create and manage custom connectors in the Power Platform, it's essential to configure your environment settings properly, especially when targeting different government cloud environments like GCC, GCC High, and DoD. In this article, we'll guide you through setting up these configurations, including creating a `connectionSettings.json` file for each environment, downloading a custom connector, and updating the connector's settings for seamless management.
 
-#### Prerequisites
+## Prerequisites
 
 1. **Azure Subscription**: You need an active Azure subscription to register an application.
 2. **Paconn CLI Tool**: Ensure you have the `paconn` CLI tool installed. You can install it using Python's pip:
@@ -10,7 +10,7 @@ When working with the `paconn` CLI tool to create and manage custom connectors i
    pip install paconn
    ```
 
-### Step 1: Create an Azure App Registration
+## Step 1: Create an Azure App Registration
 
 Begin by registering an application in Azure Active Directory (Azure AD) that will serve as the identity for your `paconn` operations.
 
@@ -38,11 +38,11 @@ Begin by registering an application in Azure Active Directory (Azure AD) that wi
 
 By the end of this step, you should have your **Application (client) ID** and **Directory (tenant) ID** ready for configuring the connection settings in the following step.
 
-### Step 2: Create the `connectionSettings.json` File
+## Step 2: Create the `connectionSettings.json` File
 
 Next, you'll create a `connectionSettings.json` file with specific values tailored for each environment. This file is crucial for authenticating and operating within your selected cloud.
 
-#### GCC Environment
+### GCC Environment
 
 ```json
 {
@@ -55,7 +55,7 @@ Next, you'll create a `connectionSettings.json` file with specific values tailor
 }
 ```
 
-#### GCC High Environment
+### GCC High Environment
 
 ```json
 {
@@ -68,7 +68,7 @@ Next, you'll create a `connectionSettings.json` file with specific values tailor
 }
 ```
 
-#### DoD Environment
+### DoD Environment
 
 ```json
 {
@@ -83,7 +83,7 @@ Next, you'll create a `connectionSettings.json` file with specific values tailor
 
 Replace `<Your Application (client) ID>` and `<Your Directory (tenant) ID>` with the values from your Azure App Registration.
 
-### Step 3: Log In to Paconn
+## Step 3: Log In to Paconn
 
 Once you've configured your `connectionSettings.json` file with the correct values for your environment, the next step is to log in to the `paconn` CLI tool. This authentication process is essential for performing any subsequent operations with the tool.
 
@@ -95,7 +95,7 @@ paconn login --settings connectionSettings.json
 
 This command initiates the login process. Follow the prompts to authenticate using the device code flow. Once logged in, you’ll be ready to download and manage your custom connectors.
 
-### Step 4: Download a Custom Connector
+## Step 4: Download a Custom Connector
 
 After successfully logging in, you can download an existing custom connector from your environment. This process involves selecting the environment and the specific connector you want to work with.
 
@@ -109,7 +109,7 @@ This command will prompt you to choose the environment based on your `connection
 
 ![image](https://github.com/user-attachments/assets/4720990c-d74f-44c3-af75-20489313e91b)
 
-### Step 5: Update the Connector
+## Step 5: Update the Connector
 
 Once you have downloaded the connector, you may need to update it. The `settings.json` file downloaded with the connector needs to include the same settings you have in your `connectionSettings.json` file. This ensures consistency when managing or updating the connector.
 
@@ -141,7 +141,7 @@ This command will push the changes to the connector in the selected environment.
 
 ![image](https://github.com/user-attachments/assets/2b8a4997-a344-4397-8f58-dcbe8ae5d38c)
 
-### Step 6: Create a New Connector
+## Step 6: Create a New Connector
 
 Creating a new custom connector follows a similar process to updating an existing one, but with a few differences. Since it's a new connector, you don’t need to include all the same properties in the `settings.json` file.
 
@@ -174,7 +174,7 @@ paconn create --settings settings.json
 
 This will create a new custom connector in your specified environment using the provided settings.
 
-### Conclusion
+## Conclusion
 
 When working with government cloud environments like GCC, GCC High, and DoD, it's essential to consistently use `settings.json` files for your operations with the `paconn` CLI tool. This is because attempting to mix the `--settings` option with other command-line arguments like `--api-prop` and `--api-def` will not work as expected. 
 
