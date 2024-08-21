@@ -18,7 +18,6 @@ Begin by registering an application in Azure Active Directory (Azure AD) that wi
 2. **Create a New App Registration**:
    - Go to **App registrations** > **New registration**.
    - Provide a name, such as "Paconn Connector App."
-   - Select the supported account types relevant to your cloud environment (GCC, GCC High, DoD).
    - **Redirect URI**: Skip this step as it is not required.
 
 3. **API Permissions**:
@@ -84,41 +83,105 @@ Next, you'll create a `connectionSettings.json` file with specific values tailor
 
 Replace `<Your Application (client) ID>` and `<Your Directory (tenant) ID>` with the values from your Azure App Registration.
 
-### Step 3: Download a Custom Connector
+### Step 3: Log In to Paconn
 
-Once your `connectionSettings.json` file is set up, you can download an existing custom connector from your environment using the following command:
+Once you've configured your `connectionSettings.json` file with the correct values for your environment, the next step is to log in to the `paconn` CLI tool. This authentication process is essential for performing any subsequent operations with the tool.
+
+To log in, use the following command:
 
 ```bash
-paconn download --connector <connector-name> --connection-settings connectionSettings.json
+paconn login --settings connectionSettings.json
 ```
 
-This command downloads the specified connector along with its associated `settings.json` file.
+This command initiates the login process. Follow the prompts to authenticate using the device code flow. Once logged in, you’ll be ready to download and manage your custom connectors.
 
-### Step 4: Update the `settings.json` File
+### Step 4: Download a Custom Connector
 
-After downloading a connector, it's important to update the `settings.json` file with the appropriate values from your `connectionSettings.json` file. This ensures consistency when managing the connector.
+After successfully logging in, you can download an existing custom connector from your environment. This process involves selecting the environment and the specific connector you want to work with.
 
-Open the downloaded `settings.json` file and update the following fields:
+Run the following command:
+
+```bash
+paconn download --settings connectionSettings.json
+```
+
+This command will prompt you to choose the environment based on your `connectionSettings.json` file. After selecting the environment, you'll be able to choose the connector you wish to download. The connector will be saved locally, along with a `settings.json` file.
+
+![image](https://github.com/user-attachments/assets/4720990c-d74f-44c3-af75-20489313e91b)
+
+### Step 5: Update the Connector
+
+Once you have downloaded the connector, you may need to update it. The `settings.json` file downloaded with the connector needs to include the same settings you have in your `connectionSettings.json` file. This ensures consistency when managing or updating the connector.
+
+Here’s what you need to do:
+
+1. **Open the Downloaded `settings.json` File**: Locate the file that was downloaded along with the connector.
+2. **Update the Fields**: Add or update the following fields with the values from your `connectionSettings.json`:
+
+   ```json
+   {
+     "powerAppsUrl": "https://high.api.powerapps.us/",
+     "flowUrl": "https://high.api.flow.microsoft.us/",
+     "resource": "https://high.service.powerapps.us/",
+     "authorityUrl": "https://login.microsoftonline.us/",
+     "clientId": "<Your Application (client) ID>",
+     "tenant": "<Your Directory (tenant) ID>"
+   }
+   ```
+
+3. **Save the File**: Ensure all changes are saved.
+
+To apply the updates to the connector, run:
+
+```bash
+paconn update --settings settings.json
+```
+
+This command will push the changes to the connector in the selected environment.
+
+![image](https://github.com/user-attachments/assets/2b8a4997-a344-4397-8f58-dcbe8ae5d38c)
+
+### Step 6: Create a New Connector
+
+Creating a new custom connector follows a similar process to updating an existing one, but with a few differences. Since it's a new connector, you don’t need to include all the same properties in the `settings.json` file.
+
+Here’s an example of a `settings.json` file for a new connector:
 
 ```json
 {
+  "environment": "d9f0b637-5539-e256-9232-ecb5839cdb02",
+  "apiProperties": "apiProperties.json",
+  "apiDefinition": "apiDefinition.swagger.json",
+  "icon": "icon.png",
+  "powerAppsUrl": "https://high.api.powerapps.us/",
+  "flowUrl": "https://high.api.flow.microsoft.us/",
+  "authorityUrl": "https://login.microsoftonline.us/",
+  "resource": "https://high.service.powerapps.us/",
   "clientId": "<Your Application (client) ID>",
-  "tenant": "<Your Directory (tenant) ID>",
-  "authorityUrl": "https://login.microsoftonline.com/<environment-specific-url>",
-  "resource": "<environment-specific-resource-url>"
+  "tenant": "<Your Directory (tenant) ID>"
 }
 ```
 
-### Step 5: Create a New Connector Using Paconn
+**Key Differences**:
+- **No `connectorId`**: Since this is a new connector, you don't need to include the `connectorId` property.
+- **Optional `script` Property**: If you aren't including custom code, you can omit the `script` property from the `settings.json` file.
 
-Finally, to create a new custom connector, you'll use the `paconn` CLI along with the `settings.json` file you have prepared:
+Once the `settings.json` file is ready, you can create the new connector with the following command:
 
 ```bash
 paconn create --settings settings.json
 ```
 
-This command uses the provided settings to authenticate and create the new connector within your specified environment.
+This will create a new custom connector in your specified environment using the provided settings.
 
 ### Conclusion
 
-By carefully following these steps, you can successfully connect to GCC, GCC High, and DoD environments using the `paconn` CLI tool for Power Platform connectors. This setup enables secure and efficient management of connectors across different government cloud environments.
+When working with government cloud environments like GCC, GCC High, and DoD, it's essential to consistently use `settings.json` files for your operations with the `paconn` CLI tool. This is because attempting to mix the `--settings` option with other command-line arguments like `--api-prop` and `--api-def` will not work as expected. 
+
+To ensure smooth operations:
+- **Keep a `connectionSettings.json` file at your project root**: This file should contain the basic authentication and environment details.
+- **Update the `settings.json` file for each connector**: Tailor it with the specific details for each connector you manage.
+
+By following this approach, you'll be able to effectively use the `paconn` CLI tool to manage connectors across various government cloud environments.
+
+It's also worth noting that while the [PAC CLI](https://learn.microsoft.com/en-us/power-platform/developer/cli/reference/connector) tool also supports commands for managing connectors, it is relatively new and still has some bugs. Until these issues are resolved, I recommend continuing with the `paconn` method described here. However, the PAC CLI tool does offer a much easier way to connect to these clouds, so I’m optimistic about its potential in the future.
