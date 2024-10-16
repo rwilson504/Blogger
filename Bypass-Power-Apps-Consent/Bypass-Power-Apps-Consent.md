@@ -1,10 +1,12 @@
-**Bypass Power Apps Consent Prompts Easily Using PowerShell**
+![Bypass Power Apps Consent Prompts Using PowerShell](https://github.com/user-attachments/assets/ca0f86c0-1746-4196-80f1-3d53ec85caab)
 
 When a user opens a Power App for the first time, they are often presented with a consent form asking for permission to access data sources or APIs used by the app. This Canvas API consent form can be disruptive, especially in scenarios where the app is intended for a broad user base or part of an automated deployment. The consent form can create unnecessary friction, requiring every user to individually approve permissions. Fortunately, there's a way to bypass this pop-up consent form using PowerShell.
 
 In this blog post, I will guide you through automating the process of bypassing the Power Apps consent form using PowerShell. The goal is to either allow users to select an app from a specific environment or use a configuration file to perform actions on multiple environments.
 
 This automation can be particularly useful for initial deployments of a new app or to ensure all apps currently have this applied.
+
+![Consent screen](https://github.com/user-attachments/assets/f6030b2f-9e2c-442b-b324-e8074ead9860)
 
 **Background: Bypassing Power Apps Consent**
 
