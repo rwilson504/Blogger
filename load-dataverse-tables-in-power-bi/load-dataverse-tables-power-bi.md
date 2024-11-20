@@ -159,5 +159,11 @@ Feel free to try this approach in your next Power BI project and let me know how
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzIxNjAzLC03MzgwOTUwXX0=
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6ICdGcm9tIE1lc3N5IHRvIE
+1hbmFnZWFibGU6IENsZWFubHkgTG9hZCBEYXRhdmVyc2UgVGFi
+bGVzIGluIFBvd2VyIEJJJ1xuYXV0aG9yOiAnUmljayBXaWxzb2
+4sIEJyYW5kb24gUGlyZXMnXG50YWdzOiAncG93ZXJiaSxkYXRh
+dmVyc2UscmVwb3J0aW5nLGRhdGEsZHluYW1pY3MscmVwb3J0aW
+5nLHJlcG9ydHMnXG4iLCJoaXN0b3J5IjpbLTE5OTMwNjU1NzMs
+LTczODA5NTBdfQ==
 -->
