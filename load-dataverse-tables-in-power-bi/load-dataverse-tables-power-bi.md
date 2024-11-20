@@ -155,9 +155,9 @@ You can also save your Power BI report with this function and parameter as a **t
 
 Keeping your Power BI data clean and organized is crucial for effective reporting and analysis. By leveraging custom functions like the one described here, you can maintain consistency, reduce clutter, and improve the performance of your Power BI reports. Inspired by Brandon Pires, this script is a powerful tool to help streamline your data transformation process, making your reports more intuitive and easier to manage.
 
-Feel free to try this approach in your next Power BI project, and let us know how it works for you. Embracing these best practices will save time and help your team stay focused on what really matters—extracting valuable insights from your data.
+Feel free to try this approach in your next Power BI project and let me know how it works for you. Embracing these best practices will save time and help your team stay focused on what really matters—extracting valuable insights from your data.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODA5NTBdfQ==
+eyJoaXN0b3J5IjpbLTM0MzIxNjAzLC03MzgwOTUwXX0=
 -->
