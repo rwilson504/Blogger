@@ -1,4 +1,4 @@
-**From Messy to Manageable: Cleanly Load Dataverse Tables in Power BI**
+![From Messy to Manageable: Cleanly Load Dataverse Tables in Power BI](https://github.com/user-attachments/assets/58aa531e-bae7-4ed1-b88a-a54cf87b1db6)
 
 First and foremost, I want to take a moment to acknowledge [Brandon Pires](https://www.linkedin.com/in/brandonpires/), who originally crafted the script that inspired all of this work. Brandon's creativity laid the foundation for this blog post, and his efforts are key to helping Power BI developers improve efficiency and cleanliness in their reports.
 
