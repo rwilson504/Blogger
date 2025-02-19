@@ -55,7 +55,7 @@ Model-driven apps in Power Apps allow users to create dashboards that display ke
      ```xml
      <ViewId>{e7b7272b-dcee-ef11-be21-00224804c479}</ViewId>
      ```
-7. Click **Update** and **Publish** the changes.
+7. Click **Update** and **Publish** the changes.  
 
 ![Steps to update FormXml](https://github.com/user-attachments/assets/86bdf98a-a0d8-4ea2-9aae-4877a4b318db)
 
@@ -74,5 +74,5 @@ VzIChBbm5vdGF0aW9ucykgb24gYSBNb2RlbC1Ecml2ZW4gQXBw
 IERhc2hib2FyZFxuYXV0aG9yOiBSaWNrIFdpbHNvblxudGFncz
 ogJ01vZGUgQXBwcywgUG93ZXIgQXBwcywgUG93ZXIgUGxhdGZv
 cm0sRGFzaGJvYXJkLE5vdGUsQW5ub3RhdGlvbixWaWV3LExpc3
-QsR3JpZCdcbiIsImhpc3RvcnkiOlsyMDQ5MDQ1NDQzXX0=
+QsR3JpZCdcbiIsImhpc3RvcnkiOls0ODczMjkxNTVdfQ==
 -->
