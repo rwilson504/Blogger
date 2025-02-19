@@ -65,6 +65,8 @@ Model-driven apps in Power Apps allow users to create dashboards that display ke
 2. Open the **Dashboard**.
 3. The list that previously displayed **Accounts** should now display **Notes** instead.
 
+![Notes list now in dashboard](https://github.com/user-attachments/assets/ac62d077-12b7-44ca-bdfc-f6a75b270edd)
+
 ### **Conclusion**
 By following these steps, you have successfully modified a Model-Driven App Dashboard to display Notes (Annotations) using XrmToolBox. This method allows for greater customization of dashboards to meet business requirements.
 
