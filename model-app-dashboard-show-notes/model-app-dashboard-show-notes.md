@@ -28,6 +28,8 @@ Model-driven apps in Power Apps allow users to create dashboards that display ke
 
 ![Install FormXml Manager](https://github.com/user-attachments/assets/c56e5192-b18b-4823-90f2-09d00ff4c2d5)
 
+***Note**: If you don't have access to use XrmToolBox, you can also update this FormXml by creating a new unmanaged solution and adding in just the dashboard you created earlier. Then export and unzip the solution, you will find the FormXml within the customizations.xml file. Perform the updates as described in the next step, then re-zip all the files and reimport the solution.*
+
 ---
 
 ### **Step 4: Modify the Dashboard’s XML**
@@ -76,3 +78,11 @@ Model-driven apps in Power Apps allow users to create dashboards that display ke
 ### **Conclusion**
 By following these steps, you have successfully modified a Model-Driven App Dashboard to display Notes (Annotations) using XrmToolBox. This method allows for greater customization of dashboards to meet business requirements.
 
+<!--stackedit_data:
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEhvdyB0byBTaG93IE5vdG
+VzIChBbm5vdGF0aW9ucykgb24gYSBNb2RlbC1Ecml2ZW4gQXBw
+IERhc2hib2FyZFxuYXV0aG9yOiBSaWNrIFdpbHNvblxudGFncz
+ogJ01vZGUgQXBwcywgUG93ZXIgQXBwcywgUG93ZXIgUGxhdGZv
+cm0sRGFzaGJvYXJkLE5vdGUsQW5ub3RhdGlvbixWaWV3LExpc3
+QsR3JpZCdcbiIsImhpc3RvcnkiOlsxNDExNjM3Njg5XX0=
+-->
