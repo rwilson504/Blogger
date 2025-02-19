@@ -1,4 +1,4 @@
-# Using Web Templates as Custom Components in Power Pages: A Classification Banner Example
+![Using Web Templates as Custom Components in Power Pages: A Classification Banner Example](https://github.com/user-attachments/assets/a6f535ee-94d3-4439-b5e3-664d10524feb)
 
 ## Introduction
 Web templates in Power Pages offer a powerful way to create reusable components that can be used across multiple pages, headers, and footers. This approach simplifies development and maintenance by allowing common elements, such as banners or data tables, to be managed centrally. In this article, we will explore how to use web templates as custom components, focusing on a practical example: a classification banner that can be placed in the header or footer of a Power Pages site.
