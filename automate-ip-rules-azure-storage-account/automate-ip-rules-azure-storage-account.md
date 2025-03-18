@@ -68,11 +68,11 @@ The authentication method used was **App Registration**, with the `Storage Accou
 
 ## Prerequisites
 
-Before using this solution, you'll need to set up an **App Registration** in Azure Active Directory and assign it the necessary permissions on the Azure Storage Account.
+Before using this solution, you'll need to set up an **App Registration** in Entra ID and assign it the necessary permissions on the Azure Storage Account.
 
 ### 1. Create an App Registration
 
-1. Navigate to **Azure Active Directory** in the Azure Portal.
+1. Navigate to **Entra Id** in the Azure Portal.
 2. Select **App registrations** > **New registration**.
 3. Enter a name and select the appropriate supported account types.
 4. Click **Register**.
