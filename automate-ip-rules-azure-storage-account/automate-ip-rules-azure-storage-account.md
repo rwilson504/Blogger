@@ -1,6 +1,9 @@
 ![Automating Azure Storage Account IP Restrictions with Power Automate](https://github.com/user-attachments/assets/f600f3a3-0796-4ccb-8a18-298ff158eb2d)
 
 When managing Azure Storage Accounts, it's essential to control access by restricting allowed IP addresses. Manually updating these restrictions can be cumbersome, especially when dealing with frequently changing IP ranges. To address this challenge, I developed a Power Automate custom connector that automates fetching and processing Azure IP ranges using Microsoft's **Azure IP Ranges and Service Tags** JSON files.
+* [Azure IP Ranges and Service Tags – Public Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=56519)
+* [Azure IP Ranges and Service Tags – US Government Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=57063)
+* [Azure IP Ranges and Service Tags – China Cloud](https://www.microsoft.com/en-us/download/details.aspx?id=57062)
 
 While my initial use case focused on automating Azure IP Ranges and Service Tags, this solution can also be adapted to work with **custom lists of IP addresses**. Many of the actions in this connector, such as reducing CIDR blocks and generating IP rules, can be applied to any list of IP addresses. This allows users to integrate their own IP management workflows and leverage the **Azure Management API** to dynamically update firewall rules.
 
