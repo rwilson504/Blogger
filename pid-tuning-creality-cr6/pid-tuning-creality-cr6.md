@@ -1,14 +1,12 @@
-## Fixing Temperature Fluctuations on the Creality CR-6 SE with PID Tuning
-
-![image](https://github.com/user-attachments/assets/2b63e991-24f1-490d-a80f-5b33f609f076)
+![Fixing Temperature Fluctuations on the Creality CR-6 SE with PID Tuning](https://github.com/user-attachments/assets/36673b49-f9c1-4c39-ba22-48c52303544d)
 
 After installing a new hotend on my **Creality CR-6 SE**, I ran into a frustrating issue: when printing above 210°C, the hotend temperature would swing wildly—fluctuating by 5–10°C. The printer wouldn’t even start the print due to this instability.
 
-### 🧠 The Fix: PID Tuning (Thanks to Community Firmware)
+## 🧠 The Fix: PID Tuning (Thanks to Community Firmware)
 
 This issue led me to discover **PID tuning**, a way to calibrate how the printer regulates temperature using smarter controls. Out of the box, Creality’s firmware doesn’t always support this—but I’m running the excellent **[CR-6 SE Community Firmware](https://github.com/CR6Community/Marlin)** based on Marlin, which includes **PID autotuning support** via G-code commands.
 
-### 🔧 How to Tune the Hotend Using OctoPrint
+## 🔧 How to Tune the Hotend Using OctoPrint
 
 1. Open the **Terminal tab** in OctoPrint.
 
@@ -68,7 +66,7 @@ M500
 
 ---
 
-### ✅ Final Thoughts
+## ✅ Final Thoughts
 
 Switching to the [CR-6 SE Community Firmware](https://github.com/CR6Community/Marlin) opened the door to making this kind of fine-tuning possible. After running PID tuning, my hotend holds temperature within ±1°C, prints kick off right away, and layer consistency has improved.
 
