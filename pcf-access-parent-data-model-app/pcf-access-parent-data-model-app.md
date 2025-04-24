@@ -23,7 +23,7 @@ var NEWCompetitor = window.NEWCompetitor || {};
     this.onLoad = function (executionContext) {
         var formContext = executionContext.getFormContext();
         var globalContext = Xrm.Utility.getGlobalContext();
-        copyDataToWindowForPCF(globalContext, formContext);
+        this.copyDataToWindowForPCF(globalContext, formContext);
     };
 
     this.copyDataToWindowForPCF = function (globalContext, formContext) {
@@ -119,6 +119,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEhhcm5lc3NpbmcgSG9zdC
 BGb3JtIERhdGEgd2l0aCBQQ0YgQ29udHJvbHMgaW4gTW9kZWwt
 RHJpdmVuIEFwcGxpY2F0aW9uc1xuYXV0aG9yOiBSaWNrIFdpbH
 NvblxudGFnczogJ3Bvd2VyYXBwcyxtb2RlbGFwcHMscGNmLGR5
-bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbMzk1MD
-YxMTM3LC02ODA0OTk5NTQsLTgyNDE1MTg1MV19
+bmFtaWNzLGphdmFzY3JpcHQnXG4iLCJoaXN0b3J5IjpbODk1Mz
+cxMTA3LDM5NTA2MTEzNywtNjgwNDk5OTU0LC04MjQxNTE4NTFd
+fQ==
 -->
