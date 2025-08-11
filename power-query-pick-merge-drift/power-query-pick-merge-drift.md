@@ -1,4 +1,4 @@
-# Power Query: Keep your pick intact during merges with Table.Buffer
+<img width="1027" height="601" alt="Power Query: Driftless Merges using Table.Buffer" src="https://github.com/user-attachments/assets/a665d4aa-ae20-4998-a7ba-622ecb0dbd93" />
 
 ## What happened
 
@@ -43,6 +43,10 @@ Final      = Table.ExpandTableColumn(Merged, "Right", {"R1","R2"}, {"R1","R2"});
 * Steps after the buffer often will not fold back to the source. Use it only where correctness matters.
 
 ## Demonstration of issue
+
+Here is a side-by-side Power Query comparison showing why buffering matters. Both queries “pick” 4 rows before the merge. After the merge, the unbuffered query returns 5 rows and shows a changed pick, while the buffered query returns the expected 4 rows that match the pick.
+
+<img width="3513" height="1526" alt="image" src="https://github.com/user-attachments/assets/df4c6655-3b52-4ff7-b757-f0e5c1387bfb" />
 
 ## Reproduce the issue and the fix
 
