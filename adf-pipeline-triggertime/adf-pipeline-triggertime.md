@@ -1,4 +1,4 @@
-## Passing Pipeline Trigger Time to Data Flows in Azure Data Factory: Use Strings, Not Timestamps!
+<img width="1613" height="1068" alt="Passing Pipeline Trigger Time to Data Flows in Azure Data Factory: Use Strings, Not Timestamps!" src="https://github.com/user-attachments/assets/a43143f8-5ac0-4dde-96f6-cce54a341855" />
 
 When working with Azure Data Factory (ADF) and the **Dataverse connector**, passing the pipeline trigger time into a Data Flow can be trickier than expected.
 
