@@ -51,6 +51,11 @@ This disables SAS so OAuth can’t be bypassed. (This is equivalent to what the 
 
 The OAuth policy validates the token’s `iss` and `aud` claims on inbound calls to the request trigger.
 
+## Narrowing Down the OAuth To Specific Managed Identity
+If you want to ensure that only a specific managed identity can access this logic app you can additional add a custom claim onto the OAuth profile.  To do this add a custom claim in the OAuth Profile.  Set the claim name as `appid` and set the value to the id of your managed identity.  This will ensure that only that managed identity can call this Logic App.  You can add multiple OAuth profiles to allow for more managed identities if you want.
+
+<img width="1271" height="502" alt="image" src="https://github.com/user-attachments/assets/c53fd358-2de6-4925-a106-f1f07d05d3a3" />
+
 ## What broke (and how I fixed it)
 
 On first run I got **issuer or audience mismatch** errors. My Dataverse plug-in was acquiring a token whose **issuer** looked like:
