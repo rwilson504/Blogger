@@ -1,4 +1,4 @@
-# Locking Down a Logic App (Consumption) with OAuth for Calls from Dataverse Plug-ins using Managed Identity
+<img width="1248" height="685" alt="Locking Down a Logic App (Consumption) with OAuth for Calls from Dataverse Plug-ins using Managed Identity" src="https://github.com/user-attachments/assets/473e9312-febc-44c9-a391-a2d94abeef8c" />
 
 ## Why I did this
 
