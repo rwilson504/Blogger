@@ -86,7 +86,7 @@ tracing.Trace("AccessToken: {0}", accessToken);
 // …then send HTTP request with Authorization: Bearer {accessToken}
 ```
 
-⚠️ **Note:** Output the **entire token** (not truncated) if you want to paste it into **jwt.ms** for inspection of `iss` and `aud`.
+⚠️ **Note:** Output the **entire token** (not truncated) if you want to paste it into **jwt.ms** for inspection of `iss` and `aud`.  Also make sure to remove this tracing before deployment.
 
 ## References
 
