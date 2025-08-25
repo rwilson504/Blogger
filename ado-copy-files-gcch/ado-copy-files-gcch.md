@@ -65,20 +65,29 @@ This is the list of the placeholder for all of the azure resources and connectio
 
 1. In the **[Commercial Azure Portal](https://portal.azure.com/)**, go to **Azure DevOps → Project Settings → Service Connections**.
 2. Create a new **Azure Resource Manager** service connection.
-3. Configure the wizard as follows:
+   
+   <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/4c165ce2-54b1-443e-b8a0-018f481d9288" />  
+4. Configure the wizard as follows:
+
+   <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/55035c6c-c253-48f3-b577-349a71077fc8" />  
 
    * **Identity Type:** *App registration or Managed Identity (Manual)*
    * **Credential:** *Workload Identity Federation*
    * **Environment:** *Azure US Government*
-   * **Directory Tenant ID:** `<<gcc-tenant-id>>` (from GCC High tenant)
+   * **Directory Tenant ID:** `<<gcc-tenant-id>>` (from GCC High tenant)  
+  
 
 ## Step 5 — Configure Federated Credentials (Exchange Between ADO & GCC High)
 
 1. From the ADO wizard (Commercial), copy the:
+   
+    <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/835fd852-d0f3-4ccb-992b-53cc75e4045d" />  
 
    * **Issuer URL** → `<<commercial-issuer-url-from-ADO>>`
    * **Subject Identifier** → `<<commercial-subject-id-from-ADO>>`
-2. In the **[GCC High Azure Portal](https://portal.azure.us/)** → **Managed Identity** (`<<gcc-managed-identity-name>>` in `<<gcc-resource-group-name>>`):
+3. In the **[GCC High Azure Portal](https://portal.azure.us/)** → **Managed Identity** (`<<gcc-managed-identity-name>>` in `<<gcc-resource-group-name>>`):
+
+   <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/7f27586e-b395-424a-90fe-e7a578218ea5" />  
 
    * Go to **Federated Credentials → Add Credential**
    * Scenario: **Other**
