@@ -1,4 +1,4 @@
-# Securely Connecting Azure DevOps (Commercial) to GCC High Storage with Managed Identity Federation
+<img width="1094" height="619" alt="Bridging Clouds: Secure Pipelines from Azure DevOps to GCC High" src="https://github.com/user-attachments/assets/334ce5c9-e2db-474b-a453-c46db56d8726" />
 
 ## Introduction
 
