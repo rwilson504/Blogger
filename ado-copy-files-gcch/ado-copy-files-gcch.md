@@ -17,6 +17,7 @@ This is the list of the placeholder for all of the azure resources and connectio
 * `<<gcc-subscription-name>>`
 * `<<gcc-resource-group-name>>`
 * `<<gcc-storage-account-name>>`
+* `<<gcc-storage-container-name>>`
 * `<<gcc-container-name>>`
 * `<<gcc-managed-identity-name>>`
 * `<<gcc-managed-identity-client-id>>`
@@ -37,6 +38,8 @@ This is the list of the placeholder for all of the azure resources and connectio
    * Type: **Blob Storage (Gen2)**
    * Name: `<<gcc-storage-account-name>>`
 2. Note the **subscription ID** (`<<gcc-subscription-id>>`) and **resource group name** for later use.
+3. Create a container within the storage acocunt.
+   * Name: <<gcc-storage-container-name>>
 
 ## Step 2 — Create a Managed Identity in GCC High
 
@@ -119,6 +122,28 @@ This is the list of the placeholder for all of the azure resources and connectio
    * Destination: **Azure Blob Storage**
    * Storage Account: `<<gcc-storage-account-name>>` (in `<<gcc-resource-group-name>>`)
    * Container: `<<gcc-container-name>>`
+
+     Here is an example pipline.  Make sure to replace the placeholders in the AzureFileCopy@6 tasks based on the names you used earlier
+     ```
+     # Example pipeline to copy README.MD file
+      trigger:
+      - master
+      
+      pool:
+        vmImage: windows-latest
+      
+      steps:
+      - script: echo Lets copy a file!
+        displayName: 'Run a one-line script'
+      
+      - task: AzureFileCopy@6
+        inputs:
+          SourcePath: 'README.MD'
+          azureSubscription: '<<commercial-service-connection-name>>'
+          Destination: 'AzureBlob'
+          storage: '<<gcc-storage-account-name>>'
+          ContainerName: '<<gcc-storage-container-name>>'
+     ```
 4. Run the pipeline.
 
    * If you did not complete Step 6a, approve the service connection usage when prompted.
