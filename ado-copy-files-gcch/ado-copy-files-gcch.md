@@ -7,7 +7,7 @@ The goal of this setup is to allow an **Azure DevOps pipeline running in the Com
 To achieve this, we use an **Azure User Assigned Managed Identity (UAMI)** in GCC High, link it with **Workload Identity Federation** from Azure DevOps (Commercial), and grant it the **minimum necessary roles**. This way, files can flow from DevOps into GCC High without storing long-lived secrets or keys.
 
 ## Key Placeholders to Fill In
-This is the list of the placeholder for all of the azure resources and connection string we will need during the setup process.  This can be helpful when going through this.
+This is the list of the placeholder for all of the azure resources and connection string we will need during the setup process.  This can be helpful when going through the instructions below.
 
 **From GCC High Azure Portal ([https://portal.azure.us/](https://portal.azure.us/))**
 
