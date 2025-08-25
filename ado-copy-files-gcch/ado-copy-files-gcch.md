@@ -4,7 +4,9 @@
 
 The goal of this setup is to allow an **Azure DevOps pipeline running in the Commercial cloud** to move files (e.g., build artifacts, documentation, or deployment packages) into a **Storage Account in GCC High**. Because these are two different clouds, the connection must be established carefully to remain **secure, compliant, and tenant-scoped**.
 
-To achieve this, we use an **Azure User Assigned Managed Identity (UAMI)** in GCC High, link it with **Workload Identity Federation** from Azure DevOps (Commercial), and grant it the **minimum necessary roles**. This way, files can flow from DevOps into GCC High without storing long-lived secrets or keys.
+Although this guide is written for **Commercial → GCC High**, the same approach can also be used for **file transfers between Commercial environments** or even **across tenants within Commercial Azure**. By relying on **federated credentials** instead of secrets, the process ensures secure, governed transfers that honor existing Azure AD (Entra ID) boundaries.
+
+To achieve this, we use an **Azure User Assigned Managed Identity (UAMI)** in the target environment, link it with **Workload Identity Federation** from Azure DevOps (Commercial), and grant it the **minimum necessary roles**. This way, files can flow between environments without storing long-lived secrets or keys.
 
 ## Key Placeholders to Fill In
 This is the list of the placeholder for all of the azure resources and connection string we will need during the setup process.  This can be helpful when going through the instructions below.
