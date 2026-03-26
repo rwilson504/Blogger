@@ -178,6 +178,20 @@ Use these natural transition patterns:
 
 ---
 
+## LinkedIn Post
+
+After writing a new article, offer to draft a LinkedIn post to promote it. LinkedIn does **not** support markdown — use plain Unicode text only:
+
+- Use Unicode mathematical bold characters (e.g., 𝗕𝗼𝗹𝗱 𝗧𝗲𝘅𝘁) for emphasis instead of markdown `**bold**`
+- Use emoji for visual structure (👇, 🔗, ✅, etc.)
+- Use line breaks for readability — no bullet-point markdown
+- Wrap inline references in "quotes" instead of backticks
+- End with relevant hashtags: #PowerPlatform, #Dataverse, #Azure, etc.
+- Include a 🔗 placeholder for the blog post link
+- Keep the same conversational, peer-sharing tone as the blog
+
+---
+
 ## Anti-Patterns (Things to Avoid)
 
 - ❌ Don't write in a dry, academic, or overly formal tone
